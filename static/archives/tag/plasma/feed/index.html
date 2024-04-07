@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Plasma &#8211; Kubuntu</title>
+	<atom:link href="https://kubuntu.org/tag/plasma/feed/" rel="self" type="application/rss+xml" />
+	<link>https://kubuntu.org</link>
+	<description>Friendly Computing</description>
+	<lastBuildDate>Fri, 20 May 2022 17:06:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<item>
+		<title>Plasma 5.25 Beta available for testing</title>
+		<link>https://kubuntu.org/news/plasma-5-25-beta-available-for-testing/</link>
+		
+		<dc:creator><![CDATA[rikmills]]></dc:creator>
+		<pubDate>Fri, 20 May 2022 17:06:25 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Beta]]></category>
+		<category><![CDATA[Plasma]]></category>
+		<category><![CDATA[PPA Release]]></category>
+		<guid isPermaLink="false">https://kubuntu.org/?p=4890</guid>
+
+					<description><![CDATA[Are you using Kubuntu 22.04 Jammy Jellyfish, our current Stable release? Or are you already running our development builds of the upcoming 22.10 Kinetic Kudu? We currently have Plasma 5.24.90 (Plasma 5.25 Beta)  available in our Beta PPA for Kubuntu 22.04, and in the Ubuntu archive and daily ISO build...]]></description>
+										<content:encoded><![CDATA[
+<p>Are you using Kubuntu 22.04 Jammy Jellyfish, our current Stable release? Or are you already running our development builds of the upcoming 22.10 Kinetic Kudu?</p>
+
+
+
+<p>We currently have <a href="https://kde.org/announcements/plasma/5/5.24.90/">Plasma 5.24.90 (Plasma 5.25 Beta)</a>  available in our <a href="https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/beta">Beta PPA</a> for Kubuntu 22.04, and in the Ubuntu archive and <a href="http://cdimage.ubuntu.com/kubuntu/daily-live/current/">daily ISO build</a> for the 22.10 development series.</p>
+
+
+
+<p>However this is a beta release, and we should re-iterate the disclaimer from the upstream release announcement:</p>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>DISCLAIMER:</strong> Today we are bringing you the preview version of KDE’s Plasma 5.25 desktop release. Plasma 5.25 Beta is aimed at testers, developers, and bug-hunters.
+
+To help KDE developers iron out bugs and solve issues, install Plasma 5.25 Beta and test run the features listed below. Please report bugs to our bug tracker.
+
+We will be holding a Plasma 5.25 beta review day on May 26 (details will be published on our social media) and you can join us for a day of bug-hunting, triaging and solving alongside the Plasma devs!
+
+The final version of Plasma 5.25 will become available for the general public on the 14th of June.
+
+DISCLAIMER: This release contains untested and unstable software. It is highly recommended you do not use this version in a production environment and do not use it as your daily work environment. You risk crashes and loss of data.</p><cite>https://kde.org/announcements/plasma/5/5.24.90</cite></blockquote>
+
+
+
+<p><strong>Testers of the Kubuntu 22.10 Kinetic Kudu development series:</strong></p>
+
+
+
+<p>Testers with a current install can simply upgrade their packages to install the 5.25 Beta.</p>
+
+
+
+<p>Alternatively, a live/install image is available at: <a href="http://cdimage.ubuntu.com/kubuntu/daily-live/current/">http://cdimage.ubuntu.com/kubuntu/daily-live/current/</a></p>
+
+
+
+<p><strong>Users on Kubuntu 22.04 Jammy Jellyfish:</strong></p>
+
+
+
+<p>5.25 Beta packages and required dependencies are available in our Beta PPA.</p>
+
+
+
+<p>The PPA should work whether you are currently using our backports PPA or not.</p>
+
+
+
+<p>If you are prepared to test via the PPA, then…..</p>
+
+
+
+<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Add the beta PPA and then upgrade:</p>
+
+
+
+<pre class="wp-block-preformatted">sudo add-apt-repository ppa:kubuntu-ppa/beta &amp;&amp; sudo apt full-upgrade -y</pre>
+
+
+
+<p>Then reboot.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em><strong>In case of issues, testers should be prepared to use ppa-purge to remove the PPA and revert/downgrade packages. </strong></em></p></blockquote>
+
+
+
+<div style="height:39px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Kubuntu is part of the <a href="https://www.kde.org/community/whatiskde/">KDE community</a>,  so this testing will benefit both Kubuntu as well as upstream KDE  Plasma software, which is used by many other distributions too.</p>
+
+
+
+<ul><li>If you believe you might have found a packaging bug, you can use  <a href="https://launchpad.net/">launchpad.net</a> to post testing feedback to the Kubuntu team as a bug, or give feedback on IRC [1], or mailing lists [2]. </li><li>If you believe you have found a bug in the underlying software, then <a href="https://bugs.kde.org">bugs.kde.org</a> is the best place to file your bug report.</li></ul>
+
+
+
+<p>Please review the <a href="https://kde.org/announcements/plasma/5/5.24.90/"></a><a href="https://kde.org/announcements/plasma/5/5.24.90/">release announcement</a> and  <a href="https://kde.org/announcements/changelogs/plasma/5/5.24.5-5.24.90">changelog</a>.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>[Test Case]<br>* General tests:<br>&#8211; Does plasma desktop start as normal with no apparent regressions over 5.24?<br>&#8211; General workflow &#8211; testers should carry out their normal tasks, using the plasma features they normally do, and test common subsystems such as audio, settings changes, compositing, desktop affects, suspend etc.<br>* Specific tests:<br>&#8211; Check the changelog:<br>&#8211; Identify items with front/user facing changes capable of specific testing. <br>&#8211; Test the &#8216;fixed&#8217; functionality or &#8216;new&#8217; feature.</p></blockquote>
+
+
+
+<p>Testing may involve some technical set up to do, so while you do not need to be a highly advanced K/Ubuntu user, some proficiently in apt-based package management is advisable.</p>
+
+
+
+<p>Testing is very important to the quality of the software Ubuntu and Kubuntu developers package and release.</p>
+
+
+
+<p>We need your help to get this important beta release in shape for Kubuntu and the KDE community as a whole.</p>
+
+
+
+<p>Thanks!</p>
+
+
+
+<p>Please stop by the Kubuntu-devel IRC channel on libera.chat if you need clarification of any of the steps to follow.</p>
+
+
+
+<p>[1] – #kubuntu-devel on libera.chat<br>[2] – https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel<br></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Plasma 5.23 Anniversary Edition Beta available for testing</title>
+		<link>https://kubuntu.org/news/plasma-5-23-anniversary-edition-beta-available-for-testing/</link>
+		
+		<dc:creator><![CDATA[rikmills]]></dc:creator>
+		<pubDate>Sat, 18 Sep 2021 12:41:03 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Beta]]></category>
+		<category><![CDATA[Plasma]]></category>
+		<guid isPermaLink="false">https://kubuntu.org/?p=4709</guid>
+
+					<description><![CDATA[Are you using Kubuntu 21.04 Hirsute Hippo, our current Stable release? Or are you already running our development builds of the upcoming 21.10 Impish Indri? We currently have Plasma 5.22.90 (Plasma 5.23 Anniversary Edition Beta)&#160; available in our Beta PPA for Kubuntu 21.04, and 21.10 development series. However this is...]]></description>
+										<content:encoded><![CDATA[
+<p>Are you using Kubuntu 21.04 Hirsute Hippo, our current Stable release? Or are you already running our development builds of the upcoming 21.10 Impish Indri?</p>
+
+
+
+<p>We currently have <a href="https://kde.org/announcements/plasma/5/5.22.90/">Plasma 5.22.90 (Plasma 5.23 Anniversary Edition Beta)</a>&nbsp; available in our <a href="https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/beta">Beta PPA</a> for Kubuntu 21.04, and 21.10 development series.</p>
+
+
+
+<p>However this is a beta release, and we should re-iterate the disclaimer from the upstream release announcement:</p>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>DISCLAIMER:</strong> This is beta software and is released for testing purposes. You are advised to NOT use Plasma 25th Anniversary Edition Beta in a production environment or as your daily desktop. If you do install Plasma 25th Anniversary Edition Beta, you must be prepared to encounter (and report to the creators) bugs that may interfere with your day-to-day use of your computer.</p><cite>https://kde.org/announcements/plasma/5/5.22.90</cite></blockquote>
+
+
+
+<p><strong>Note: Users of 21.04 Hirsute Hippo who have installed packages from the BETA PPA should run &#8216;sudo ppa-purge kubuntu-ppa/beta&#8217; once they have finished testing, and before attempting to upgrade to 21.10 when it is released. Failure to do so is likely to break upgrades.</strong></p>
+
+
+
+<p><strong>The PPA should work whether you are currently using our backports PPA or not.</strong></p>
+
+
+
+<p><strong>Also</strong> <strong>Impish Indri 21.10 will ship with Plasma 5.22.5 by default. However we aim to make 5.23 available in the backports PPA soon after release. This testing will help that aim.</strong></p>
+
+
+
+<p>If you are prepared to test, then…..</p>
+
+
+
+<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>Add the beta PPA and then upgrade:</strong></p>
+
+
+
+<pre class="wp-block-preformatted">sudo add-apt-repository ppa:kubuntu-ppa/beta &amp;&amp; sudo apt full-upgrade -y</pre>
+
+
+
+<p>Then reboot.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em><strong>In case of issues, testers should be prepared to use ppa-purge to remove the PPA and revert/downgrade packages. </strong></em></p></blockquote>
+
+
+
+<div style="height:39px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Kubuntu is part of the <a href="https://www.kde.org/community/whatiskde/">KDE community</a>,  so this testing will benefit both Kubuntu as well as upstream KDE  Plasma software, which is used by many other distributions too.</p>
+
+
+
+<ul><li>If you believe you might have found a packaging bug, you can use a  <a href="https://launchpad.net/">launchpad.net</a> to post testing feedback to the Kubuntu team as a bug, or give feedback on IRC [1], or mailing lists [2]. </li><li>If you believe you have found a bug in the underlying software, then&nbsp;<a href="https://bugs.kde.org">bugs.kde.org</a> is the best place to file your bug report.</li></ul>
+
+
+
+<p>Please review the <a href="https://kde.org/announcements/plasma/5/5.21.90/"><a href="https://kde.org/announcements/plasma/5/5.22.90/">release announcement</a></a> and  <a href="https://kde.org/announcements/changelogs/plasma/5/5.22.5-5.22.90">changelog</a>.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>[Test Case]<br>* General tests:<br>&#8211; Does plasma desktop start as normal with no apparent regressions over 5.21 or 5.22?<br>&#8211; General workflow &#8211; testers should carry out their normal tasks, using the plasma features they normally do, and test common subsystems such as audio, settings changes, compositing, desktop affects, suspend etc.<br>* Specific tests:<br>&#8211; Check the changelog:<br>&#8211; Identify items with front/user facing changes capable of specific testing. <br>&#8211; Test the &#8216;fixed&#8217; functionality or &#8216;new&#8217; feature.</p></blockquote>
+
+
+
+<p>Testing may involve some technical set up to do, so while you do not need to be a highly advanced K/Ubuntu user, some proficiently in apt-based package management is advisable.</p>
+
+
+
+<p>Testing is very important to the quality of the software Ubuntu and Kubuntu developers package and release.</p>
+
+
+
+<p>We need your help to get this important beta release in shape for Kubuntu and the KDE community as a whole.</p>
+
+
+
+<p>Thanks!</p>
+
+
+
+<p>Please stop by the Kubuntu-devel IRC channel on libera.chat if you need clarification of any of the steps to follow.</p>
+
+
+
+<p>[1] – #kubuntu-devel on libera.chat<br>[2] – https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel<br></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Plasma 5.22 available for Hirsute Hippo 21.04 in backports PPA</title>
+		<link>https://kubuntu.org/news/plasma-5-22-available-for-hirsute-hippo-21-04-in-backports-ppa/</link>
+		
+		<dc:creator><![CDATA[rikmills]]></dc:creator>
+		<pubDate>Fri, 11 Jun 2021 18:56:54 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Backports]]></category>
+		<category><![CDATA[HirsuteHippo]]></category>
+		<category><![CDATA[Plasma]]></category>
+		<guid isPermaLink="false">https://kubuntu.org/?p=4682</guid>
+
+					<description><![CDATA[We are pleased to announce that Plasma 5.22.0, is now available in our backports PPA for Kubuntu 21.04 Hirsute Hippo. The release announcement detailing the new features and improvements in Plasma 5.22 can be found here. To upgrade: Add the following repository to your software sources list: ppa:kubuntu-ppa/backports or if...]]></description>
+										<content:encoded><![CDATA[
+<p>We are pleased to announce that Plasma 5.22.0, is now available in our <a href="https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/backports?field.series_filter=hirsute">backports PPA</a> for Kubuntu 21.04 Hirsute Hippo.</p>
+
+
+
+<p>The release announcement detailing the new features and improvements in Plasma 5.22 can be <a href="https://kde.org/announcements/plasma/5/5.22.0/">found here</a>.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" width="1024" height="578" src="https://kubuntu.org/wp-content/uploads/2021/06/b555/7307fb5b2c-1024x578.png" alt="" class="wp-image-4679"/></figure>
+
+
+
+<p><strong>To upgrade:</strong></p>
+
+
+
+<p>Add the following repository to your software sources list:</p>
+
+
+
+<p><strong><em>ppa:kubuntu-ppa/backports</em></strong></p>
+
+
+
+<p>or if it is already added, the updates should become available via your preferred update method.</p>
+
+
+
+<p>The PPA can be added manually in the Konsole terminal with the command:</p>
+
+
+
+<p><em>sudo add-apt-repository ppa:kubuntu-ppa/backports</em></p>
+
+
+
+<p>and packages then updated with</p>
+
+
+
+<p><em>sudo apt full-upgrade</em></p>
+
+
+
+<p><strong>IMPORTANT</strong></p>
+
+
+
+<p><em>Please note that more bugfix releases are scheduled by KDE for Plasma 5.22, so while we feel these backports will be beneficial to enthusiastic adopters, users wanting to use a Plasma release with more rounds of stabilisation/bugfixes ‘baked in’ may find it advisable to stay with Plasma 5.21 as included in the original 21.04 (Hirsute) release.</em></p>
+
+
+
+<p>The Kubuntu Backports PPA for 21.04 also currently contains newer versions of KDE Frameworks, Applications, and other KDE software. The PPA will also continue to receive updates of KDE packages other than Plasma.</p>
+
+
+
+<p>Issues with Plasma itself can be reported on the KDE bugtracker [1]. In the case of packaging or other issues, please provide feedback on our mailing list [2], IRC [3], and/or file a bug against our PPA packages [4].</p>
+
+
+
+<p><em>1. KDE bugtracker: https://bugs.kde.org</em><br><em>2. Kubuntu-devel mailing list: https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel<br>3. Kubuntu IRC channels: #kubuntu &amp; #kubuntu-devel on irc.libera.chat<br>4. Kubuntu ppa bugs: https://bugs.launchpad.net/kubuntu-ppa</em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Plasma 5.22 Beta (5.21.90) available for testing</title>
+		<link>https://kubuntu.org/news/plasma-5-22-beta-available-for-testing/</link>
+		
+		<dc:creator><![CDATA[rikmills]]></dc:creator>
+		<pubDate>Sat, 15 May 2021 09:00:29 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Beta]]></category>
+		<category><![CDATA[Plasma]]></category>
+		<category><![CDATA[testing]]></category>
+		<guid isPermaLink="false">https://kubuntu.org/?p=4652</guid>
+
+					<description><![CDATA[Are you using Kubuntu 21.04 Hirsute Hippo, our current Stable release? Or are you already running our development builds of the upcoming 21.10 Impish Indri? We currently have Plasma 5.21.90 (Plasma 5.22 Beta)&#160; available in our Beta PPA for Kubuntu 21.04, and 21.10 development series. However this is a beta...]]></description>
+										<content:encoded><![CDATA[
+<p>Are you using Kubuntu 21.04 Hirsute Hippo, our current Stable release? Or are you already running our development builds of the upcoming 21.10 Impish Indri?</p>
+
+
+
+<p>We currently have <a href="https://kde.org/announcements/plasma/5/5.21.90/">Plasma 5.21.90 (Plasma 5.22 Beta)</a>&nbsp; available in our <a href="https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/beta">Beta PPA</a> for Kubuntu 21.04, and 21.10 development series.</p>
+
+
+
+<p>However this is a beta release, and we should re-iterate the disclaimer from the upstream release announcement:</p>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>DISCLAIMER:</strong> This is beta software and is released for  testing purposes. You are advised to NOT use Plasma 5.22 Beta in a  production environment or as your daily desktop. If you do install  Plasma 5.22 Beta, you must be prepared to encounter (and report to the creators) bugs that may interfere with your day-to-day use of your computer.</p><cite>https://kde.org/announcements/plasma/5/5.21.90</cite></blockquote>
+
+
+
+<p>If you are prepared to test, then…..</p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>Add the beta PPA and then upgrade:</strong></p>
+
+
+
+<pre class="wp-block-preformatted">sudo add-apt-repository ppa:kubuntu-ppa/beta &amp;&amp; sudo apt full-upgrade -y</pre>
+
+
+
+<p>Then reboot.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em><strong>In case of issues, testers should be prepared to use ppa-purge to remove the PPA and revert/downgrade packages. </strong></em></p></blockquote>
+
+
+
+<div style="height:39px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Kubuntu is part of the <a href="https://www.kde.org/community/whatiskde/">KDE community</a>,  so this testing will benefit both Kubuntu as well as upstream KDE  Plasma software, which is used by many other distributions too.</p>
+
+
+
+<ul><li>If you believe you might have found a packaging bug, you can use a  <a href="https://launchpad.net/">launchpad.net</a> to post testing feedback to the Kubuntu team as a bug, or give feedback on IRC [1], or mailing lists [2]. </li><li>If you believe you have found a bug in the underlying software, then&nbsp;<a href="https://bugs.kde.org">bugs.kde.org</a> is the best place to file your bug report.</li></ul>
+
+
+
+<p>Please review the <a href="https://kde.org/announcements/plasma/5/5.21.90/">release announcement</a> and  <a href="https://kde.org/announcements/changelogs/plasma/5/5.21.5-5.21.90/">changelog.</a></p>
+
+
+
+<blockquote class="wp-block-quote"><p>[Test Case]<br>* General tests:<br>&#8211; Does plasma desktop start as normal with no apparent regressions over 5.21?<br>&#8211; General workflow &#8211; testers should carry out their normal tasks, using the plasma features they normally do, and test common subsystems such as audio, settings changes, compositing, desktop affects, suspend etc.<br>* Specific tests:<br>&#8211; Check the changelog:<br>&#8211; Identify items with front/user facing changes capable of specific testing. <br>&#8211; Test the &#8216;fixed&#8217; functionality or &#8216;new&#8217; feature.</p></blockquote>
+
+
+
+<p>Testing may involve some technical set up to do, so while you do not need to be a highly advanced K/Ubuntu user, some proficiently in apt-based package management is advisable.</p>
+
+
+
+<p>Testing is very important to the quality of the software Ubuntu and Kubuntu developers package and release.</p>
+
+
+
+<p>We need your help to get this important beta release in shape for Kubuntu and the KDE community as a whole.</p>
+
+
+
+<p>Thanks!</p>
+
+
+
+<p>Please stop by the <a href="irc://irc.freenode.net/kubuntu-devel">Kubuntu-devel IRC channel</a> if you need clarification of any of the steps to follow.</p>
+
+
+
+<p>[1] – irc://irc.freenode.net/kubuntu-devel<br>[2] – https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel<br></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Plasma 5.19 testing in Groovy Gorilla</title>
+		<link>https://kubuntu.org/news/plasma-5-19-testing-in-groovy-gorrila/</link>
+		
+		<dc:creator><![CDATA[rikmills]]></dc:creator>
+		<pubDate>Tue, 30 Jun 2020 14:34:49 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[20.10]]></category>
+		<category><![CDATA[Groovy]]></category>
+		<category><![CDATA[Plasma]]></category>
+		<guid isPermaLink="false">https://kubuntu.org/?p=4440</guid>
+
+					<description><![CDATA[Are you running the development release of Kubuntu Groovy Gorilla 20.10, or wanting to try the daily live ISO? Plasma 5.19 has now landed in 20.10 and is available for testing. You can read about the new features and improvements in Plasma 5.19 in the official KDE release announcement. Kubuntu...]]></description>
+										<content:encoded><![CDATA[<p>Are you running the development release of Kubuntu Groovy Gorilla 20.10, or wanting to try the daily live ISO?</p>
+<p>Plasma 5.19 has now landed in 20.10 and is available for testing. You can read about the new features and improvements in Plasma 5.19 in the <a href="https://kde.org/announcements/plasma-5.19.0.php">official KDE release announcement</a>.</p>
+
+
+<figure class="wp-block-image"><img loading="lazy" width="800" height="452" src="https://kubuntu.org/wp-content/uploads/2020/06/2fe7/GroovyPlasma800.png" alt="" class="wp-image-4444"/></figure>
+
+
+
+<p>Kubuntu is part of the <a href="https://www.kde.org/community/whatiskde/">KDE community</a>,  so this testing will benefit both Kubuntu as well as upstream KDE  Plasma software, which is used by many other distributions too.</p>
+
+
+
+<p><strong>The Kubuntu development release is not recommended for production systems. If you require a stable release, please see our LTS releases on </strong><a href="https://kubuntu.org/getkubuntu/"><strong>our downloads page</strong></a><strong>.</strong></p>
+
+
+
+<p><strong>Getting the release:</strong><br><br>If you are already running Kubuntu 20.10 development release, then you will receive (or have already received) Plasma 5.19 in new updates.<br><br>If you wish to test the live session via the daily ISO, or install the development release, the daily ISO can be obtained from <a href="http://cdimage.ubuntu.com/kubuntu/daily-live/current/">this link</a>.</p>
+
+
+
+<p><strong>Testing:</strong></p>
+
+
+
+<ul><li>If you believe you might have found a packaging bug, you can use a  <a href="https://launchpad.net/">launchpad.net</a> to post testing feedback to the Kubuntu team as a bug, or;</li><li> If you believe you have found a bug in the underlying software, then&nbsp;<a href="https://bugs.kde.org">bugs.kde.org</a> is the best place to file your bug report.</li></ul>
+
+
+
+<blockquote class="wp-block-quote"><p>[Test Case]<br>* General tests:<br>&#8211; Does plasma desktop start as normal with no apparent regressions over 5.18 or whatever version you are familiar with?<br>&#8211; General workflow &#8211; testers should carry out their normal tasks, using the plasma features they normally do, and test common subsystems such as audio, settings changes, compositing, desktop affects, suspend etc.<br>* Specific tests:<br>&#8211; Check the changelog in the KDEannouncement:<br>&#8211; Identify items with front/user facing changes capable of specific testing. e.g. &#8220;clock combobox instead of tri-state checkbox for 12/24 hour display.&#8221;<br>&#8211; Test the &#8216;fixed&#8217; functionality.</p></blockquote>
+
+
+
+<p>Testing is very important to the quality of the software Ubuntu and Kubuntu developers package and release.<br><br>Plasma 5.19 has 3 more scheduled bugfix releases in the coming months, so by testing you can help to improve the experience for Kubuntu users and the KDE community as a whole.<br><br>Thanks! Please stop by the <a href="irc://irc.freenode.net/kubuntu-devel">Kubuntu-devel IRC channel</a> or <a href="https://t.me/kubuntu_support">Telegram group</a> if you need clarification of any of the steps to follow.</p>
+
+
+
+<p><em>Note: Plasma 5.19 has not currently been packaged for our backports PPA, as the release requires Qt &gt;= 5.14, while Kubuntu 20.04 LTS has Qt 5.12 LTS. Our </em><a href="https://community.kde.org/Kubuntu/Policies#Long_Term_Support_.28LTS.29"><em>backports policy for KDE packages to LTS releases</em></a><em> is to provide them where they are buildable with the native available stack on each release.</em></p>
+
+
+
+<p> [1] &#8211; irc://irc.freenode.net/kubuntu-devel<br> [2] &#8211; https://t.me/kubuntu_support<br> [3] &#8211; https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Plasma 5.18 LTS Beta (5.17.90) Available for Testing</title>
+		<link>https://kubuntu.org/news/plasma-5-18-lts-beta-5-17-90-available-for-testing/</link>
+		
+		<dc:creator><![CDATA[rikmills]]></dc:creator>
+		<pubDate>Fri, 17 Jan 2020 09:48:36 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Beta]]></category>
+		<category><![CDATA[Plasma]]></category>
+		<guid isPermaLink="false">https://kubuntu.org/?p=4323</guid>
+
+					<description><![CDATA[Are you using Kubuntu 19.10 Eoan Ermine, our current Stable release? Or are you already running our development builds of the upcoming 20.04 LTS Focal Fossa? We currently have Plasma 5.17.90 (Plasma 5.18 Beta)  available in our Beta PPA for Kubuntu 19.10. The 5.18 beta is also available in the main...]]></description>
+										<content:encoded><![CDATA[
+<p>Are you using Kubuntu 19.10 Eoan Ermine, our current Stable release? Or are you already running our development builds of the upcoming 20.04 LTS Focal Fossa?</p>
+
+
+
+<p>We currently have <a href="https://kde.org/announcements/plasma-5.17.90.php">Plasma 5.17.90</a> (Plasma 5.18 Beta)  available in our <a href="https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/beta">Beta PPA</a> for Kubuntu 19.10.</p>
+
+
+
+<p>The 5.18 beta is also available in the main Ubuntu archive for the 20.04 development release, and can be found on our <a href="http://cdimage.ubuntu.com/kubuntu/daily-live/current/">daily ISO images</a>.</p>
+
+
+
+<p><strong>This is a Beta Plasma release, so testers should be aware that bugs and issues may exist.</strong><br></p>
+
+
+
+<p>If you are prepared to test, then&#8230;..</p>
+
+
+
+<div style="height:23px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>For 19.10 add the PPA and then upgrade</strong></p>
+
+
+
+<pre class="wp-block-preformatted">sudo add-apt-repository ppa:kubuntu-ppa/beta &amp;&amp; sudo apt update &amp;&amp; sudo apt full-upgrade -y</pre>
+
+
+
+<p>Then reboot. If you cannot reboot from the application launcher,</p>
+
+
+
+<pre class="wp-block-preformatted">systemctl reboot</pre>
+
+
+
+<p>from the terminal.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em><strong>In case of issues, testers should be prepare to use ppa-purge to remove the PPA and revert/downgrade packages. </strong></em></p><p></p></blockquote>
+
+
+
+<div style="height:23px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Kubuntu is part of the <a href="https://www.kde.org/community/whatiskde/">KDE community</a>, so this testing will benefit both Kubuntu as well as upstream KDE Plasma software, which is used by many other distributions too.</p>
+
+
+
+<ul><li>If you believe you might have found a packaging bug, you can use a  <a href="https://launchpad.net/">launchpad.net</a> to post testing feedback to the Kubuntu team as a bug, or give feedback on IRC [1], Telegram [2] or mailing lists [3]. </li><li>If you believe you have found a bug in the underlying software, then&nbsp;<a href="https://bugs.kde.org">bugs.kde.org</a> is the best place to file your bug report.</li></ul>
+
+
+
+<p>Please review the <a href="https://kde.org/announcements/plasma-5.17.90.php">release announcement</a> and  <a href="https://kde.org/announcements/plasma-5.17.5-5.17.90-changelog.php">changelog.</a></p>
+
+
+
+<blockquote class="wp-block-quote"><p>[Test Case]</p><p>* General tests:<br>&#8211; Does plasma desktop start as normal with no apparent regressions over 5.16 or 5.17?<br>&#8211; General workflow &#8211; testers should carry out their normal tasks, using the plasma features they normally do, and test common subsystems such as audio, settings changes, compositing, desktop affects, suspend etc.</p><p>* Specific tests:<br>&#8211; Check the changelog:<br>&#8211; Identify items with front/user facing changes capable of specific testing. e.g. &#8220;clock combobox instead of tri-state checkbox for 12/24 hour display.&#8221;<br>&#8211; Test the &#8216;fixed&#8217; functionality or &#8216;new&#8217; feature.</p></blockquote>
+
+
+
+<p>Testing involves some technical set up to do, so while you do not need to be a highly advanced K/Ubuntu user, some proficiently in apt-based package management is advisable.</p>
+
+
+
+<p>Testing is very important to the quality of the software Ubuntu and Kubuntu developers package and release.</p>
+
+
+
+<p>We need your help to get this important beta release in shape for Kubuntu and the KDE community as a whole.</p>
+
+
+
+<p>Thanks!</p>
+
+
+
+<p>Please stop by the <a href="irc://irc.freenode.net/kubuntu-devel">Kubuntu-devel IRC channel</a> or <a href="https://t.me/kubuntu_support">Telegram group</a> if you need clarification of any of the steps to follow.</p>
+
+
+
+<p>[1] &#8211; irc://irc.freenode.net/kubuntu-devel<br>[2] &#8211; https://t.me/kubuntu_support<br>[3] &#8211; https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel<br></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Plasma 5.16 for Disco 19.04 available in Backports PPA</title>
+		<link>https://kubuntu.org/news/plasma-5-16-for-disco-19-04-available-in-backports-ppa/</link>
+		
+		<dc:creator><![CDATA[rikmills]]></dc:creator>
+		<pubDate>Tue, 11 Jun 2019 15:23:29 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Backports]]></category>
+		<category><![CDATA[DiscoDingo]]></category>
+		<category><![CDATA[Plasma]]></category>
+		<guid isPermaLink="false">https://kubuntu.org/?p=4121</guid>
+
+					<description><![CDATA[We are pleased to announce that Plasma 5.16, is now available in our backports PPA for Disco 19.04. The release announcement detailing the new features and improvements in Plasma 5.16 can be found here Released along with this new version of Plasma is an update to KDE Frameworks 5.58. (5.59...]]></description>
+										<content:encoded><![CDATA[
+<p>We are pleased to announce that  Plasma 5.16, is now available in our backports PPA for Disco 19.04.</p>
+
+
+
+<p>The release announcement detailing the new features and improvements in Plasma 5.16 can be <a href="https://www.kde.org/announcements/plasma-5.16.0.php">found here</a></p>
+
+
+
+<p>Released along with this new version of Plasma is an update to <a href="https://www.kde.org/announcements/kde-frameworks-5.58.0.php">K</a><a href="https://www.kde.org/announcements/kde-frameworks-5.54.0.php">DE Frameworks</a><a href="https://www.kde.org/announcements/kde-frameworks-5.58.0.php"> 5.58. </a>(5.59 will soon be in testing for Eoan 19.10 and may follow in the next few weeks.)</p>
+
+
+
+<p><strong>To upgrade: </strong></p>
+
+
+
+<p>Add the following repository to your software sources list:</p>
+
+
+
+<p><strong><em>ppa:kubuntu-ppa/backports</em></strong></p>
+
+
+
+<p>or if it is already added, the updates should become available via your preferred update method.</p>
+
+
+
+<p>The PPA can be added manually in the Konsole terminal with the command:</p>
+
+
+
+<p><em>sudo add-apt-repository ppa:kubuntu-ppa/backports</em></p>
+
+
+
+<p>and packages then updated with</p>
+
+
+
+<p><em>sudo apt update</em><br><em>sudo apt full-upgrade</em></p>
+
+
+
+<p><strong>IMPORTANT</strong></p>
+
+
+
+<p><em>Please note that more bugfix releases are scheduled by KDE for Plasma 5.16, so while we feel these backports will be beneficial to enthusiastic adopters, users wanting to use a Plasma release with more stabilisation/bugfixes &#8216;baked in&#8217; may find it advisable to stay with Plasma 5.15 as included in the original 19.04 Disco release. </em></p>
+
+
+
+<p>Issues with Plasma itself can be reported on the KDE bugtracker [1]. In the case of packaging or other issues, please provide feedback on our mailing list [2], IRC [3], and/or file a bug against our PPA packages [4].</p>
+
+
+
+<p><em>1. KDE bugtracker: https://bugs.kde.org</em><br><em>2. Kubuntu-devel mailing list: https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel<br>3. Kubuntu IRC channels: #kubuntu &amp; #kubuntu-devel on irc.freenode.net<br>4. Kubuntu ppa bugs: https://bugs.launchpad.net/kubuntu-ppa</em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Plasma 5.15.1 arrives in Cosmic backports PPA</title>
+		<link>https://kubuntu.org/news/plasma-5-15-1-arrives-in-cosmic-backports-ppa/</link>
+		
+		<dc:creator><![CDATA[rikmills]]></dc:creator>
+		<pubDate>Wed, 20 Feb 2019 09:49:33 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Backports]]></category>
+		<category><![CDATA[Cosmic]]></category>
+		<category><![CDATA[Plasma]]></category>
+		<guid isPermaLink="false">https://kubuntu.org/?p=4038</guid>
+
+					<description><![CDATA[We are pleased to announce that the 1st bugfix release of Plasma 5.15, 5.15.1, is now available in our backports PPA for Cosmic 18.10. The release announcement detailing the new features and improvements in Plasma 5.15 can be found here, while the full 5.15.1 bugfix changelog can be found here....]]></description>
+										<content:encoded><![CDATA[<p>We are pleased to announce that the 1st bugfix release of Plasma 5.15, 5.15.1, is now available in our backports PPA for Cosmic 18.10.</p>
+<p>The release announcement detailing the new features and improvements in Plasma 5.15 can be <a href="https://www.kde.org/announcements/plasma-5.15.0.php">found here</a>, while the full 5.15.1 bugfix changelog can be <a href="https://www.kde.org/announcements/plasma-5.15.0-5.15.1-changelog.php">found here</a>.</p>
+<p>Released along with this new version of Plasma is an update to <a href="https://www.kde.org/announcements/kde-frameworks-5.54.0.php">KDE Frameworks 5.54</a>. (5.55 is currently in testing in Disco 19.04 and may follow in the next few weeks.)</p>
+<p><img loading="lazy" class="aligncenter size-full wp-image-4042" src="//kubuntu.org/wp-content/uploads/2019/02/2700/Plasma-5.15-cosmic.png" alt="" width="800" height="454" /></p>
+<p><strong>To upgrade: </strong></p>
+<p>Add the following repository to your software sources list:</p>
+<p><strong><em>ppa:kubuntu-ppa/backports</em></strong></p>
+<p>or if it is already added, the updates should become available via your preferred update method.</p>
+<p>The PPA can be added manually in the Konsole terminal with the command:</p>
+<p><em>sudo add-apt-repository ppa:kubuntu-ppa/backports</em></p>
+<p>and packages then updated with</p>
+<p><em>sudo apt update</em><br />
+<em>sudo apt full-upgrade</em></p>
+<p><strong>IMPORTANT</strong></p>
+<p><em>Please note that more bugfix releases are scheduled by KDE for Plasma 5.15, so while we feel these backports will be beneficial to enthusiastic adopters, users wanting to use a Plasma release with more stabilisation/bugfixes &#8216;baked in&#8217; may find it advisable to stay with Plasma 5.13.5 as included in the original 18.10 Cosmic release. </em></p>
+<p>Should any issues occur, please provide feedback on our mailing list [1], IRC [2], and/or file a bug against our PPA packages [3].</p>
+<p><em>1. Kubuntu-devel mailing list: https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel<br />
+2. Kubuntu IRC channels: #kubuntu &amp; #kubuntu-devel on irc.freenode.net<br />
+3. Kubuntu ppa bugs: https://bugs.launchpad.net/kubuntu-ppa</em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Plasma 5.14.2 available in Cosmic backports PPA</title>
+		<link>https://kubuntu.org/news/plasma-5-14-2-available-in-cosmic-backports-ppa/</link>
+		
+		<dc:creator><![CDATA[rikmills]]></dc:creator>
+		<pubDate>Wed, 24 Oct 2018 12:19:11 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Backports]]></category>
+		<category><![CDATA[Plasma]]></category>
+		<category><![CDATA[updates]]></category>
+		<guid isPermaLink="false">https://kubuntu.org/?p=3962</guid>
+
+					<description><![CDATA[After the 5.14.1 release of Plasma 5.14 was made available for Cosmic 18.10 via our backports PPA last week, we are pleased to say the the PPA has now been updated to the 2nd bugfix release 5.14.2. The full changelog for 5.14.2 can be found here. Already released in the...]]></description>
+										<content:encoded><![CDATA[<p>After the 5.14.1 release of Plasma 5.14 was made available for Cosmic 18.10 via our backports PPA last week, we are pleased to say the the PPA has now been updated to the <a href="https://www.kde.org/announcements/plasma-5.14.2.php">2nd bugfix release 5.14.2</a>.</p>
+<p>The full changelog for 5.14.2 can be <a href="https://www.kde.org/announcements/plasma-5.14.1-5.14.2-changelog.php">found here</a>.</p>
+<p>Already released in the PPA is an update to the latest <a href="https://www.kde.org/announcements/kde-frameworks-5.51.0.php">KDE Frameworks 5.51</a>.</p>
+<p><strong>To upgrade: </strong></p>
+<p>Add the following repository to your software sources list:</p>
+<p><strong><em>ppa:kubuntu-ppa/backports</em></strong></p>
+<p>or if it is already added, the updates should become available via your preferred update method.</p>
+<p>The PPA can be added manually in the Konsole terminal with the command:</p>
+<p><em>sudo add-apt-repository ppa:kubuntu-ppa/backports</em></p>
+<p>and packages then updated with</p>
+<p><em>sudo apt update</em><br />
+<em>sudo apt full-upgrade</em></p>
+<p>&nbsp;</p>
+<p><strong>IMPORTANT</strong></p>
+<p><em>Please note that more bugfix releases are scheduled by KDE for Plasma 5.14, so while we feel these backports will be beneficial to enthusiastic adopters, users wanting to use a Plasma release with more stabilisation/bugfixes &#8216;baked in&#8217; may find it advisable to stay with Plasma 5.13.5 as included in the original 18.10 Cosmic release. </p>
+<p>Should any issues occur, please provide feedback on our mailing list [1], IRC [2], and/or file a bug against our PPA packages [3].</p>
+<p>1. Kubuntu-devel mailing list: https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel<br />
+2. Kubuntu IRC channels: #kubuntu &amp; #kubuntu-devel on irc.freenode.net<br />
+3. Kubuntu ppa bugs: https://bugs.launchpad.net/kubuntu-ppa</em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Plasma 5.12.3 bugfix updates available for 17.10 backports PPA</title>
+		<link>https://kubuntu.org/news/plasma-5-12-3-bugfix-updates-available-for-17-10-backports-ppa/</link>
+		
+		<dc:creator><![CDATA[rikmills]]></dc:creator>
+		<pubDate>Wed, 07 Mar 2018 08:54:35 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[artful]]></category>
+		<category><![CDATA[Backports]]></category>
+		<category><![CDATA[Plasma]]></category>
+		<category><![CDATA[updates]]></category>
+		<guid isPermaLink="false">https://kubuntu.org/?p=3795</guid>
+
+					<description><![CDATA[Users of Kubuntu 17.10 Artful Aardvark can now upgrade via our backports PPA to the 3rd bugfix release (5.12.3) of the Plasma 5.12 LTS release series from KDE. (Testers of 18.04 Bionic Beaver will need to be patient as the Ubuntu archive is currently in Beta 1 candidate freeze for...]]></description>
+										<content:encoded><![CDATA[<p>Users of Kubuntu 17.10 Artful Aardvark can now upgrade via our backports PPA to the <a href="https://www.kde.org/announcements/plasma-5.12.3.php">3rd bugfix release (5.12.3)</a> of the Plasma 5.12 LTS release series from KDE.</p>
+<p><em>(Testers of 18.04 Bionic Beaver will need to be patient as the Ubuntu archive is currently in Beta 1 candidate freeze for our packages, but we hope to update the packages there once the Beta 1 is released)</em></p>
+<p>The full changelog of fixes for 5.12.3 can be <a href="https://www.kde.org/announcements/plasma-5.12.2-5.12.3-changelog.php">found here</a>.</p>
+<p>This includes an impressive list of fixes for Plasma Discover software centre, thanks in part to the excellent recent drive to improve and polish this important part of the plasma desktop by <a href="https://pointieststick.wordpress.com/">our Product Manager and KDE Developer Nate Graham</a>.</p>
+<blockquote><p><strong>Users of 17.10:</strong></p>
+<p>To update add the following repository to your software sources list:</p>
+<p><code>ppa:kubuntu-ppa/backports</code></p>
+<p>or if it is <strong>already added</strong>, the updates should become available via your preferred update method.</p>
+<p>The PPA can be added manually in the Konsole terminal with the command:</p>
+<p><code>sudo add-apt-repository ppa:kubuntu-ppa/backports</code></p>
+<p>and packages then updated with</p>
+<p><code>sudo apt update</code><br />
+<code>sudo apt full-upgrade</code></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>PPA upgrade notes:</p>
+<p>~ The Kubuntu backports PPA includes various other backported applications, and <a href="https://www.kde.org/announcements/kde-frameworks-5.43.0.php">KDE Frameworks 5.43</a>, so please be aware that enabling the backports PPA for the 1st time and doing a full upgrade will result in a substantial amount of upgraded packages in addition to Plasma 5.12.</p>
+<p>~ The PPA will also continue to receive bugfix updates to Plasma 5.12 when they become available, and further updated KDE applications.</p>
+<p>~ While we believe that these packages represent a beneficial and stable update, please bear in mind that they have not been tested as comprehensively as those in the main Ubuntu archive, and are <a href="https://community.kde.org/Kubuntu/PPAs">supported only on a limited and informal basis</a>. Should any issues occur, please provide feedback on our mailing list [1], IRC [2], and/or file a bug against our PPA packages [3].</p>
+<p>1. Kubuntu-devel mailing list: https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel<br />
+2. Kubuntu IRC channels: #kubuntu &amp; #kubuntu-devel on irc.freenode.net<br />
+3. Kubuntu ppa bugs: https://bugs.launchpad.net/kubuntu-ppa</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

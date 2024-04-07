@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Calendar | Kubuntu</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!--[if IE 9]>
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<![endif]-->
+	<link rel="pingback" href="../xmlrpc.php.html" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	
+	  <meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Kubuntu &raquo; Feed" href="../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Kubuntu &raquo; Comments Feed" href="../comments/feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kubuntu.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.3"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='ai1ec_style-css'  href='../wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/ai1ec_parsed_css.css%3Fver=3.0.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='openid-css'  href='../wp-content/plugins/openid/f/openid.css%3Fver=519.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='../wp-includes/css/dist/block-library/style.min.css%3Fver=5.8.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-lightbox-2.min.css-css'  href='../wp-content/plugins/wp-lightbox-2/styles/lightbox.min.css%3Fver=1.3.4.css' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='../wp-content/themes/advertica-lite/style.css%3Fver=5.8.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='../wp-content/themes/advertica-lite-child/style.css%3Fver=5.8.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='advertica-style-css'  href='../wp-content/themes/advertica-lite-child/style.css%3Fver=5.8.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='advertica-animation-stylesheet-css'  href='../wp-content/themes/advertica-lite/css/skt-animation.css%3Fver=0.0.1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='sktawesome-theme-stylesheet-css'  href='../wp-content/themes/advertica-lite/css/font-awesome.css%3Fver=0.0.1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='sktddsmoothmenu-superfish-stylesheet-css'  href='../wp-content/themes/advertica-lite/css/superfish.css%3Fver=0.0.1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-responsive-theme-stylesheet-css'  href='../wp-content/themes/advertica-lite/css/bootstrap-responsive.css%3Fver=0.0.1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-style-css'  href='http://fonts.googleapis.com/css?family=Oxygen%3A400%2C300%2C700&#038;ver=5.8.3' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.min.js%3Fver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min.js%3Fver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='../index.html%3Fai1ec_render_js=calendar.js&amp;is_backend=false&amp;is_calendar_page=true&amp;ver=3.0.0' id='ai1ec_requirejs-js'></script>
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/3431" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php%3Frsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.3" />
+<link rel="canonical" href="../index.html%3Fp=3431.html" />
+<link rel='shortlink' href='../index.html%3Fp=3431.html' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fkubuntu.org%252Fcalendar%252F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fkubuntu.org%252Fcalendar%252F&amp;format=xml" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<link rel="shortcut icon" type="image/x-icon" href="../wp-content/uploads/2015/02/favicon.ico"/>
+<style type="text/css">
+
+
+	/***************** THEME *****************/
+	
+  	 a.skt-featured-icons,.service-icon{ background: #0079C1;}
+	 a.skt-featured-icons:after,.service-icon:after {border-top-color: #0079C1; }
+	 a.skt-featured-icons:before,.service-icon:before {border-bottom-color: #0079C1; }
+
+	
+	.sticky-post {color : #0079C1;border-color:}
+	#footer{ border-color: #0079C1; }
+	.social li a:hover{background: #0079C1;}
+	.social li a:hover:before{color:#fff; }
+	a#backtop,#respond input[type="submit"]:hover,.skt-ctabox div.skt-ctabox-button a:hover,.widget_tag_cloud a:hover,.continue a:hover,blockquote,.skt-quote,#advertica-paginate .advertica-current,#advertica-paginate a:hover,.postformat-gallerydirection-nav li a:hover,#wp-calendar,.comments-template .reply a:hover,#content .contact-left form input[type="submit"]:hover,.skt-parallax-button:hover,.sktmenu-toggle  {background-color: #0079C1; }
+	.skt-ctabox div.skt-ctabox-button a,#portfolio-division-box .readmore,.teammember,.comments-template .reply a,#respond input[type="submit"],.slider-link a,.ske_tab_v ul.ske_tabs li.active,.ske_tab_h ul.ske_tabs li.active,#content .contact-left form input[type="submit"],.filter a,.skt-parallax-button,#advertica-paginate a:hover,#advertica-paginate .advertica-current,#content .contact-left form textarea:focus,#content .contact-left form input[type="text"]:focus, #content .contact-left form input[type="email"]:focus, #content .contact-left form input[type="url"]:focus, #content .contact-left form input[type="tel"]:focus, #content .contact-left form input[type="number"]:focus, #content .contact-left form input[type="range"]:focus, #content .contact-left form input[type="date"]:focus, #content .contact-left form input[type="file"]:focus{border-color:#0079C1;}
+	.clients-items li a:hover{border-bottom-color:#0079C1;}
+	a,.ske-footer-container ul li:hover:before,.ske-footer-container ul li:hover > a,.ske_widget ul ul li:hover:before,.ske_widget ul ul li:hover,.ske_widget ul ul li:hover a,.title a ,.skepost-meta a:hover,.post-tags a:hover,.entry-title a:hover ,.readmore a:hover,#Site-map .sitemap-rows ul li a:hover ,.childpages li a,#Site-map .sitemap-rows .title,.ske_widget a,.ske_widget a:hover,#Site-map .sitemap-rows ul li:hover,#footer .third_wrapper a:hover,.ske-title,#content .contact-left form input[type="submit"],.filter a,span.team_name,#respond input[type="submit"],.reply a, a.comment-edit-link,.skt_price_table .price_in_table .value, .teammember strong .team_name,#content .skt-service-page .one_third:hover .service-box-text h3,.ad-service:hover .service-box-text h3,.mid-box-mid .mid-box:hover .iconbox-content h4,.error-txt,.skt-ctabox .skt-ctabox-content h2,.reply a:hover, a.comment-edit-link:hover {color: #0079C1;text-decoration: none;}
+	.single #content .title,#content .post-heading,.childpages li ,.fullwidth-heading,.comment-meta a:hover,#respond .required, #wp-calendar tbody a{color: #0079C1;} 
+	#skenav ul ul li a:hover{background-color: #0079C1;color:#fff;}
+	*::-moz-selection{background: #0079C1;color:#fff;}
+	::selection {background: #0079C1;color:#fff;}
+	#skenav ul li.current_page_item > a,
+	#skenav ul li.current-menu-ancestor > a,
+	#skenav ul li.current-menu-item > a,
+	#skenav ul li.current-menu-parent > a { background-color:#0079C1;color:#fff;}
+	.continue a:hover { border-color: #0079C1;  }
+	#searchform input[type="submit"]{ background: none repeat scroll 0 0 #0079C1;  }
+
+	.col-one .box .title, .col-two .box .title, .col-three .box .title, .col-four .box .title {color: #0079C1 !important;  }
+	.full-bg-breadimage-fixed {}
+	#full-division-box { background-image: url("https://kubuntu.org/wp-content/uploads/2015/03/header-e1426095484324.jpg"); }
+	
+	 .full-bg-breadimage-fixed { background-image: url("");} 	.full-bg-breadimage-fixed { background-image: url("../wp-content/uploads/2019/10/61f2/breadcrumb.png");}	#full-division-box { background-image: url("https://kubuntu.org/wp-content/uploads/2015/03/header-e1426095484324.jpg"); }
+	
+	.bread-title-holder h1.title,.cont_nav_inner span,.bread-title-holder .cont_nav_inner p,.bread-title-holder .cont_nav_inner a{
+		color: #ffffff;
+	}
+	
+	/***************** PAGINATE *****************/
+	#skenav li a:hover,#skenav .sfHover { background-color:#333333;color: #FFFFFF;}
+	#skenav .sfHover a { color: #FFFFFF;}
+	#skenav ul ul li { background: none repeat scroll 0 0 #333333; color: #FFFFFF; }
+	#skenav .ske-menu #menu-secondary-menu li a:hover, #skenav .ske-menu #menu-secondary-menu .current-menu-item a{color: #71C1F2;  }
+	.footer-seperator{background-color: rgba(0,0,0,.2);}
+	#skenav .ske-menu #menu-secondary-menu li .sub-menu li {	margin: 0;  }
+
+
+	@media only screen and (max-width : 1025px) {
+		#menu-main {
+			display:none;
+		}
+
+		#header .container {
+			width:97%;
+		}
+
+		.skehead-headernav .logo {
+		    margin-bottom: 3px;
+		    margin-top: 12px;
+		    position: relative;
+		}
+
+		.skehead-headernav.skehead-headernav-shrink .logo {
+            margin-top: 1px;
+            top: 6px;
+		}
+
+	}
+</style><style id="sccss">/* Enter Your Custom CSS Here */
+strong, b {
+	font-weight: bold;
+}
+
+.download_box h2,p,option,select {
+  font-family: Ubuntu,Arial,'libra sans',sans-serif;
+}
+.download_box p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.download_box {
+  max-width: 984px;
+  margin: auto;
+  border-bottom: 1px dotted #888;
+  padding: 40px 0px 40px 0px;
+}
+.download_box:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.release_box {
+  margin-bottom: 20px;
+  border: 1px solid #f7f7f7;
+  box-shadow: 2px 2px 5px 2px #979797;
+  background: #fff;
+  border-radius: 4px;
+  padding: 1.333em 20px;
+}
+.release_box:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.release_box  h2 {
+  font-size: 1.7em;
+  margin-bottom: .5em;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.form_download select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px 0px 5px 0px;
+}
+.form_download label {
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.box {
+  float: left;
+  display: inline-block;
+}
+.eight-col {
+  width: 60%;
+  margin-right: 2.21239%;
+  padding-right: 10px;
+}
+.six-col {
+  width: 48%;
+}
+.four-col {
+  width: 31.858%;
+  padding-left: 10px;
+}
+@media screen and (max-width: 800px) {
+  .eight-col {
+  	width: 100%;
+  }
+  .six-col {
+    width: 100%;
+  }
+  .four-col {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+form button {
+  font-size: 1.21875em;
+  margin-bottom: .615em;
+  width: 100%;
+  color: #fff;
+  background: #0079C1;
+  outline: none;
+  border: 0;
+  padding: 11px 24px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+form fieldset {
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ul.download_list {
+  list-style: none;
+  margin-left: 0;
+}
+ul.download_list li {
+  border-bottom: 1px dotted #888;
+  margin: 0px 10px 0px 0px;
+  padding: 10px 0;
+}
+ul.download_list li:last-of-type {
+  border-bottom: 0px;
+}
+.six-col ul.download_list {
+  margin: 0px 10px 0px 20px;
+}
+.checksum_box {
+  border-top: 1px dotted #888;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.external {
+  background-size: .7em .7em;
+  padding-right: .9em;
+  background-image: url("https://kubuntu.org/wp-content/uploads/2016/05/fb30/external-link-cyan.svg");
+  background-position: 100% top;
+  background-repeat: no-repeat;
+}
+.external-title {
+  background: url("https://kubuntu.org/wp-content/uploads/2016/05/fb30/external-link-cyan.svg") left center no-repeat;
+  background-size: 20px;
+  padding-left: 26px;
+}
+.author-name {
+  display: none !important;
+}</style>    <!--  BEGIN Google+ plugin    -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!--  END Google+ plugin    -->
+</head>
+<body class="page-template-default page page-id-3431 advertica-lite" >
+    <!--  BEGIN Facebook plugin    -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!--  END Facebook plugin    -->
+	<div id="wrapper" class="skepage">
+		<div id="header" class="skehead-headernav clearfix">
+			<div class="glow">
+				<div id="skehead">
+					<div class="container">      
+						<div class="row-fluid">      
+							<!-- #logo -->
+							<div id="logo" class="span3">
+																	<a href="../xmlrpc.php%3Frsd.html" title="Kubuntu" ><img class="logo" src="../wp-content/uploads/2016/10/97c5/Kubuntu_logo_and_wordmark.svg" alt="" /></a>
+															</div>
+							<!-- #logo -->
+							<!-- navigation-->
+							<div class="top-nav-menu span9">
+							<div id="skenav" class="ske-menu"><ul id="menu-main" class="menu"><li id="menu-item-988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-988"><a href="../index.html%3Fp=832.html">Feature Tour</a></li>
+<li id="menu-item-2716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2716"><a href="../getkubuntu.html">Download</a></li>
+<li id="menu-item-1730" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1730"><a href="../news/index.html">News</a></li>
+<li id="menu-item-983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-983"><a href="../index.html%3Fp=612.html">Support</a>
+<ul class="sub-menu">
+	<li id="menu-item-4376" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4376"><a href="../index.html%3Fp=612.html">Help and Support</a></li>
+</ul>
+</li>
+<li id="menu-item-2718" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2718"><a href="../contribute-to-kubuntu.html">Contribute</a>
+<ul class="sub-menu">
+	<li id="menu-item-4372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4372"><a href="../index.html%3Fp=1962.html">Sponsors</a></li>
+	<li id="menu-item-4374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="../index.html%3Fp=861.html">Donate to Kubuntu</a></li>
+</ul>
+</li>
+<li id="menu-item-3553" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3553"><a href="../index.html%3Fp=616.html">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-4378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4378"><a href="../index.html%3Fp=1860.html">The Kubuntu Team</a></li>
+</ul>
+</li>
+<li id="menu-item-4373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4373"><a href="../index.html%3Fp=611.html">Community</a></li>
+</ul></div>							</div>
+							<div class="clearfix"></div>
+							<!-- #navigation --> 
+						</div>
+					</div>
+				</div>
+				<!-- #skehead -->
+			</div>
+			<!-- glow --> 
+		</div>
+<!-- #header -->
+		<div class="header-clone"></div>
+		
+<!-- header image section -->
+    
+<div id="main" class="clearfix">
+
+
+<div class="main-wrapper-item"> 
+				<div class="bread-title-holder">
+			<div class="bread-title-bg-image full-bg-breadimage-fixed"></div>
+			<div class="container">
+				<div class="row-fluid">
+					<div class="container_inner clearfix">
+						<h1 class="title">Calendar</h1>
+											</div>
+				</div>
+			</div>
+		</div>
+
+	<div class="page-content default-pagetemp">
+		<div class="container post-wrap">
+			<div class="row-fluid">
+				<div id="content" class="span8">
+					<div class="post clearfix" id="post-3431">
+						<div class="skepost">
+							<!-- START All-in-One Event Calendar Plugin - Version 3.0.0 -->
+<div id="ai1ec-container"
+	 class="ai1ec-main-container ">
+	
+	<div id="ai1ec-calendar" class="timely ai1ec-calendar">
+					
+						<div class="timely ai1ec-calendar-toolbar ai1ec-clearfix
+		">
+		<ul class="ai1ec-nav ai1ec-nav-pills ai1ec-pull-left ai1ec-filters">
+			<li class="ai1ec-dropdown ai1ec-category-filter ai1ec-cat-filter
+	"
+	data-slug="cat">
+	<a class="ai1ec-dropdown-toggle" data-toggle="ai1ec-dropdown">
+		<i class="ai1ec-fa ai1ec-fa-folder-open"></i>
+		<span class="ai1ec-clear-filter ai1ec-tooltip-trigger"
+			data-href="https://kubuntu.org/calendar/action~month/request_format~json/"
+			data-type="json"
+			title="Clear category filter">
+			<i class="ai1ec-fa ai1ec-fa-times-circle"></i>
+		</span>
+		Categories
+		<span class="ai1ec-caret"></span>
+	</a>
+	<div class="ai1ec-dropdown-menu">
+					<div data-term="268"
+				>
+				<a class="ai1ec-load-view ai1ec-category ai1ec-cat"
+										data-type="json"
+					href="https://kubuntu.org/calendar/action~month/request_format~json/cat_ids~268/">
+											<span class="ai1ec-color-swatch-empty"></span>
+										Bionic Beaver
+				</a>
+			</div>
+					<div data-term="269"
+				>
+				<a class="ai1ec-load-view ai1ec-category ai1ec-cat"
+										data-type="json"
+					href="https://kubuntu.org/calendar/action~month/request_format~json/cat_ids~269/">
+											<span class="ai1ec-color-swatch-empty"></span>
+										KDE Release
+				</a>
+			</div>
+					<div data-term="270"
+				>
+				<a class="ai1ec-load-view ai1ec-category ai1ec-cat"
+										data-type="json"
+					href="https://kubuntu.org/calendar/action~month/request_format~json/cat_ids~270/">
+											<span class="ai1ec-color-swatch-empty"></span>
+										Kubuntu Council
+				</a>
+			</div>
+					<div data-term="284"
+				>
+				<a class="ai1ec-load-view ai1ec-category ai1ec-cat"
+										data-type="json"
+					href="https://kubuntu.org/calendar/action~month/request_format~json/cat_ids~284/">
+											<span class="ai1ec-color-swatch-empty"></span>
+										Kubuntu Kafe
+				</a>
+			</div>
+			</div>
+</li>
+
+
+			<li class="ai1ec-dropdown ai1ec-tag-filter
+	"
+	data-slug="tag">
+	<a class="ai1ec-dropdown-toggle" data-toggle="ai1ec-dropdown">
+		<i class="ai1ec-fa ai1ec-fa-tags"></i>
+		<span class="ai1ec-clear-filter ai1ec-tooltip-trigger"
+			data-href="https://kubuntu.org/calendar/action~month/request_format~json/"
+			data-type="json"
+			title="Clear tag filter">
+			<i class="ai1ec-fa ai1ec-fa-times-circle"></i>
+		</span>
+		Tags
+		<span class="ai1ec-caret"></span>
+	</a>
+	<div class="ai1ec-dropdown-menu">
+					<span data-term="267"
+				>
+				<a class="ai1ec-load-view ai1ec-tag"
+										data-type="json"
+					href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;month&#x2F;request_format&#x7E;json&#x2F;tag_ids&#x7E;267&#x2F;">
+					Cafe
+				</a>
+			</span>
+					<span data-term="266"
+				>
+				<a class="ai1ec-load-view ai1ec-tag"
+										data-type="json"
+					href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;month&#x2F;request_format&#x7E;json&#x2F;tag_ids&#x7E;266&#x2F;">
+					Council
+				</a>
+			</span>
+			</div>
+</li>
+
+					</ul>
+		<div class="ai1ec-pull-right">
+					
+				</div>
+	</div>
+		<div id="ai1ec-calendar-view-container"
+			 class="ai1ec-calendar-view-container">
+			<div id="ai1ec-calendar-view-loading"
+				 class="ai1ec-loading ai1ec-calendar-view-loading"></div>
+			<div id="ai1ec-calendar-view" class="ai1ec-calendar-view">
+				<div class="ai1ec-clearfix">
+		<div class="ai1ec-views-dropdown ai1ec-btn-group ai1ec-pull-right">
+		<a class="ai1ec-btn ai1ec-btn-sm ai1ec-btn-default ai1ec-dropdown-toggle"
+			data-toggle="ai1ec-dropdown">
+			<i class="ai1ec-icon-month ai1ec-view-icon"></i>
+			<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+				Month
+			</span>
+			<span class="ai1ec-caret"></span>
+		</a>
+		<div class="ai1ec-dropdown-menu">
+							<div class=""
+					data-action="agenda">
+					<a id="ai1ec-view-agenda"
+						data-type="json"
+						class="ai1ec-load-view agenda"
+						href="https://kubuntu.org/calendar/action~agenda/request_format~json/">
+						<i class="ai1ec-icon-agenda ai1ec-view-icon"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							Agenda
+						</span>
+					</a>
+				</div>
+							<div class=""
+					data-action="oneday">
+					<a id="ai1ec-view-oneday"
+						data-type="json"
+						class="ai1ec-load-view oneday"
+						href="https://kubuntu.org/calendar/action~oneday/request_format~json/">
+						<i class="ai1ec-icon-oneday ai1ec-view-icon"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							Day
+						</span>
+					</a>
+				</div>
+							<div class="ai1ec-active"
+					data-action="month">
+					<a id="ai1ec-view-month"
+						data-type="json"
+						class="ai1ec-load-view month"
+						href="https://kubuntu.org/calendar/action~month/request_format~json/">
+						<i class="ai1ec-icon-month ai1ec-view-icon"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							Month
+						</span>
+					</a>
+				</div>
+							<div class=""
+					data-action="week">
+					<a id="ai1ec-view-week"
+						data-type="json"
+						class="ai1ec-load-view week"
+						href="https://kubuntu.org/calendar/action~week/request_format~json/">
+						<i class="ai1ec-icon-week ai1ec-view-icon"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							Week
+						</span>
+					</a>
+				</div>
+					</div>
+	</div>
+
+	<div class="ai1ec-title-buttons ai1ec-btn-toolbar">
+		
+		<div class="ai1ec-pagination ai1ec-btn-group">
+						<a class="ai1ec-prev-year ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;month&#x2F;exact_date&#x7E;1675209600&#x2F;request_format&#x7E;json&#x2F;">
+				<i class="ai1ec-fa ai1ec-fa-angle-double-left"></i> 2023
+			</a>
+								<a class="ai1ec-prev-month ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;month&#x2F;exact_date&#x7E;1704067200&#x2F;request_format&#x7E;json&#x2F;">
+				<i class="ai1ec-fa ai1ec-fa-angle-left"></i> Jan
+			</a>
+								<a
+	class="ai1ec-minical-trigger ai1ec-btn ai1ec-btn-sm ai1ec-btn-default
+    ai1ec-tooltip-trigger"
+			data-date="1/2/2024"
+			data-date-format="d/m/yyyy"
+			data-date-weekstart="0"
+			href="../index.html%3Fp=3431.html#"
+			data-href="https://kubuntu.org/calendar/action~month/exact_date~__DATE__/"
+			data-lang="en-US"
+		data-type="json"
+	title="Choose a date using calendar"
+	>
+	<i class="ai1ec-fa ai1ec-fa-calendar-o ai1ec-fa-fw ai1ec-fa-lg"></i>
+  <span class="ai1ec-calendar-title">February 2024</span>
+  <span class="ai1ec-calendar-title-short"></span>
+</a>
+
+								<a class="ai1ec-next-month ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;month&#x2F;exact_date&#x7E;1709251200&#x2F;request_format&#x7E;json&#x2F;">
+				Mar <i class="ai1ec-fa ai1ec-fa-angle-right"></i>
+			</a>
+								<a class="ai1ec-next-year ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;month&#x2F;exact_date&#x7E;1738368000&#x2F;request_format&#x7E;json&#x2F;">
+				2025 <i class="ai1ec-fa ai1ec-fa-angle-double-right"></i>
+			</a>
+			</div>
+
+		
+					
+			</div>
+			
+	</div>
+
+
+<table class="ai1ec-month-view ai1ec-popover-boundary
+		">
+	<thead>
+		<tr>
+							<th scope="col" class="ai1ec-weekday">Sun</th>
+							<th scope="col" class="ai1ec-weekday">Mon</th>
+							<th scope="col" class="ai1ec-weekday">Tue</th>
+							<th scope="col" class="ai1ec-weekday">Wed</th>
+							<th scope="col" class="ai1ec-weekday">Thu</th>
+							<th scope="col" class="ai1ec-weekday">Fri</th>
+							<th scope="col" class="ai1ec-weekday">Sat</th>
+					</tr>
+	</thead>
+	<tbody>
+								<tr class="ai1ec-week">
+				
+					 						<td class="ai1ec-empty"></td>
+					 
+				
+					 						<td class="ai1ec-empty"></td>
+					 
+				
+					 						<td class="ai1ec-empty"></td>
+					 
+				
+					 						<td class="ai1ec-empty"></td>
+					 
+				
+											<td >
+																						<div class="ai1ec-day-stretcher"></div>
+															
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;1-2-2024&#x2F;"
+										>1</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;2-2-2024&#x2F;"
+										>2</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;3-2-2024&#x2F;"
+										>3</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				 			</tr>
+								<tr class="ai1ec-week">
+				
+											<td >
+																						<div class="ai1ec-day-stretcher"></div>
+															
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;4-2-2024&#x2F;"
+										>4</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td  class="ai1ec-today">
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;5-2-2024&#x2F;"
+										>5</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;6-2-2024&#x2F;"
+										>6</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;7-2-2024&#x2F;"
+										>7</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;8-2-2024&#x2F;"
+										>8</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;9-2-2024&#x2F;"
+										>9</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;10-2-2024&#x2F;"
+										>10</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				 			</tr>
+								<tr class="ai1ec-week">
+				
+											<td >
+																						<div class="ai1ec-day-stretcher"></div>
+															
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;11-2-2024&#x2F;"
+										>11</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;12-2-2024&#x2F;"
+										>12</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;13-2-2024&#x2F;"
+										>13</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;14-2-2024&#x2F;"
+										>14</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;15-2-2024&#x2F;"
+										>15</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;16-2-2024&#x2F;"
+										>16</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;17-2-2024&#x2F;"
+										>17</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				 			</tr>
+								<tr class="ai1ec-week">
+				
+											<td >
+																						<div class="ai1ec-day-stretcher"></div>
+															
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;18-2-2024&#x2F;"
+										>18</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;19-2-2024&#x2F;"
+										>19</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;20-2-2024&#x2F;"
+										>20</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;21-2-2024&#x2F;"
+										>21</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;22-2-2024&#x2F;"
+										>22</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;23-2-2024&#x2F;"
+										>23</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;24-2-2024&#x2F;"
+										>24</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				 			</tr>
+								<tr class="ai1ec-week">
+				
+											<td >
+																						<div class="ai1ec-day-stretcher"></div>
+															
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;25-2-2024&#x2F;"
+										>25</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;26-2-2024&#x2F;"
+										>26</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;27-2-2024&#x2F;"
+										>27</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;28-2-2024&#x2F;"
+										>28</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+											<td >
+														
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										data-type="json"
+										href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;29-2-2024&#x2F;"
+										>29</a>
+								</div>
+
+															</div>
+						</td>
+					 
+				
+					 						<td class="ai1ec-empty"></td>
+					 
+				
+					 						<td class="ai1ec-empty"></td>
+					 
+				 			</tr>
+		 	</tbody>
+</table>
+
+<div class="ai1ec-pull-left"><div class="ai1ec-pagination ai1ec-btn-group">
+						<a class="ai1ec-prev-year ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;month&#x2F;exact_date&#x7E;1675209600&#x2F;request_format&#x7E;json&#x2F;">
+				<i class="ai1ec-fa ai1ec-fa-angle-double-left"></i> 2023
+			</a>
+								<a class="ai1ec-prev-month ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;month&#x2F;exact_date&#x7E;1704067200&#x2F;request_format&#x7E;json&#x2F;">
+				<i class="ai1ec-fa ai1ec-fa-angle-left"></i> Jan
+			</a>
+								<a
+	class="ai1ec-minical-trigger ai1ec-btn ai1ec-btn-sm ai1ec-btn-default
+    ai1ec-tooltip-trigger"
+			data-date="1/2/2024"
+			data-date-format="d/m/yyyy"
+			data-date-weekstart="0"
+			href="../index.html%3Fp=3431.html#"
+			data-href="https://kubuntu.org/calendar/action~month/exact_date~__DATE__/"
+			data-lang="en-US"
+		data-type="json"
+	title="Choose a date using calendar"
+	>
+	<i class="ai1ec-fa ai1ec-fa-calendar-o ai1ec-fa-fw ai1ec-fa-lg"></i>
+  <span class="ai1ec-calendar-title">February 2024</span>
+  <span class="ai1ec-calendar-title-short"></span>
+</a>
+
+								<a class="ai1ec-next-month ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;month&#x2F;exact_date&#x7E;1709251200&#x2F;request_format&#x7E;json&#x2F;">
+				Mar <i class="ai1ec-fa ai1ec-fa-angle-right"></i>
+			</a>
+								<a class="ai1ec-next-year ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="https&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;calendar&#x2F;action&#x7E;month&#x2F;exact_date&#x7E;1738368000&#x2F;request_format&#x7E;json&#x2F;">
+				2025 <i class="ai1ec-fa ai1ec-fa-angle-double-right"></i>
+			</a>
+			</div>
+</div>
+
+			</div>
+		</div>
+		<div class="ai1ec-subscribe-container ai1ec-pull-right ai1ec-btn-group">
+			<div class="ai1ec-subscribe-dropdown ai1ec-dropdown ai1ec-dropup ai1ec-btn
+	ai1ec-btn-default ai1ec-btn-sm">
+	<span role="button" class="ai1ec-dropdown-toggle ai1ec-subscribe"
+			data-toggle="ai1ec-dropdown">
+		<i class="ai1ec-fa ai1ec-icon-rss ai1ec-fa-lg ai1ec-fa-fw"></i>
+		<span class="ai1ec-hidden-xs">
+												Subscribe
+										<span class="ai1ec-caret"></span>
+		</span>
+	</span>
+			<ul class="ai1ec-dropdown-menu ai1ec-pull-right" role="menu">
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto" target="_blank"
+				data-placement="left" title="Copy this URL for your own Timely calendar or click to add to your rich-text calendar"
+				href="../index.html%3Fplugin=all-in-one-event-calendar&amp;controller=ai1ec_exporter_controller&amp;action=export_events">
+				<i class="ai1ec-fa ai1ec-fa-lg ai1ec-fa-fw ai1ec-icon-timely"></i>
+				Add to Timely Calendar
+			</a>
+		</li>
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto" target="_blank"
+			  data-placement="left" title="Subscribe to this calendar in your Google Calendar"
+			  href="https://www.google.com/calendar/render?cid=http&#x25;3A&#x25;2F&#x25;2Fkubuntu.org&#x25;2F&#x25;3Fplugin&#x25;3Dall-in-one-event-calendar&#x25;26controller&#x25;3Dai1ec_exporter_controller&#x25;26action&#x25;3Dexport_events&#x25;26no_html&#x25;3Dtrue&#x25;26&#x25;26">
+				<i class="ai1ec-fa ai1ec-icon-google ai1ec-fa-lg ai1ec-fa-fw"></i>
+				Add to Google
+			</a>
+		</li>
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto" target="_blank"
+			  data-placement="left" title="Subscribe to this calendar in MS Outlook"
+			  href="webcal&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;&#x3F;plugin&#x3D;all-in-one-event-calendar&amp;controller&#x3D;ai1ec_exporter_controller&amp;action&#x3D;export_events&amp;no_html&#x3D;true">
+				<i class="ai1ec-fa ai1ec-icon-windows ai1ec-fa-lg ai1ec-fa-fw"></i>
+				Add to Outlook
+			</a>
+		</li>
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto" target="_blank"
+			  data-placement="left" title="Subscribe to this calendar in Apple Calendar/iCal"
+			  href="webcal&#x3A;&#x2F;&#x2F;kubuntu.org&#x2F;&#x3F;plugin&#x3D;all-in-one-event-calendar&amp;controller&#x3D;ai1ec_exporter_controller&amp;action&#x3D;export_events&amp;no_html&#x3D;true">
+				<i class="ai1ec-fa ai1ec-icon-apple ai1ec-fa-lg ai1ec-fa-fw"></i>
+				Add to Apple Calendar
+			</a>
+		</li>
+		<li>
+						<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto"
+			  data-placement="left" title="Subscribe to this calendar in another plain-text calendar"
+			  href="../index.html%3Fplugin=all-in-one-event-calendar&amp;controller=ai1ec_exporter_controller&amp;action=export_events&amp;no_html=true">
+				<i class="ai1ec-fa ai1ec-icon-calendar ai1ec-fa-fw"></i>
+				Add to other calendar
+			</a>
+		</li>
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto"
+			  data-placement="left" title=""
+			  href="../index.html%3Fplugin=all-in-one-event-calendar&amp;controller=ai1ec_exporter_controller&amp;action=export_events&amp;xml=true">
+				<i class="ai1ec-fa ai1ec-fa-file-text ai1ec-fa-lg ai1ec-fa-fw"></i>
+				Export to XML
+			</a>
+		</li>
+	</ul>
+</div>
+
+
+		</div>
+		
+	</div><!-- /.timely -->
+</div>
+<!-- END All-in-One Event Calendar Plugin -->
+
+
+													</div>
+					<!-- skepost --> 
+					</div>
+					<!-- post -->
+						
+																					<div class="clearfix"></div>
+				</div>
+				<!-- content -->
+
+				<!-- Sidebar -->
+				<div id="sidebar" class="span3">
+					
+<div id="sidebar_2" class="ske_widget">
+	<ul class="skeside">
+		<li id="nav_menu-7" class="ske-container widget_nav_menu"><div class="menu-footer-menu-1-container"><ul id="menu-footer-menu-1" class="menu"><li id="menu-item-2185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2185"><a href="../index.html%3Fp=1860.html">The Kubuntu Team</a></li>
+<li id="menu-item-1433" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1433"><a href="../index.html%3Fp=611.html">Community</a></li>
+<li id="menu-item-1964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1964"><a href="../index.html%3Fp=1962.html">Sponsors</a></li>
+<li id="menu-item-2342" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2342"><a href="https://share.kde.org/s/3s6Mfq9agNdTrf2">Kubuntu Artwork</a></li>
+<li id="menu-item-2719" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2719"><a href="../news/kubuntu-shirts.html">Kubuntu T-shirts</a></li>
+</ul></div></li><li id="nav_menu-8" class="ske-container widget_nav_menu"><div class="menu-footer-menu-2-container"><ul id="menu-footer-menu-2" class="menu"><li id="menu-item-3140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3140"><a href="../index.html%3Fp=3135.html">Vendors</a></li>
+<li id="menu-item-1438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1438"><a href="../index.html%3Fp=615.html">Legal</a></li>
+<li id="menu-item-1437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1437"><a href="../index.html%3Fp=822.html">Kubuntu Council Constitution</a></li>
+<li id="menu-item-1439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1439"><a href="../index.html%3Fp=614.html">Contact Us</a></li>
+</ul></div></li><li id="nav_menu-10" class="ske-container widget_nav_menu"><h3 class="ske-title">Social Media</h3><div class="menu-secondary-links-container"><ul id="menu-secondary-links" class="menu"><li id="menu-item-4380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4380"><a href="https://twitter.com/kubuntu/">Twitter</a></li>
+</ul></div></li>	</ul>
+</div>
+<!-- #sidebar_2 .ske_widget -->				</div>
+				<div class="clearfix"></div>
+				<!-- Sidebar --> 
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="clearfix"></div>
+</div>
+<!-- #main --> 
+
+<!-- #footer -->
+<div id="footer">
+	<div class="container">
+		<div class="row-fluid">
+			<div class="second_wrapper">
+								<div class="clearfix"></div>
+			</div><!-- second_wrapper -->
+		</div>
+	</div>
+
+	<div class="third_wrapper">
+		<div class="container">
+			<div class="row-fluid">
+								<div class="copyright span6 alpha omega"> Contents Copyright © 2005 - 2024 Kubuntu devs, licence <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, icons Copyright Breeze artists <a href="https://projects.kde.org/projects/kde/workspace/breeze">GPL 2+</a>. Kubuntu is a trademark of Canonical Ltd. </div>
+				<div class="owner span6 alpha omega">Advertica Theme by <a href="http://www.sketchthemes.com/" >SketchThemes</a></div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div><!-- third_wrapper --> 
+</div>
+<!-- #footer -->
+
+</div>
+<!-- #wrapper -->
+	<a href="JavaScript:void(0);" title="Back To Top" id="backtop"></a>
+	<script type='text/javascript' src='../wp-content/themes/advertica-lite/js/custom.js%3Fver=1.0' id='advertica_componentssimple_slide-js'></script>
+<script type='text/javascript' src='../wp-includes/js/comment-reply.min.js%3Fver=5.8.3' id='comment-reply-js'></script>
+<script type='text/javascript' id='wp-jquery-lightbox-js-extra'>
+/* <![CDATA[ */
+var JQLBSettings = {"fitToScreen":"1","resizeSpeed":"400","displayDownloadLink":"0","navbarOnTop":"0","loopImages":"","resizeCenter":"","marginSize":"0","linkTarget":"","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","prevLinkText":"\u00ab Previous","nextLinkText":"Next \u00bb","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","jqlb_overlay_opacity":"80","jqlb_overlay_color":"#000000","jqlb_overlay_close":"1","jqlb_border_width":"10","jqlb_border_color":"#ffffff","jqlb_border_radius":"0","jqlb_image_info_background_transparency":"100","jqlb_image_info_bg_color":"#ffffff","jqlb_image_info_text_color":"#000000","jqlb_image_info_text_fontsize":"10","jqlb_show_text_for_image":"1","jqlb_next_image_title":"next image","jqlb_previous_image_title":"previous image","jqlb_next_button_image":"https:\/\/kubuntu.org\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/next.gif","jqlb_previous_button_image":"https:\/\/kubuntu.org\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/prev.gif","jqlb_maximum_width":"","jqlb_maximum_height":"","jqlb_show_close_button":"1","jqlb_close_image_title":"close image gallery","jqlb_close_image_max_heght":"22","jqlb_image_for_close_lightbox":"https:\/\/kubuntu.org\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/closelabel.gif","jqlb_keyboard_navigation":"1","jqlb_popup_size_fix":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/wp-lightbox-2/js/dist/wp-lightbox-2.min.js%3Fver=1.3.4.1' id='wp-jquery-lightbox-js'></script>
+<script type='text/javascript' src='../wp-includes/js/hoverIntent.min.js%3Fver=1.10.1' id='hoverIntent-js'></script>
+<script type='text/javascript' src='../wp-content/themes/advertica-lite/js/superfish.js%3Fver=1' id='advertica_superfish-js'></script>
+<script type='text/javascript' src='../wp-content/themes/advertica-lite/js/cbpAnimatedHeader.js%3Fver=1' id='advertica_AnimatedHeader-js'></script>
+<script type='text/javascript' src='../wp-content/themes/advertica-lite/js/jquery.easing.1.3.js%3Fver=1.0' id='advertica_easing_slide-js'></script>
+<script type='text/javascript' src='../wp-content/themes/advertica-lite/js/waypoints.min.js%3Fver=1.0' id='adverticat_waypoints-js'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min.js%3Fver=5.8.3' id='wp-embed-js'></script>
+</body>
+</html>
