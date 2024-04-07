@@ -1,0 +1,9 @@
+# Hugos static build directory 
+public
+
+# Hugo lock
+.hugo_build.lock
+
+# JetBrains IDE
+.idea/
+
