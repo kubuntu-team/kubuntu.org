@@ -13,15 +13,19 @@ menu: main
 
 {{< figure src="/images/contact.webp" title="From tiny Acorns, huge strong Oaks grow" >}}
 
-The Kubuntu team is committed to providing support and answering any questions you may have. Whether you're seeking technical assistance, interested in contributing, or simply want to share your feedback, we're eager to hear from you.
+The Kubuntu team is committed to providing support and answering any questions you may have. Whether you're seeking 
+technical assistance, interested in contributing, or simply want to share your feedback, we're eager to hear from you.
 
 # How to Reach Us:
 
-## General Inquiries
-For any general questions about Kubuntu, please reach out to us via our official email. We aim to respond as quickly as possible.
+## General Discussion
+For any general questions about Kubuntu, please reach out and join us via our [official discourse.](https://discourse.ubuntu.com/c/flavors/kubuntu/187)
 
 ## Technical Support
-Need help with Kubuntu? Our community forums and dedicated support channels are great places to seek advice and solutions from fellow users and experts.
+Need help with Kubuntu? Our community forums and dedicated support channels are great places to seek advice and 
+solutions from fellow users and experts.
+ - [AskUbuntu/Kubuntu]()
+ - [Matrix]()
 
 ## Contributing
 Interested in contributing to Kubuntu? We welcome developers, designers, testers, and writers. Contact us to find out how you can become part of the Kubuntu project.

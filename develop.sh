@@ -47,7 +47,8 @@ do
 done
 
 # Start the Hugo development server
-hugo server --disableFastRender &
+#hugo server --disableFastRender &
+hugo server &
 
 # Launch the site in the browser
 firefox --new-window http://localhost:1313 &>/dev/null &
