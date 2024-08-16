@@ -1,6 +1,6 @@
 # kubuntu.org
 Repository for the Kubuntu.org website. This is where we can add new pages, update old ones, maintain and manage the 
-webiste and its content.
+website and its content.
 
 
 ## New to development ?
@@ -39,7 +39,7 @@ You should see something like this
 ## Making changes
 
 Open the kubuntu.org folder using the dolphin file manager, and then goto the content folder, and explore the files
-open a file in Kate, make some changes and save them. Then look the local website in firefox to see those changes 
+open a file in Kate, make some changes and save them. Then look at the local website in firefox to see those changes 
 reflected there.
 
 ## Next Steps
