@@ -1,10 +1,4 @@
----
-date: 2024-04-25T11:00:59-04:00
-description: "Noble Numbat Release"
-featured_image: "/images/news/24-04_Noble_Numbat_Desktop.jpg"
-tags: ["Kubuntu","Community","Download", "LTS"]
-title: "Kubuntu 24.04 LTS"
----
+
 
 The Kubuntu Team is happy to announce that Kubuntu 24.04 has been released, featuring the ‘beautiful’ [KDE Plasma 5.27](https://kde.org/announcements/plasma/5/5.27.0/) 
 simple by default, powerful when needed.
