@@ -43,7 +43,22 @@ recent_posts_number = 3
 body_classes = "ubuntu"
 post_content_classes = "ubuntu"
 post_header_classes = "avenir"
-
 [[params.ananke_socials]]
 name = "twitter"
-url = "https://twitter.com/GoHugoIO"
+url = "https://x.com/kubuntu"
+label = "TND Twitter"
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/kubuntu-team"
+label = "TND GitHub Account"
+color = "#ff6800"
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/kubuntu.org"
+[[params.ananke_socials]]
+name = "youtube"
+url = "https://www.youtube.com/@KubuntuPodcast"
+[[params.ananke_socials]]
+name = "mastodon"
+url = "https://fosstodon.org/@kubuntu"
+rel = "me noopener"

@@ -30,7 +30,7 @@ you're editing a video, managing files, or reading a PDF, these updated tools en
 
  - **Wayland by Default:** Kubuntu 24.10 has made Wayland the default session, offering a glimpse into the future of display servers. This means smoother graphics, better touch support, and a more modern architecture.
 
- - **Kernel 6.5:** Under the hood, Oracular Oriole ships with Linux Kernel 6.5, ensuring support for the latest hardware and a more responsive system.
+ - **Kernel 6.11:** Under the hood, Oracular Oriole ships with Linux Kernel 6.5, ensuring support for the latest hardware and a more responsive system.
 
  - **Updated Software Stack:** The software stack has been refreshed with updates across the board, including development tools, media applications, and the latest versions of Qt.
 

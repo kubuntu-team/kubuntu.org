@@ -54,9 +54,9 @@ the software you need, including office suites, browsers, media players, and mor
 Enjoy smooth interoperability with your devices and online accounts. Kubuntu makes it easy to connect to your cloud 
 storage, media servers, and other devices seamlessly.
 
-## VLC
+## Haruna
 
-{{< figure src="/images/featureTour/VLC.png" title="Multimedia made easy with Kubuntu" >}}
+{{< figure src="/images/featureTour/haruna-dark.webp" title="Multimedia made easy with Kubuntu" >}}
 
 # Secure and Stable
 With regular updates and a focus on security, Kubuntu ensures that your system is safe from threats and always up to
@@ -69,4 +69,4 @@ Whether you're editing video, coding, gaming, or simply browsing the web, Kubunt
 
 {{< figure src="/images/featureTour/libreoffice3.png" title="Complete and professional office suite" >}}
 
-# Explore Kubuntu and transform your computing experience today.
+### [Download](./download) Kubuntu and transform your computing experience today.
