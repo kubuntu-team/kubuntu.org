@@ -1,6 +1,6 @@
 ---
 title: "Kubuntu"
-description: "24.04 LTS Noble Numbat"
+description: "24.10 Oracular Oriole"
 theme_version: '2.8.2'
 cascade:
   featured_image: '/images/Kubuntu_canopee_banner.png'
