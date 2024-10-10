@@ -1,8 +1,8 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy develop version of kubuntu.org to Github Pages
+name: Deploy production version of kubuntu.org to Github Pages
 
 on:
-  # Runs on pushes targeting the develop branch
+  # Runs on pushes targeting the main branch
   push:
     branches:
       - develop
