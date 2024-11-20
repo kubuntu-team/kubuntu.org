@@ -1,6 +1,6 @@
 title = "Kubuntu"
 #baseURL = 'https://kubuntu.org/'
-baseurl = '/'
+baseurl = '/kubuntu.org'
 languageCode = "en-us"
 theme = 'ananke'
 resourceDir = "../resources"
