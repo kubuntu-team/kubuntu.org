@@ -3,8 +3,6 @@ baseURL = 'https://kubuntu.org/'
 baseurl = 'kubuntu.org'
 languageCode = "en-us"
 theme = 'ananke'
-resourceDir = "../resources"
-
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 [pagination]
@@ -41,7 +39,7 @@ site_logo = "/images/kubuntu-logo.png"
 description = "Kubuntu - A friendly computing community"
 apple_touch_icon = "/images/apple-touch-icon.png"
 webmanifest = "/images/site.webmanifest"
-custom_css = ["css/custom.css"]
+custom_css = ["/css/custom.css"]
 # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
 background_color_class = "bg-black"
 recent_posts_number = 3
