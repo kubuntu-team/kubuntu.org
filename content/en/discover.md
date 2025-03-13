@@ -48,7 +48,7 @@ the software you need, including office suites, browsers, media players, and mor
 
 ## Konversation
 
-{{< figure src="/images/featureTour/firefox.png" title="Chat right from the desktop with your friends" >}}
+{{< figure src="/images/featureTour/konversation.png" title="Chat right from the desktop with your friends" >}}
 
 # Seamless Integration
 Enjoy smooth interoperability with your devices and online accounts. Kubuntu makes it easy to connect to your cloud 

@@ -1,0 +1,35 @@
+.ananke-socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.ananke-socials a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.ananke-socials a:hover {
+  color: #00766E;
+}
+
+.ananke-socials a.twitter:hover {
+  color: #1DA1F2;
+}
+
+.ananke-socials a.github:hover {
+  color: #333;
+}
+
+.ananke-socials a.facebook:hover {
+  color: #4267B2;
+}
+
+.ananke-socials a.youtube:hover {
+  color: #FF0000;
+}
+
+.ananke-socials a.mastodon:hover {
+  color: #6364FF;
+} 

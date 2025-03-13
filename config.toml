@@ -1,0 +1,100 @@
+baseURL = "https://kubuntu.org"
+languageCode = "en-us"
+title = "Kubuntu"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true
+
+# Sitemap configuration
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.7
+  filename = "sitemap.xml"
+
+# Site parameters
+[params]
+  author = "Kubuntu Team"
+  description = "Kubuntu - The Elegant Linux Distribution"
+  featured_image = "/images/Kubuntu_canopee_banner.png"
+  site_logo = "/images/kubuntu-logo.png"
+  background_color_class = "bg-near-white"
+  text_color = "dark-gray"
+  recent_posts_number = 5
+
+# Language configuration
+[languages]
+  [languages.en]
+    title = "Kubuntu"
+    weight = 1
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "Kubuntu - The Elegant Linux Distribution"
+      featured_image = "/images/Kubuntu_canopee_banner.png"
+      site_logo = "/images/kubuntu-logo.png"
+
+  [languages.es]
+    title = "Kubuntu"
+    weight = 2
+    contentDir = "content/es"
+    [languages.es.params]
+      description = "Kubuntu - La Distribución Linux Elegante"
+      featured_image = "/images/Kubuntu_canopee_banner.png"
+      site_logo = "/images/kubuntu-logo.png"
+
+  [languages.fr]
+    title = "Kubuntu"
+    weight = 3
+    contentDir = "content/fr"
+    [languages.fr.params]
+      description = "Kubuntu - La Distribution Linux Élégante"
+      featured_image = "/images/Kubuntu_canopee_banner.png"
+      site_logo = "/images/kubuntu-logo.png"
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "discover"
+    name = "Discover"
+    url = "/discover"
+    weight = 2
+  [[menu.main]]
+    identifier = "download"
+    name = "Download"
+    url = "/download"
+    weight = 3
+  [[menu.main]]
+    identifier = "community"
+    name = "Community"
+    url = "/community"
+    weight = 4
+  [[menu.main]]
+    identifier = "news"
+    name = "News"
+    url = "/news"
+    weight = 5
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 6
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 7
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Build settings
+[build]
+  writeStats = true
+  no404 = false 

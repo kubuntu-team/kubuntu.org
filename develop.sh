@@ -1,4 +1,4 @@
-#!/bin/bash
+``#!/bin/bash
 
 # Helper Shell Script
 # Author: Rick Timmis <ricktimmis68@gmail.com>
@@ -53,4 +53,4 @@ hugo server &
 # Launch the site in the browser
 firefox --new-window http://localhost:1313 &>/dev/null &
 
-exit 0
+exit 0``

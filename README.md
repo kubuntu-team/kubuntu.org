@@ -2,6 +2,18 @@
 Repository for the Kubuntu.org website. This is where we can add new pages, update old ones, maintain and manage the 
 website and its content.
 
+## Development Workflow
+
+We follow a branching strategy to ensure stable deployments:
+
+- `master` branch: Production environment (kubuntu.org)
+- `develop` branch: Testing environment (kubuntu-team.github.io/kubuntu.org)
+- Feature branches: Create from `develop` for new features or fixes
+
+### Branch Protection Rules
+- `master`: Requires pull request reviews before merging
+- `develop`: Allows direct pushes for testing
+- Feature branches: Create from `develop` for development work
 
 ## New to development ?
 No worries we have you covered, we're assuming your working on a Kubuntu, or another Ubuntu based Linux distribution.
@@ -38,9 +50,64 @@ You should see something like this
 
 ## Making changes
 
-Open the kubuntu.org folder using the dolphin file manager, and then goto the content folder, and explore the files
-open a file in Kate, make some changes and save them. Then look at the local website in firefox to see those changes 
-reflected there.
+1. Create a new feature branch from `develop`:
+   ```shell
+   git checkout develop
+   git pull
+   git checkout -b feature/your-feature-name
+   ```
+
+2. Make your changes:
+   - Open the kubuntu.org folder using the dolphin file manager
+   - Navigate to the content folder
+   - Edit files in Kate
+   - View changes in Firefox at http://localhost:1313
+
+3. Commit and push your changes:
+   ```shell
+   git add .
+   git commit -m "Description of your changes"
+   git push origin feature/your-feature-name
+   ```
+
+4. Create a pull request to `develop` branch
+
+## Deployment Process
+
+The site is automatically deployed using GitHub Actions:
+
+### Testing Environment
+- Branch: `develop`
+- URL: https://kubuntu-team.github.io/kubuntu.org
+- Triggered on:
+  - Push to `develop`
+  - Pull requests to `develop`
+
+### Production Environment
+- Branch: `master`
+- URL: https://kubuntu.org
+- Triggered on:
+  - Push to `master`
+  - Pull requests to `master`
+
+### Deployment Steps
+1. Changes are merged to `develop` for testing
+2. After testing, create a pull request to `master`
+3. After review and merge, changes are automatically deployed to production
+
+### Deployment Notifications
+- Success: 🚀 Deployment successful with site URL
+- Failure: ❌ Deployment failed with workflow run link
+- All notifications are posted as commit comments
+
+## Build and Optimization
+
+The build process includes:
+- Hugo static site generation
+- Image optimization
+- CSS and JavaScript minification
+- Sitemap generation
+- Broken link checking
 
 ## Next Steps
 

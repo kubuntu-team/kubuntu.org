@@ -1,0 +1,13 @@
+{{/*
+  warn
+  Prints a warning message to the console
+
+  @author @regisphilibert
+
+  @context Any (.)
+
+  @param {string} $message
+    The message to print as a warning
+*/}}
+{{ $message := . }}
+{{ printf "WARNING: %s" $message | warnf }} 
