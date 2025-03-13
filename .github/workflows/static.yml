@@ -11,6 +11,8 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  pull-requests: write
+  issues: write
 
 # Allow only one concurrent deployment
 concurrency:
