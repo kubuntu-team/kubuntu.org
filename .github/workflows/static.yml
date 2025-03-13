@@ -11,8 +11,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-  pull-requests: write
-  issues: write
 
 # Allow only one concurrent deployment
 concurrency:
@@ -55,33 +53,16 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Notify on success
+      - name: Check deployment status
         if: success()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const environment = '${{ github.ref == 'refs/heads/master' && 'production' || 'testing' }}';
-            const url = '${{ github.ref == 'refs/heads/master' && 'https://kubuntu.org' || 'https://kubuntu-team.github.io/kubuntu.org' }}';
-            const message = `🚀 Deployment to ${environment} successful!\n\nSite is live at: ${url}`;
-            
-            github.rest.repos.createCommitComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              commit_sha: context.sha,
-              body: message
-            });
+        run: |
+          echo "🚀 Deployment successful!"
+          echo "Site is live at: ${{ steps.deployment.outputs.page_url }}"
+        shell: bash
 
-      - name: Notify on failure
+      - name: Check deployment status
         if: failure()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const environment = '${{ github.ref == 'refs/heads/master' && 'production' || 'testing' }}';
-            const message = `❌ Deployment to ${environment} failed!\n\nPlease check the [workflow run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) for details.`;
-            
-            github.rest.repos.createCommitComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              commit_sha: context.sha,
-              body: message
-            });
+        run: |
+          echo "❌ Deployment failed!"
+          echo "Please check the workflow run for details."
+        shell: bash
