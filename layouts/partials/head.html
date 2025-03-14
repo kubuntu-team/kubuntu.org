@@ -43,9 +43,12 @@
 {{ end }}
 <link rel="alternate" hreflang="x-default" href="{{ .Site.BaseURL }}" />
 
+<!-- Web App Manifest -->
+{{ partial "site-manifest.html" . }}
+
 <!-- Favicon -->
-<link rel="icon" type="image/png" href="/favicon.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="{{ .Site.BaseURL }}favicon.png">
+<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png">
 
 <!-- RSS -->
 {{ with .OutputFormats.Get "RSS" }}
