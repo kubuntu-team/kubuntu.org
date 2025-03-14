@@ -1,7 +1,7 @@
 ---
 date: 2024-02-20T11:13:32-04:00
 description: ""
-featured_image: "/images/news/comunity_update_feb_2024.jpg"
+featured_image: "images/news/comunity_update_feb_2024.jpg"
 tags: []
 title: "Kubuntu Community Update"
 ---

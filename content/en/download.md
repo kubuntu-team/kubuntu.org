@@ -9,7 +9,7 @@ menu:
     weight: 3
 
 ---
-{{< figure src="/images/download.webp" title="Latest Kubuntu ISO images" >}}
+{{< figure src="images/download.webp" title="Latest Kubuntu ISO images" >}}
 
 ## Kubuntu 24.10 - _Plasma 6_
 Latest version of the Kubuntu operating system for desktop PCs and laptops, includes KDE Plasma 6 and QT6 

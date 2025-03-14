@@ -1,14 +1,14 @@
 ---
 date: 2017-04-09T10:58:08-04:00
 description: "Community Volunteer Roles and Opportunities"
-featured_image: "/images/volunteer.webp"
+featured_image: "images/volunteer.webp"
 tags: ["scene"]
 title: "Volunteer"
 ---
 # Join as a Volunteer
 ## Empower Your Career by Contributing to Kubuntu
 
-{{< figure src="/images/volunteer.webp" title="Volunteering is the ultimate act of kindness" >}}
+{{< figure src="images/volunteer.webp" title="Volunteering is the ultimate act of kindness" >}}
 
 
 Volunteering with Kubuntu is more than just a contribution to the open-source community; it's an opportunity to 

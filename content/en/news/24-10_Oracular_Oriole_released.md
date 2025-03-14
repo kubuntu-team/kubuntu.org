@@ -1,7 +1,7 @@
 ---
 date: 2024-10-04T11:00:59-04:00
 description: "A New Era with Plasma 6"
-featured_image: "/images/news/Oracular_Desktop.png"
+featured_image: "images/news/Oracular_Desktop.png"
 tags: ["Kubuntu","Community","Download", "LTS"]
 title: "Announcing Kubuntu 24.10 Oracular Oriole"
 ---

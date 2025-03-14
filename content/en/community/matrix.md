@@ -1,7 +1,7 @@
 ---
 date: 2017-04-09T10:58:08-04:00
 description: "Join in with the Kubuntu communication on Matrix "
-featured_image: "/images/matrix.webp"
+featured_image: "images/matrix.webp"
 draft: false
 tags: ["community","channels"]
 title: "Matrix"
@@ -10,7 +10,7 @@ title: "Matrix"
 # Connect with Kubuntu on Matrix
 ## Join Our Global Conversation
 
-{{< figure src="/images/matrix.webp" title="From tiny Acorns, huge strong Oaks grow" >}}
+{{< figure src="images/matrix.webp" title="From tiny Acorns, huge strong Oaks grow" >}}
 
 Kubuntu embraces the Matrix communication platform as a central hub for our community's discussions, support, and 
 collaboration. As a federated platform, Matrix offers an open standard for secure, decentralized communication, 

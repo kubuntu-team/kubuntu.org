@@ -1,7 +1,7 @@
 ---
 date: 2024-05-12T11:00:59-04:00
 description: "Revolutionising ISO Testing across Ubuntu"
-featured_image: "/images/news/24-04_Noble_Numbat_Desktop.jpg"
+featured_image: "images/news/24-04_Noble_Numbat_Desktop.jpg"
 tags: ["Kubuntu","Community","Download", "LTS", "Testing"]
 title: "Introducing KubuQA"
 ---

@@ -1,6 +1,6 @@
 ---
 description: "Get in Touch"
-featured_image: "/images/contact.webp"
+featured_image: "images/contact.webp"
 tags: ["community","development","kubuntu"]
 title: "Contacto"
 type: page
@@ -11,7 +11,7 @@ menu: main
 
 ## We're here to Help
 
-{{< figure src="/images/contact.webp" title="From tiny Acorns, huge strong Oaks grow" >}}
+{{< figure src="images/contact.webp" title="From tiny Acorns, huge strong Oaks grow" >}}
 
 The Kubuntu team is committed to providing support and answering any questions you may have. Whether you're seeking 
 technical assistance, interested in contributing, or simply want to share your feedback, we're eager to hear from you.

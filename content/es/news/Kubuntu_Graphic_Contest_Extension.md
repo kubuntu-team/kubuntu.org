@@ -1,7 +1,7 @@
 ---
 date: 2024-04-03T11:25:05-04:00
 description: "Deadline Extended"
-featured_image: "/images/news/Current_Site_Contest_Banner.webp"
+featured_image: "images/news/Current_Site_Contest_Banner.webp"
 tags: ["Kubuntu","Community","Contest"]
 title: "Kubuntu Graphic Design Contest"
 disable_share: false

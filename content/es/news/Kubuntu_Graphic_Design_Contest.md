@@ -1,7 +1,7 @@
 ---
 date: 2024-02-20T11:00:59-04:00
 description: "Shape the Future of Kubuntu"
-featured_image: "/images/news/Upgraded_Site_Banner.webp"
+featured_image: "images/news/Upgraded_Site_Banner.webp"
 tags: ["Kubuntu","Community","Contest"]
 title: "Kubuntu Graphic Design Contest"
 ---
