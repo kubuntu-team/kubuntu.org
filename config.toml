@@ -1,7 +1,7 @@
-baseURL = "https://kubuntu.org"
+baseURL = "https://kubuntu-team.github.io/kubuntu.org/"
 languageCode = "en-us"
 title = "Kubuntu"
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = "ananke"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableEmoji = true
