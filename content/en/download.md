@@ -15,7 +15,7 @@ menu:
 Latest version of the Kubuntu operating system for desktop PCs and laptops, includes KDE Plasma 6 and QT6 
 Kubuntu 24.10 supported with security and maintenance updates, until July 2024.
 
-[!["Kubuntu 24.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.10/release/kubuntu-24.10-desktop-amd64.iso)
+[!["Kubuntu 24.10"](images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.10/release/kubuntu-24.10-desktop-amd64.iso)
 
 [Kubuntu 24.10 release notes](https://wiki.ubuntu.com/OracularOriole/ReleaseNotes/Kubuntu)
 
@@ -28,7 +28,7 @@ supported with security and maintenance updates, until April 2025.
 For those seeking more stability over time, the LTS version offers extended support and updates.
 
 
-[!["Kubuntu 24.04.3"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso)
+[!["Kubuntu 24.04.3"](images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso)
 
 [Kubuntu 24.04 release notes](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes/Kubuntu)
 

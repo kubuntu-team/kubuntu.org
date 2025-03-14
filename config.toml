@@ -17,8 +17,8 @@ enableGitInfo = true
 [params]
   author = "Kubuntu Team"
   description = "Kubuntu - The Elegant Linux Distribution"
-  featured_image = "/images/Kubuntu_canopee_banner.png"
-  site_logo = "/images/kubuntu-logo.png"
+  featured_image = "images/Kubuntu_canopee_banner.png"
+  site_logo = "images/kubuntu-logo.png"
   background_color_class = "bg-near-white"
   text_color = "dark-gray"
   recent_posts_number = 5
@@ -40,8 +40,8 @@ enableGitInfo = true
     contentDir = "content/es"
     [languages.es.params]
       description = "Kubuntu - La Distribución Linux Elegante"
-      featured_image = "/images/Kubuntu_canopee_banner.png"
-      site_logo = "/images/kubuntu-logo.png"
+      featured_image = "images/Kubuntu_canopee_banner.png"
+      site_logo = "images/kubuntu-logo.png"
 
   [languages.fr]
     title = "Kubuntu"
@@ -49,8 +49,8 @@ enableGitInfo = true
     contentDir = "content/fr"
     [languages.fr.params]
       description = "Kubuntu - La Distribution Linux Élégante"
-      featured_image = "/images/Kubuntu_canopee_banner.png"
-      site_logo = "/images/kubuntu-logo.png"
+      featured_image = "images/Kubuntu_canopee_banner.png"
+      site_logo = "images/kubuntu-logo.png"
 
 # Menu configuration
 [menu]

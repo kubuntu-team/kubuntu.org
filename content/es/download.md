@@ -18,7 +18,7 @@ supported with security and maintenance updates, until April 2025.
 For those seeking more stability over time, the LTS version offers extended support and updates.
 
 
-[![Alt text](/images/64-bit_button.png "Kubuntu 22.04.3")](https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso)
+[![Alt text](images/64-bit_button.png "Kubuntu 22.04.3")](https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso)
 
 [Kubuntu 24.04 release notes](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes/Kubuntu)
 
@@ -28,7 +28,7 @@ For those seeking more stability over time, the LTS version offers extended supp
 Previous version of the Kubuntu operating system for desktop PCs and laptops, 
 Kubuntu 23.10 supported with security and maintenance updates, until July 2024.
 
-[![Alt text](/images/64-bit_button.png "Kubuntu 23.10")](https://cdimage.ubuntu.com/kubuntu/releases/23.10/release/kubuntu-23.10-desktop-amd64.iso)
+[![Alt text](images/64-bit_button.png "Kubuntu 23.10")](https://cdimage.ubuntu.com/kubuntu/releases/23.10/release/kubuntu-23.10-desktop-amd64.iso)
 
 [Kubuntu 23.10 release notes](https://wiki.ubuntu.com/ManticMinotaur/ReleaseNotes/Kubuntu)
 
@@ -39,7 +39,7 @@ Previous Long Term Support (LTS) version of the Kubuntu operating system for des
 supported with security and maintenance updates, until April 2025.
 For those seeking more stability over time, the LTS version offers extended support and updates.
 
-[![Alt text](/images/64-bit_button.png "Kubuntu 22.04.3")](https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso)
+[![Alt text](images/64-bit_button.png "Kubuntu 22.04.3")](https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso)
 
 [Kubuntu 22.04.3 release notes](https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/Kubuntu)
 
