@@ -32,4 +32,10 @@
 
 .ananke-socials a.mastodon:hover {
   color: #6364FF;
+}
+
+/* Custom styles for Kubuntu website */
+.site-logo {
+    width: 50px !important;
+    height: auto;
 } 
