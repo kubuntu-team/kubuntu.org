@@ -39,7 +39,9 @@ Want more detail about what the script is doing, check the [setup documentation]
 setup.sh has installed your tools, and cloned the code from Github, it's time to take a look at the website running
 locally on your machine.
 
-Do this using the terminal you opened in **Step 1** and type 
+### Standard Development
+
+For standard development using localhost:1313, use the develop.sh script:
 
 ```shell
 ./develop.sh
@@ -47,6 +49,41 @@ Do this using the terminal you opened in **Step 1** and type
 
 You should see something like this
 ![kubuntu.org development site](./docs/images/web_develop.png)
+
+### Domain-based Development (kubuntu.org)
+
+For testing with the actual kubuntu.org domain locally, you can use the proxy mode of the develop.sh script:
+
+1. First, add the following entry to your hosts file:
+   ```
+   127.0.0.1 kubuntu.org
+   ```
+   
+   You can do this by running:
+   ```shell
+   sudo sh -c 'echo "127.0.0.1 kubuntu.org" >> /etc/hosts'
+   ```
+
+2. Then start the proxy development environment:
+   ```shell
+   ./develop.sh --proxy
+   ```
+
+3. To stop the proxy development environment:
+   ```shell
+   ./develop.sh --stop
+   ```
+
+This will:
+- Check that the required hosts file entry exists
+- Start a proxy service to forward requests from kubuntu.org to the local Hugo server
+- Launch the Hugo development server
+- Open your browser to http://kubuntu.org
+
+# Show help
+```shell
+./develop.sh --help
+```
 
 ## Making changes
 

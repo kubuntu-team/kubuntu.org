@@ -8,7 +8,7 @@ title: "Volunteer"
 # Join as a Volunteer
 ## Empower Your Career by Contributing to Kubuntu
 
-{{< figure src="images/volunteer.webp" title="Volunteering is the ultimate act of kindness" >}}
+{{< figure src="/images/volunteer.webp" title="Volunteering is the ultimate act of kindness" >}}
 
 
 Volunteering with Kubuntu is more than just a contribution to the open-source community; it's an opportunity to 

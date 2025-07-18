@@ -1,4 +1,4 @@
-baseURL = "https://kubuntu-team.github.io/kubuntu.org/"
+baseURL = "kubuntu.org"
 languageCode = "en-us"
 title = "Kubuntu"
 theme = "ananke"

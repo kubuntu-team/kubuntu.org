@@ -8,7 +8,7 @@ title: "Contribute"
 # Join Our Community
 ## Become a Part of the Kubuntu Journey
 
-{{< figure src="images/donate.webp" title="It is rain drops, that create Oceans" >}}
+{{< figure src="/images/donate.webp" title="It is rain drops, that create Oceans" >}}
 
 At Kubuntu, we're more than just a software project; we're a vibrant community of contributors and enthusiasts from around the globe. Our mission is to bring the best of KDE's Plasma desktop and the Ubuntu operating system to our users, but we can't do it without your help. Whether you're a developer, designer, writer, or just a Linux enthusiast, there's a place for you in our community.
 

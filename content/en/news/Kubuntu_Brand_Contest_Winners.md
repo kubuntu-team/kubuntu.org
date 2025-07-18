@@ -9,7 +9,7 @@ We are thrilled to announce the winners of the Kubuntu Brand Graphic Design cont
 competitions brought out the best in creativity, innovation, and passion from the Kubuntu community, and we couldn't
 be more pleased with the results.
 
-{{< figure src="images/news/Kubuntu_Brand_Contest_Winners.webp" title="Celebrating out Amazing Community Talent" >}}
+{{< figure src="/images/news/Kubuntu_Brand_Contest_Winners.webp" title="Celebrating out Amazing Community Talent" >}}
 
 
 ## Kubuntu Brand Graphic Design Contest Winners

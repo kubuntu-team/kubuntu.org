@@ -10,7 +10,7 @@ menu:
 ---
 ### FIXME: French Transaltion [Github Issue](/link)
 
-{{< figure src="images/download.webp" title="Latest Kubuntu ISO images" >}}
+{{< figure src="/images/download.webp" title="Latest Kubuntu ISO images" >}}
 
 ## Kubuntu 24.04 LTS
 The latest Long Term Support (LTS) version of the Kubuntu operating system for desktop PCs and laptops, Kubuntu 22.04

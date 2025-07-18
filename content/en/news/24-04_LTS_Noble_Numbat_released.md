@@ -10,7 +10,7 @@ Under the hood, there have been updates to many core packages, including a new 6
 [KDE Frameworks 5.115](https://kde.org/announcements/frameworks/5/5.115.0/), 
 [KDE Plasma 5.27](https://kde.org/announcements/plasma/5/5.27.11/) and [KDE Gear 23.08.](https://kde.org/announcements/gear/23.08.0/)
 
-{{< figure src="images/news/24-04_Noble_Numbat_Desktop.jpg" title="Kubuntu 24.04 with Plasma 5.27.11" >}}
+{{< figure src="/images/news/24-04_Noble_Numbat_Desktop.jpg" title="Kubuntu 24.04 with Plasma 5.27.11" >}}
 
 Kubuntu has seen many updates for other applications, both in our default install, and installable from the Ubuntu archive.
 
