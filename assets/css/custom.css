@@ -40,3 +40,7 @@ nav a img.site-logo {
     max-width: 50px !important;
     height: auto !important;
 } 
+
+#front-content-box img {
+    height: auto;
+}
