@@ -8,7 +8,7 @@ title: "News"
 # Stay Updated with the Latest
 ## Your Source for All Things Kubuntu
 
-{{< figure src="images/news.webp" title="Standing upon the shoulders of giants, we can see for miles" >}}
+{{< figure src="/images/news.webp" title="Standing upon the shoulders of giants, we can see for miles" >}}
 
 Welcome to the News section of the Kubuntu website, your primary source for the latest updates, announcements, 
 and developments.

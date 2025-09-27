@@ -10,7 +10,7 @@ title: "Matrix"
 # Connect with Kubuntu on Matrix
 ## Join Our Global Conversation
 
-{{< figure src="images/matrix.webp" title="From tiny Acorns, huge strong Oaks grow" >}}
+{{< figure src="/images/matrix.webp" title="From tiny Acorns, huge strong Oaks grow" >}}
 
 Kubuntu embraces the Matrix communication platform as a central hub for our community's discussions, support, and 
 collaboration. As a federated platform, Matrix offers an open standard for secure, decentralized communication, 

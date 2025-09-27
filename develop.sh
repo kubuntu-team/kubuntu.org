@@ -1,118 +1,152 @@
 #!/bin/bash
 
-# Helper Shell Script
-# Author: Rick Timmis <ricktimmis68@gmail.com>
-#
-# The purpose of this script is to make it as simple as possible for new kubuntu
-# contributors, to get a development instance of kubuntu.org up and working
-# so that they can develop new content, and maintain the site with ease
+# kubuntu-dev.sh
+# A unified development script for kubuntu.org
+# Supports both direct local development and proxy-enabled testing
 
-# For usage with Development IDE Configurations (i.e JetBrains or VSCode)
-# the script can be called with a --stop switch
+# Default configuration
+USE_PROXY=false
+STOP_SERVICES=false
 
-# Check if Docker is installed
-if ! command -v docker &> /dev/null
-then
-    echo "Docker is not installed. Please install Docker first."
-    exit 1
-fi
-
-# Create Docker configuration if it doesn't exist
-if [ ! -f "docker/nginx.conf" ]; then
-    echo "Creating Docker configuration..."
-    mkdir -p docker
-    cat > docker/nginx.conf << 'EOL'
-server {
-    listen 80;
-    server_name kubuntu.org;
-
-    root /usr/share/nginx/html;
-    index index.html;
-
-    location / {
-        alias /usr/share/nginx/html/;
-        try_files $uri $uri/ /index.html;
-    }
+# Function to show usage
+show_usage() {
+    echo "Usage: $0 [OPTIONS]"
+    echo "Options:"
+    echo "  --proxy    Enable proxy mode (forwards kubuntu.org to local Hugo server)"
+    echo "  --stop     Stop all development services"
+    echo "  --help     Show this help message"
 }
-EOL
-fi
 
-# Create Dockerfile if it doesn't exist
-if [ ! -f "docker/Dockerfile" ]; then
-    echo "Creating Dockerfile..."
-    cat > docker/Dockerfile << 'EOL'
-FROM nginx:alpine
-
-# Copy custom nginx config
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-
-# The hugo public directory will be mounted here
-WORKDIR /usr/share/nginx/html
-EOL
-fi
-
-for ARG in "$@"
-do
-    if [ "$ARG" = "--stop" ]; then
-        echo "Stopping kubuntu.org development services..."
-        # Stop Hugo server
-        pkill -HUP hugo
-        # Stop Docker container
-        docker stop kubuntu-site 2>/dev/null
-        docker rm kubuntu-site 2>/dev/null
-        # Stop browser
-        pkill -HUP firefox
-        exit
+# Function to check if running as root
+check_root() {
+    if [ "$EUID" -eq 0 ]; then
+        echo "This script should not be run as root."
+        exit 1
     fi
+}
+
+# Function to check for required tools
+check_requirements() {
+    if [ "$USE_PROXY" = true ] && ! command -v socat &> /dev/null; then
+        echo "Error: socat is not installed. Please install it with:"
+        echo "sudo apt install socat"
+        exit 1
+    fi
+
+    if ! command -v hugo &> /dev/null; then
+        echo "Hugo is not installed. Installing via Snap..."
+        sudo snap install hugo
+    fi
+}
+
+# Function to check hosts entry (only for proxy mode)
+check_hosts_entry() {
+    if ! grep -q "127.0.0.1[[:space:]]\+kubuntu.org" /etc/hosts; then
+        echo "Error: The required hosts entry is missing."
+        echo "Please add the following line to your /etc/hosts file:"
+        echo "127.0.0.1 kubuntu.org"
+        echo ""
+        echo "You can do this by running:"
+        echo "sudo sh -c 'echo \"127.0.0.1 kubuntu.org\" >> /etc/hosts'"
+        exit 1
+    fi
+    echo "✓ Hosts file entry for kubuntu.org found."
+}
+
+# Function to stop all services
+stop_services() {
+    echo "Stopping kubuntu.org development services..."
+    
+    # Stop socat proxy if running
+    if pgrep -f "socat TCP-LISTEN:80" > /dev/null; then
+        echo "Stopping socat proxy..."
+        sudo pkill -f "socat TCP-LISTEN:80"
+    fi
+    
+    # Stop Hugo if running
+    if pgrep hugo > /dev/null; then
+        echo "Stopping Hugo server..."
+        pkill -HUP hugo
+    fi
+    
+    # Close Firefox if it was opened by the script
+    if pgrep -f "firefox.*kubuntu.org" > /dev/null; then
+        echo "Closing Firefox..."
+        pkill -f "firefox.*kubuntu.org"
+    fi
+    
+    echo "All services stopped."
+    exit 0
+}
+
+# Parse command line arguments
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        --proxy)
+            USE_PROXY=true
+            shift
+            ;;
+        --stop)
+            stop_services
+            ;;
+        --help)
+            show_usage
+            exit 0
+            ;;
+        *)
+            echo "Unknown option: $1"
+            show_usage
+            exit 1
+            ;;
+    esac
 done
 
-# Check if the hugo static site builder is available and install it from the snap store
-# if it isn't then install it
-if ! command -v hugo &> /dev/null
-then
-    echo "Hugo is not installed. Installing via Snap..."
-    sudo snap install hugo
-else
-    echo "Starting kubuntu.org development services..."
+# Main execution starts here
+check_root
+check_requirements
+
+# If proxy mode is enabled, check hosts file
+if [ "$USE_PROXY" = true ]; then
+    check_hosts_entry
 fi
 
-# The Hugo Server command reloads the site upon any change, but to help avoid
-# any parallel runs of collisions. We check if it is runing from a previous session
-# and stop it if required.
-# We loop and wait here, to enable Hugo to clean up
-while pgrep hugo > /dev/null
-do
-    echo "Hugo is running. Sending HUP signal..."
+# Stop any running instances of Hugo
+while pgrep hugo > /dev/null; do
+    echo "Hugo is running. Stopping it..."
     pkill -HUP hugo
-    sleep 5
+    sleep 2
 done
 
-# Build the site
-echo "Building Hugo site..."
-hugo
+# Start Hugo server with appropriate configuration
+echo "Starting Hugo development server..."
+if [ "$USE_PROXY" = true ]; then
+    hugo server --bind=0.0.0.0 --port=1313 &
+else
+    hugo server &
+fi
 
-# Stop and remove existing container if it exists
-docker stop kubuntu-site 2>/dev/null
-docker rm kubuntu-site 2>/dev/null
+# Wait for Hugo to start
+sleep 3
 
-# Build the Docker image
-echo "Building Docker image..."
-docker build -t kubuntu-nginx -f docker/Dockerfile docker/
+# Start proxy if enabled
+if [ "$USE_PROXY" = true ]; then
+    echo "Starting proxy service to forward kubuntu.org to local Hugo server..."
+    sudo socat TCP-LISTEN:80,fork TCP:127.0.0.1:1313 &
+    URL="http://kubuntu.org"
+else
+    URL="http://localhost:1313"
+fi
 
-# Run the Docker container
-echo "Starting Nginx container..."
-docker run -d \
-  -p 80:80 \
-  -v $(pwd)/public:/usr/share/nginx/html \
-  --name kubuntu-site \
-  kubuntu-nginx
+# Launch browser
+firefox --new-window "$URL" &>/dev/null &
 
-# Launch the site in the browser
-echo "Opening site in browser..."
-firefox --new-window http://kubuntu.org/ &>/dev/null &
+echo ""
+echo "✓ Development environment is ready!"
+echo "✓ Visit $URL in your browser to view the site."
+echo ""
+echo "To stop the development environment, run:"
+echo "$0 --stop"
 
-# Start Hugo server in watch mode for development
-echo "Starting Hugo server in watch mode..."
-hugo server --disableFastRender &
-
-exit 0
+# Keep the script running
+echo "Press Ctrl+C to stop the development environment."
+wait
