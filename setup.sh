@@ -19,7 +19,7 @@ cd "$HOME/Github"
 
 # Clones the repository and moves into it
 if [ ! -d "$HOME/Github/kubuntu.org" ]; then
-    git clone git@github.com:ricktimmis/kubuntu.org.git
+    git clone git@github.com:kubuntu-team/kubuntu.org.git
 fi
 cd kubuntu.org
 
