@@ -9,7 +9,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -76,7 +76,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Notify on success
-        if: success()
+        if: success() && github.event_name == 'push'
         uses: actions/github-script@v7
         with:
           script: |
@@ -84,7 +84,7 @@ jobs:
             const url = '${{ github.ref_name == 'main' && 'https://kubuntu.org' || 'https://kubuntu-team.github.io/kubuntu.org' }}';
             const message = `🚀 Deployment to ${environment} successful!\n\nSite is live at: ${url}`;
             
-            github.rest.repos.createCommitComment({
+            await github.rest.repos.createCommitComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               commit_sha: context.sha,
@@ -92,14 +92,14 @@ jobs:
             });
 
       - name: Notify on failure
-        if: failure()
+        if: failure() && github.event_name == 'push'
         uses: actions/github-script@v7
         with:
           script: |
             const environment = '${{ github.ref_name == 'main' && 'production' || 'testing' }}';
             const message = `❌ Deployment to ${environment} failed!\n\nPlease check the [workflow run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) for details.`;
             
-            github.rest.repos.createCommitComment({
+            await github.rest.repos.createCommitComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               commit_sha: context.sha,
