@@ -1,7 +1,7 @@
 ---
 date: 2024-10-07T10:58:08-04:00
 title: Download
-featured_image: '/images/download.webp'
+featured_image: '/images/banners/download.png'
 description: Get your Kubuntu Linux
 type: page
 menu:
@@ -9,15 +9,13 @@ menu:
     weight: 3
 
 ---
-{{< figure src="/images/download.webp" title="Latest Kubuntu ISO images" >}}
-
-## Kubuntu 24.10 - _Plasma 6_
+## Kubuntu 25.04 - _Plasma 6_
 Latest version of the Kubuntu operating system for desktop PCs and laptops, includes KDE Plasma 6 and QT6 
-Kubuntu 24.10 supported with security and maintenance updates, until July 2024.
+Kubuntu 25.04 supported with security and maintenance updates, until January 2026.
 
-[!["Kubuntu 24.10"](images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.10/release/kubuntu-24.10-desktop-amd64.iso)
+[!["Kubuntu 25.04"](images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso)
 
-[Kubuntu 24.10 release notes](https://wiki.ubuntu.com/OracularOriole/ReleaseNotes/Kubuntu)
+[Kubuntu 25.04 release notes](https://wiki.ubuntu.com/PluckyPuffin/ReleaseNotes/Kubuntu)
 
 [Alternative downloads, torrents, mirrors and check-sums ›](https://kubuntu.org/alternative-downloads)
 
