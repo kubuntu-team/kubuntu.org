@@ -1,7 +1,8 @@
-baseURL = "https://kubuntu-team.github.io/kubuntu.org/"
-languageCode = "en-us"
-title = "Kubuntu"
-theme = "ananke"
+# - Rick noticed there are 2 config files config.toml & hugo.toml each with different baseURL
+#baseURL = "https://kubuntu-team.github.io/kubuntu.org/"
+#languageCode = "en-us"
+#title = "Kubuntu"
+#theme = "ananke"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableEmoji = true

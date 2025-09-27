@@ -6,12 +6,12 @@ website and its content.
 
 We follow a branching strategy to ensure stable deployments:
 
-- `master` branch: Production environment (kubuntu.org)
+- `main` branch: Production environment (kubuntu.org)
 - `develop` branch: Testing environment (kubuntu-team.github.io/kubuntu.org)
 - Feature branches: Create from `develop` for new features or fixes
 
 ### Branch Protection Rules
-- `master`: Requires pull request reviews before merging
+- `main`: Requires pull request reviews before merging
 - `develop`: Allows direct pushes for testing
 - Feature branches: Create from `develop` for development work
 
@@ -84,15 +84,15 @@ The site is automatically deployed using GitHub Actions:
   - Pull requests to `develop`
 
 ### Production Environment
-- Branch: `master`
+- Branch: `main`
 - URL: https://kubuntu.org
 - Triggered on:
-  - Push to `master`
-  - Pull requests to `master`
+  - Push to `main`
+  - Pull requests to `main`
 
 ### Deployment Steps
 1. Changes are merged to `develop` for testing
-2. After testing, create a pull request to `master`
+2. After testing, create a pull request to `main`
 3. After review and merge, changes are automatically deployed to production
 
 ### Deployment Notifications

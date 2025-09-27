@@ -1,6 +1,6 @@
 ---
 title: About
-featured_image: '/images/Kubuntu_canopee_banner.png'
+featured_image: '/images/banners/about.png'
 description: "Kubuntu - A community-driven Linux distribution combining Ubuntu's reliability with KDE Plasma's elegance"
 omit_header_text: false
 
@@ -20,9 +20,12 @@ Our mission is to provide a stable, secure, and user-friendly Linux distribution
 - Regular updates and security patches
 
 ## Release Cycle
-We release every 6 months, following Ubuntu's release schedule:
-- April releases (24.04 LTS) - Long Term Support versions
-- October releases (24.10) - Latest features and improvements
+We release every 6 months, releases are number year.month e.g 25.04, following Ubuntu's release schedule:
+- April releases (YY.04 _'LTS'_) - Feature or Long Term Support versions
+- October releases (YY.10) - Latest features and improvements
+
+LTS or ‘Long Term Support’ releases are published every two years in April. LTS releases are the ‘enterprise grade’ 
+releases of Kubuntu and are used the most. An estimated 95% of all Kubuntu installations are LTS releases.
 
 ## Free and Open Source
 Kubuntu is and will always be:
