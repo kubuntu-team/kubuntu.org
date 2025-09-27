@@ -1,21 +1,22 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["develop"]
-  workflow_dispatch:
+    branches:
+      - main
+      - develop
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 # Allow only one concurrent deployment
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -23,20 +24,41 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.121.1'
+          extended: true
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
+
       - name: Install dependencies
-        run: npm ci
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
+        run: |
+          npm install -g minify
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+
       - name: Build with Hugo
-        run: hugo --minify
+        run: |
+          if [ "${{ github.ref_name }}" = 'main' ]; then
+            echo "Building production site..."
+            hugo --minify --gc --baseURL "https://kubuntu.org"
+          elif [ "${{ github.ref_name }}" = 'develop' ]; then
+            echo "Building testing site..."
+            hugo --minify --gc --baseURL "https://kubuntu-team.github.io/kubuntu.org"
+          else
+            echo "This workflow is restricted to main or develop. Exiting."
+            exit 1
+          fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -44,8 +66,8 @@ jobs:
 
   deploy:
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      name: ${{ github.ref_name == 'main' && 'production' || 'testing' }}
+      url: ${{ github.ref_name == 'main' && 'https://kubuntu.org' || 'https://kubuntu-team.github.io/kubuntu.org' }}
     runs-on: ubuntu-latest
     needs: build
     steps:
@@ -53,16 +75,33 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Check deployment status
-        if: success()
-        run: |
-          echo "🚀 Deployment successful!"
-          echo "Site is live at: ${{ steps.deployment.outputs.page_url }}"
-        shell: bash
+      - name: Notify on success
+        if: success() && github.event_name == 'push'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const environment = '${{ github.ref_name == 'main' && 'production' || 'testing' }}';
+            const url = '${{ github.ref_name == 'main' && 'https://kubuntu.org' || 'https://kubuntu-team.github.io/kubuntu.org' }}';
+            const message = `🚀 Deployment to ${environment} successful!\n\nSite is live at: ${url}`;
+            
+            await github.rest.repos.createCommitComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              commit_sha: context.sha,
+              body: message
+            });
 
-      - name: Check deployment status
-        if: failure()
-        run: |
-          echo "❌ Deployment failed!"
-          echo "Please check the workflow run for details."
-        shell: bash
+      - name: Notify on failure
+        if: failure() && github.event_name == 'push'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const environment = '${{ github.ref_name == 'main' && 'production' || 'testing' }}';
+            const message = `❌ Deployment to ${environment} failed!\n\nPlease check the [workflow run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) for details.`;
+            
+            await github.rest.repos.createCommitComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              commit_sha: context.sha,
+              body: message
+            });
