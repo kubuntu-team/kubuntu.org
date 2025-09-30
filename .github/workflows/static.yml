@@ -99,12 +99,14 @@ jobs:
           set net:timeout 20
           set net:reconnect-interval-base 5
           set net:persist-retries 1
+          # Force key-only auth; prevent any password prompt
+          set sftp:connect-program "ssh -i $HOME/.ssh/deploy_key -oBatchMode=yes -oPubkeyAuthentication=yes -oPasswordAuthentication=no -oKbdInteractiveAuthentication=no -oStrictHostKeyChecking=yes -p $SFTP_PORT"
           mirror -R --parallel=4 --verbose ./public $SFTP_TARGET_DIR
           bye
           EOF
 
-          # Connect with key auth via ssh:options
-          lftp -u "$SFTP_USER" -p "$SFTP_PORT" -e "set sftp:connect-program 'ssh -i $HOME/.ssh/deploy_key -p $SFTP_PORT -o StrictHostKeyChecking=yes'; source lftp.cmd; bye" sftp://"$SFTP_HOST"
+          # Connect with key auth; pass empty password to avoid GetPass
+          lftp -u "$SFTP_USER," -p "$SFTP_PORT" -e "source lftp.cmd; bye" sftp://"$SFTP_HOST"
 
           # Explicit cleanup after successful transfer
           rm -f "$HOME/.ssh/deploy_key" lftp.cmd || true
