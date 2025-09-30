@@ -73,7 +73,7 @@ jobs:
           : "${SFTP_HOST:?GitHub variable SFTP_HOST is required}"
           : "${SFTP_PORT:=22}"
           : "${SSH_PRIVATE_KEY:?GitHub secret SSH_PRIVATE_KEY is required}"
-          : "${SFTP_TARGET_DIR:=/data}"
+          : "${SFTP_TARGET_DIR:=data/}"
 
           mkdir -p "$HOME/.ssh"
           chmod 700 "$HOME/.ssh"
