@@ -59,6 +59,49 @@ jobs:
             exit 1
           fi
 
+      - name: Upload via SFTP to Production
+        if: github.ref_name == 'main'
+        env:
+          SFTP_USER: ${{ vars.SFTP_USER }}
+          SFTP_HOST: ${{ vars.SFTP_HOST }}
+          SFTP_PORT: ${{ vars.SFTP_PORT }}
+          SFTP_TARGET_DIR: ${{ vars.SFTP_TARGET_DIR }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          set -euo pipefail
+          : "${SFTP_USER:?GitHub variable SFTP_USER is required}"
+          : "${SFTP_HOST:?GitHub variable SFTP_HOST is required}"
+          : "${SFTP_PORT:=22}"
+          : "${SSH_PRIVATE_KEY:?GitHub secret SSH_PRIVATE_KEY is required}"
+          : "${SFTP_TARGET_DIR:=/home/$SFTP_USER/data}"
+
+          mkdir -p "$HOME/.ssh"
+          chmod 700 "$HOME/.ssh"
+
+          echo "$SSH_PRIVATE_KEY" > "$HOME/.ssh/deploy_key"
+          chmod 600 "$HOME/.ssh/deploy_key"
+
+          # Preload known_hosts to avoid interactive prompt
+          ssh-keyscan -p "$SFTP_PORT" -t rsa,ecdsa,ed25519 "$SFTP_HOST" >> "$HOME/.ssh/known_hosts"
+          chmod 644 "$HOME/.ssh/known_hosts"
+
+          # Use lftp in sftp mode because the server is SFTP-only (no shell)
+          sudo apt-get update && sudo apt-get install -y lftp
+
+          # Create lftp script for robust sync
+          cat > lftp.cmd <<'EOF'
+          set sftp:auto-confirm yes
+          set net:max-retries 2
+          set net:timeout 20
+          set net:reconnect-interval-base 5
+          set net:persist-retries 1
+          mirror -R --delete --parallel=4 --verbose ./public $SFTP_TARGET_DIR
+          bye
+          EOF
+
+          # Connect with key auth via ssh:options
+          lftp -e "set sftp:connect-program 'ssh -i $HOME/.ssh/deploy_key -p $SFTP_PORT -o StrictHostKeyChecking=yes'" -u "$SFTP_USER" sftp://"$SFTP_HOST:$SFTP_PORT" -f lftp.cmd
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
