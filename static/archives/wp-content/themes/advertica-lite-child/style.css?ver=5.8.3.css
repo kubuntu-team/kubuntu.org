@@ -1,0 +1,240 @@
+/*
+Theme Name: Advertica Lite Child
+Theme URI: https://github.com/ovidiub13/KubuntuWordpressTheme
+Description: Advertica Lite is responsive and multipurpose wordpress theme effectively used for business, corporate or portfolio purpose. It works good for creative professionals, advertising agency or even construction business, engineering industry or contractor. Advertica Lite comes with a highly responsive bootstrap framework and a parallax section to mesmerize your visitors with maximum effect. This trendy theme clubs rtl support and impressive landing page and also ideal for marketing or digital marketing of your products and services. The startups can have appealing presentation of their site through this theme while those in the business can decently put up their portfolio.
+Version: 0.0.1
+Author: Ovidiu-Florin BOGDAN
+Author URI: http://ovidiu.geekaliens.com
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue, gray, orange, pink, purple, dark, light, two-columns, right-sidebar, left-sidebar, fixed-layout, fluid-layout, responsive-layout, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: advertica-lite-child
+Template: advertica-lite
+*/
+/*****************************************************************************/
+/* GLOBAL */
+body {
+  font-size: 16px;
+}
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 28px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oxygen', sans-serif;
+  color: #444444;
+}
+/*****************************************************************************/
+/* Template Text */
+h3#full-client-box {
+  font-family: 'Oxygen', sans-serif;
+}
+.title {
+  font-size: 40px;
+  line-height: 40px;
+  font-family: 'Oxygen', sans-serif;
+}
+.bread-title-holder h1.title {
+  font-size: 40px;
+  line-height: 45px;
+}
+/*****************************************************************************/
+/* Template Images */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.featured-image {
+  width: auto;
+}
+.skt-section {
+  margin-bottom: 65px;
+}
+.skt-featured-image-mask {
+  background: none;
+}
+.skt-awesome-title {
+    text-shadow: 0 3px 0 rgba(0, 0, 0, 1);
+}
+#full-division-box {
+  height:220px;
+}
+/*****************************************************************************/
+/* Feature Tour */
+.feature_tour_nav {
+  text-align: center;
+}
+.feature_tour_nav ul {
+  list-style: none;
+}
+.feature_tour_nav ul li {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  margin-left: 0px;
+  border-radius: 2px;
+  border: 1px solid #EDF1F2;
+}
+.feature_tour_nav ul li:hover {
+  background: #EDF1F2;
+}
+img.feature_tour_nav_element {
+  margin: 2px;
+  cursor:pointer;
+}
+.feature_tour_section:nth-of-type(even) {
+  background: #EDF1F2;
+}
+.feature_tour_section {
+  padding: 70px 0px;
+  text-align: center;
+}
+.feature_tour_section p {
+  margin-bottom: 0px;
+}
+.feature_tour_section h2 {
+  font-size: 32px;
+}
+.feature_tour_section img {
+  margin: 40px 0px !important;
+}
+.screenshot_shaddow {
+  box-shadow: 0px 0px 25px #888888;
+  margin: 5px;
+}
+/*****************************************************************************/
+/* Article Meta Info */
+span.category {
+  font-weight:bold;
+}
+span.category a {
+  color: #0079C1;
+}
+span.tags {
+  font-weight:bold;
+}
+span.tags a {
+  color: #0079C1;
+}
+/*****************************************************************************/
+/* Main Navigation */
+#skenav a {
+  font-size: 16px;
+  line-height: 70px;
+  padding: 0px 20px;
+}
+.skehead-headernav .logo {
+  margin-top: 15px;
+  height: 36px;
+}
+.skehead-headernav.skehead-headernav-shrink .logo {
+  margin-top: 7px;
+}
+@media all and (min-width: 1025px) and (max-height: 1199px) {
+    #skenav a {
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+}
+.skt-mob-menu {
+    top: 55px !important;
+}
+/*****************************************************************************/
+/* Header  */
+.bread-title-holder h1.title {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgb(60, 60, 60);
+  font-size: 50px;
+}
+#logo {
+  margin: 0px;
+  max-height: 70px;
+}
+.post-title a {
+  font-family: inherit;
+}
+.fullwidth-temp .container.post-wrap {
+  margin-bottom: 20px;
+}
+#skenav .ske-menu, ul.menu {
+  font-size: 16px;
+}
+#footer .third_wrapper .copyright {
+  font-size: 14px;
+}
+#footer .third_wrapper .owner {
+  font-size: 14px;
+}
+/*****************************************************************************/
+/* Social Plugins  */
+.social_plugin {
+    display: block;
+    float: left;
+    margin: 0px 10px;
+}
+/*****************************************************************************/
+/* Team Page  */
+#team_list {
+    max-width: 1060px;
+    margin: auto;
+}
+#team_list + hr {
+    clear: both;
+}
+.kubuntu_member {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+.km_picture {
+    float: left;
+    margin: 0px 30px 10px 0px;
+}
+.km_picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+.km_info {
+    float: left;
+    width: 300px;
+}
+.km_info h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.km_info p {
+    display: inline;
+    font-size: 14px;
+    color: #444;
+}
+.km_info h4 {
+    display: inline;
+    font-size: 14px;
+    color: #999;
+}
+.km_irc {
+}
+.km_irc p {
+    font-style: italic;
+}
+.km_blog {
+}
+.km_blog p {
+    font-style: italic;
+}
+hr + p {
+    text-align: center;
+}
+/*****************************************************************************/
+/* Download page  */
+.slide_title {
+    cursor: pointer;
+}

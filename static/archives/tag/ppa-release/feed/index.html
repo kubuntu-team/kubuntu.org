@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>PPA Release &#8211; Kubuntu</title>
+	<atom:link href="https://kubuntu.org/tag/ppa-release/feed/" rel="self" type="application/rss+xml" />
+	<link>https://kubuntu.org</link>
+	<description>Friendly Computing</description>
+	<lastBuildDate>Fri, 20 May 2022 17:06:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<item>
+		<title>Plasma 5.25 Beta available for testing</title>
+		<link>https://kubuntu.org/news/plasma-5-25-beta-available-for-testing/</link>
+		
+		<dc:creator><![CDATA[rikmills]]></dc:creator>
+		<pubDate>Fri, 20 May 2022 17:06:25 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Beta]]></category>
+		<category><![CDATA[Plasma]]></category>
+		<category><![CDATA[PPA Release]]></category>
+		<guid isPermaLink="false">https://kubuntu.org/?p=4890</guid>
+
+					<description><![CDATA[Are you using Kubuntu 22.04 Jammy Jellyfish, our current Stable release? Or are you already running our development builds of the upcoming 22.10 Kinetic Kudu? We currently have Plasma 5.24.90 (Plasma 5.25 Beta)  available in our Beta PPA for Kubuntu 22.04, and in the Ubuntu archive and daily ISO build...]]></description>
+										<content:encoded><![CDATA[
+<p>Are you using Kubuntu 22.04 Jammy Jellyfish, our current Stable release? Or are you already running our development builds of the upcoming 22.10 Kinetic Kudu?</p>
+
+
+
+<p>We currently have <a href="https://kde.org/announcements/plasma/5/5.24.90/">Plasma 5.24.90 (Plasma 5.25 Beta)</a>  available in our <a href="https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/beta">Beta PPA</a> for Kubuntu 22.04, and in the Ubuntu archive and <a href="http://cdimage.ubuntu.com/kubuntu/daily-live/current/">daily ISO build</a> for the 22.10 development series.</p>
+
+
+
+<p>However this is a beta release, and we should re-iterate the disclaimer from the upstream release announcement:</p>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>DISCLAIMER:</strong> Today we are bringing you the preview version of KDE’s Plasma 5.25 desktop release. Plasma 5.25 Beta is aimed at testers, developers, and bug-hunters.
+
+To help KDE developers iron out bugs and solve issues, install Plasma 5.25 Beta and test run the features listed below. Please report bugs to our bug tracker.
+
+We will be holding a Plasma 5.25 beta review day on May 26 (details will be published on our social media) and you can join us for a day of bug-hunting, triaging and solving alongside the Plasma devs!
+
+The final version of Plasma 5.25 will become available for the general public on the 14th of June.
+
+DISCLAIMER: This release contains untested and unstable software. It is highly recommended you do not use this version in a production environment and do not use it as your daily work environment. You risk crashes and loss of data.</p><cite>https://kde.org/announcements/plasma/5/5.24.90</cite></blockquote>
+
+
+
+<p><strong>Testers of the Kubuntu 22.10 Kinetic Kudu development series:</strong></p>
+
+
+
+<p>Testers with a current install can simply upgrade their packages to install the 5.25 Beta.</p>
+
+
+
+<p>Alternatively, a live/install image is available at: <a href="http://cdimage.ubuntu.com/kubuntu/daily-live/current/">http://cdimage.ubuntu.com/kubuntu/daily-live/current/</a></p>
+
+
+
+<p><strong>Users on Kubuntu 22.04 Jammy Jellyfish:</strong></p>
+
+
+
+<p>5.25 Beta packages and required dependencies are available in our Beta PPA.</p>
+
+
+
+<p>The PPA should work whether you are currently using our backports PPA or not.</p>
+
+
+
+<p>If you are prepared to test via the PPA, then…..</p>
+
+
+
+<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Add the beta PPA and then upgrade:</p>
+
+
+
+<pre class="wp-block-preformatted">sudo add-apt-repository ppa:kubuntu-ppa/beta &amp;&amp; sudo apt full-upgrade -y</pre>
+
+
+
+<p>Then reboot.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em><strong>In case of issues, testers should be prepared to use ppa-purge to remove the PPA and revert/downgrade packages. </strong></em></p></blockquote>
+
+
+
+<div style="height:39px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Kubuntu is part of the <a href="https://www.kde.org/community/whatiskde/">KDE community</a>,  so this testing will benefit both Kubuntu as well as upstream KDE  Plasma software, which is used by many other distributions too.</p>
+
+
+
+<ul><li>If you believe you might have found a packaging bug, you can use  <a href="https://launchpad.net/">launchpad.net</a> to post testing feedback to the Kubuntu team as a bug, or give feedback on IRC [1], or mailing lists [2]. </li><li>If you believe you have found a bug in the underlying software, then <a href="https://bugs.kde.org">bugs.kde.org</a> is the best place to file your bug report.</li></ul>
+
+
+
+<p>Please review the <a href="https://kde.org/announcements/plasma/5/5.24.90/"></a><a href="https://kde.org/announcements/plasma/5/5.24.90/">release announcement</a> and  <a href="https://kde.org/announcements/changelogs/plasma/5/5.24.5-5.24.90">changelog</a>.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>[Test Case]<br>* General tests:<br>&#8211; Does plasma desktop start as normal with no apparent regressions over 5.24?<br>&#8211; General workflow &#8211; testers should carry out their normal tasks, using the plasma features they normally do, and test common subsystems such as audio, settings changes, compositing, desktop affects, suspend etc.<br>* Specific tests:<br>&#8211; Check the changelog:<br>&#8211; Identify items with front/user facing changes capable of specific testing. <br>&#8211; Test the &#8216;fixed&#8217; functionality or &#8216;new&#8217; feature.</p></blockquote>
+
+
+
+<p>Testing may involve some technical set up to do, so while you do not need to be a highly advanced K/Ubuntu user, some proficiently in apt-based package management is advisable.</p>
+
+
+
+<p>Testing is very important to the quality of the software Ubuntu and Kubuntu developers package and release.</p>
+
+
+
+<p>We need your help to get this important beta release in shape for Kubuntu and the KDE community as a whole.</p>
+
+
+
+<p>Thanks!</p>
+
+
+
+<p>Please stop by the Kubuntu-devel IRC channel on libera.chat if you need clarification of any of the steps to follow.</p>
+
+
+
+<p>[1] – #kubuntu-devel on libera.chat<br>[2] – https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel<br></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Latest round of backports PPA updates include Plasma 5.10.2 for Zesty 17.04</title>
+		<link>https://kubuntu.org/news/latest-round-of-backports-ppa-updates-include-plasma-5-10-2-for-zesty-17-04/</link>
+		
+		<dc:creator><![CDATA[rikmills]]></dc:creator>
+		<pubDate>Sat, 17 Jun 2017 21:20:01 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Backports]]></category>
+		<category><![CDATA[Digikam]]></category>
+		<category><![CDATA[KDevelop]]></category>
+		<category><![CDATA[Plasma 5.10.2]]></category>
+		<category><![CDATA[PPA Release]]></category>
+		<category><![CDATA[updates]]></category>
+		<guid isPermaLink="false">http://kubuntu.org/?p=3271</guid>
+
+					<description><![CDATA[Kubuntu 17.04 &#8211; Zesty Zapus The latest 5.10.2 bugfix update for the Plasma 5.10 desktop is now available in our backports PPA for Zesty Zapus 17.04. Included with the update is KDE Frameworks 5.35 Kdevelop has also been updated to the latest version 5.1.1 Our backports for Xenial Xerus 16.04...]]></description>
+										<content:encoded><![CDATA[<p><strong>Kubuntu 17.04 &#8211; Zesty Zapus<br />
+</strong></p>
+<p>The <a href="https://www.kde.org/announcements/plasma-5.10.2.php">latest 5.10.2 bugfix update</a> for the <a href="https://www.kde.org/announcements/plasma-5.10.0.php">Plasma 5.10 desktop</a> is now available in our backports PPA for Zesty Zapus 17.04.</p>
+<p><img loading="lazy" class="aligncenter size-full wp-image-3278" src="/wp-content/uploads/2017/06/4cc5/plasma-update-5.10.2.png" alt="" width="799" height="451" /></p>
+<p>Included with the update is <a href="https://www.kde.org/announcements/kde-frameworks-5.35.0.php">KDE Frameworks 5.35</a></p>
+<p><a href="https://www.kdevelop.org/">Kdevelop</a> has also been updated to the latest version 5.1.1</p>
+<p>Our backports for Xenial Xerus 16.04 also receive updated Plasma and Frameworks, plus some requested KDE applications.</p>
+<p><strong>Kubuntu 16.04 &#8211; Xenial Xerus</strong></p>
+<ul>
+<li>Plasma Desktop 5.8.7 LTS bugfix update</li>
+<li>KDE Frameworks 5.35</li>
+<li>Digikam 5.5.0</li>
+<li>Kdevelop 5.1.1</li>
+<li>Krita 3.1.4</li>
+<li>Konversation 1.7.2</li>
+<li>Krusader 2.6</li>
+</ul>
+<p>To update, use the <a href="http://docs.kubuntu.org/docs/repositories.html">Software Repository Guide</a> to add the following repository to your software sources list:</p>
+<p><strong><em>ppa:kubuntu-ppa/backports</em></strong></p>
+<p>or if it is already added, the updates should become available via your preferred update method.</p>
+<p>The PPA can be added manually in the Konsole terminal with the command:</p>
+<p><em>sudo add-apt-repository ppa:kubuntu-ppa/backports</em></p>
+<p>and packages then updated with</p>
+<p><em>sudo apt update</em><br />
+<em>sudo apt full-upgrade</em></p>
+<p>&nbsp;</p>
+<p>Upgrade notes:</p>
+<p>~ The Kubuntu backports PPA already contains significant version upgrades of Plasma, applications, Frameworks (and Qt for 16.04), so please be aware that enabling the backports PPA for the 1st time and doing a full upgrade will result in a substantial amount of upgraded packages in addition to the versions in this announcement.  The PPA will also continue to receive bugfix and other stable updates when they become available.</p>
+<p>~ While we believe that these packages represent a beneficial and stable update, please bear in mind that they have not been tested as comprehensively as those in the main ubuntu archive, and are <a href="https://community.kde.org/Kubuntu/PPAs">supported only on a limited and informal basis</a>. Should any issues occur, please provide feedback on our mailing list [1], IRC [2], file a bug against our PPA packages [3], or optionally contact us via social media.</p>
+<p>1. Kubuntu-devel mailing list: <a href="https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel">https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel</a><br />
+2. Kubuntu IRC channels: #kubuntu &amp; #kubuntu-devel on irc.freenode.net<br />
+3. Kubuntu ppa bugs: <a href="https://bugs.launchpad.net/kubuntu-ppa">https://bugs.launchpad.net/kubuntu-ppa</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Plasma 5.5.3 and Frameworks 5.18.0 Backported to Kubuntu 15.10</title>
+		<link>https://kubuntu.org/news/plasma-5-5-3-and-frameworks-5-18-0-backported-to-kubuntu-15-10/</link>
+		
+		<dc:creator><![CDATA[ovidiu-florin]]></dc:creator>
+		<pubDate>Wed, 27 Jan 2016 19:59:55 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Backports]]></category>
+		<category><![CDATA[Frameworks 5.18.0]]></category>
+		<category><![CDATA[KDE]]></category>
+		<category><![CDATA[Kubuntu 15.10]]></category>
+		<category><![CDATA[Plasma 5]]></category>
+		<category><![CDATA[Plasma 5.5.3]]></category>
+		<category><![CDATA[PPA Release]]></category>
+		<guid isPermaLink="false">https://kubuntu.org/?p=2487</guid>
+
+					<description><![CDATA[Packages for the release of KDE&#8217;s desktop suite Plasma 5.5.3 and KDE&#8217;s Frameworks 5.18.0 are available for Kubuntu 15.10. You can get them from the Kubuntu Backports PPA. Bugs in the packaging should be reported to kubuntu-ppa on Launchpad. Bugs in the software to KDE. To update, use the Software...]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="aligncenter wp-image-2497 size-full" src="https://kubuntu.org/wp-content/uploads/2016/01/1ccc/plasma-5.5-wee.png" alt="plasma-5.5-wee" width="600" height="377" /></p>
+<p>Packages for the release of <a href="https://www.kde.org/announcements/plasma-5.5.3.php">KDE&#8217;s desktop suite Plasma 5.5.3</a> and <a href="https://www.kde.org/announcements/kde-frameworks-5.18.0.php">KDE&#8217;s Frameworks 5.18.0</a> are available for Kubuntu 15.10. You can get them from the Kubuntu Backports PPA.</p>
+<p>Bugs in the packaging should be reported to <a href="https://bugs.launchpad.net/kubuntu-ppa">kubuntu-ppa on Launchpad</a>. Bugs in the software to <a href="http://bugs.kde.org">KDE</a>.</p>
+<p>To update, use the <a href="https://help.ubuntu.com/community/Repositories/Kubuntu">Software Repository Guide</a> to add the following repository to your software sources list:</p>
+<div style="border: 1px solid #dae9fd; background-color: #eff5fc; padding-left: 20px; line-height: 40px; text-align: center; font-weight: bold; margin-top: 10px; margin-bottom: 10px;">ppa:kubuntu-ppa/backports</div>
+<p>Special thanks to the Kubuntu team for packaging this update and to all testers who helped out on #kubuntu-devel IRC channel.</p>
+<p>This release has been ported for some time now, but we delayed the announcement as there were some initial problems we had to tackle.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Plasma 5.3.2 and Frameworks 5.12.0 Backported to Kubuntu 15.04</title>
+		<link>https://kubuntu.org/news/plasma-532-and-frameworks-5120-backported-kubuntu-1504/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 10 Aug 2015 19:59:31 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[KDE]]></category>
+		<category><![CDATA[Plasma 5]]></category>
+		<category><![CDATA[Plasma 5.3]]></category>
+		<category><![CDATA[PPA Release]]></category>
+		<guid isPermaLink="false">https://www-new.kubuntu.org/?p=2371</guid>
+
+					<description><![CDATA[Packages for the release of KDE&#8217;s desktop suite Plasma 5.3.2 and KDE&#8217;s Frameworks 5.12.0 are available for Kubuntu 15.04. You can get them from the Kubuntu Backports PPA. Bugs in the packaging should be reported to kubuntu-ppa on Launchpad. Bugs in the software to KDE. To update, use the Software...]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="aligncenter wp-image-1840 size-full" src="https://www-new.kubuntu.org/wp-content/uploads/2014/07/plasma-5-banner.png" alt="plasma-5-banner" width="800" height="289" srcset="https://kubuntu.org/wp-content/uploads/2014/07/plasma-5-banner.png 800w, https://kubuntu.org/wp-content/uploads/2014/07/plasma-5-banner-300x108.png 300w" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p>Packages for the release of <a href="https://www.kde.org/announcements/plasma-5.3.2.php">KDE&#8217;s desktop suite Plasma 5.3.2</a> and <a href="https://www.kde.org/announcements/kde-frameworks-5.12.0.php">KDE&#8217;s Frameworks 5.12.0</a> are available for Kubuntu 15.04. You can get them from the Kubuntu Backports PPA.</p>
+<p>Bugs in the packaging should be reported to <a href="https://bugs.launchpad.net/kubuntu-ppa">kubuntu-ppa on Launchpad</a>. Bugs in the software to <a href="http://bugs.kde.org">KDE</a>.</p>
+<p>To update, use the <a href="https://help.ubuntu.com/community/Repositories/Kubuntu">Software Repository Guide</a> to add the following repository to your software sources list:</p>
+<div style="border: 1px solid #dae9fd; background-color: #eff5fc; padding-left: 20px; line-height: 40px; text-align: center; font-weight: bold; margin-top: 10px; margin-bottom: 10px;">ppa:kubuntu-ppa/backports</div>
+<p>Special thanks to sgclark for packaging this update and to testers who hang out on #kubuntu-devel IRC channel.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Packages Available for KDE Platform, Plasma and Applications 4.5.1</title>
+		<link>https://kubuntu.org/news/packages-available-kde-platform-plasma-and-applications-451/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 03 Sep 2010 03:13:07 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[KDE SC]]></category>
+		<category><![CDATA[KDE SC 4.5]]></category>
+		<category><![CDATA[KDE SC 4.5.1]]></category>
+		<category><![CDATA[PPA Release]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Packages for the release of the KDE Software Compilation 4.5.1 are available. Bugs in packaging should be reported to kubuntu-ppa on Launchpad. Bugs in the software to KDE. Users of 10.04 LTS can install it from the Kubuntu Backports PPA. To update, use the Software Repository Guide to add the...]]></description>
+										<content:encoded><![CDATA[<p>Packages for the release of the <a href="http://dot.kde.org/2010/08/31/kde-releases-451">KDE Software Compilation 4.5.1</a> are available.</p>
+<p>Bugs in packaging should be reported to <a href="https://bugs.edge.launchpad.net/kubuntu-ppa">kubuntu-ppa on Launchpad</a>. Bugs in the software to <a href="http://bugs.kde.org">KDE</a>.</p>
+<p>Users of 10.04 LTS can install it from the Kubuntu Backports PPA.<br />
+To update, use the <a href="https://help.ubuntu.com/community/Repositories/Kubuntu">Software Repository Guide</a> to add the following repository to your software sources list:</p>
+<div style="border: 1px solid #dae9fd; background-color: #eff5fc; padding-left: 20px; line-height: 40px; text-align: center; font-weight: bold; margin-top: 10px; margin-bottom: 10px;">ppa:kubuntu-ppa/backports</div>
+<p>Packages are currently building for our Maverick development release and should become available in the coming hours.</p>
+<p>Thanks to all the ninjas for packaging this release.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Packages Available for KDE Platform, Plasma and Applications 4.5.0</title>
+		<link>https://kubuntu.org/news/kde-sc-45/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 10 Aug 2010 10:21:23 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[KDE SC]]></category>
+		<category><![CDATA[KDE SC 4.5]]></category>
+		<category><![CDATA[PPA Release]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Packages for the release of the KDE Software Compilation 4.5.0 are available. Bugs in packaging should be reported to kubuntu-ppa on Launchpad. Bugs in the software to KDE. Users of 10.04 LTS can install it from the Kubuntu Backports PPA. To update, use the Software Repository Guide to add the...]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class=" size-full wp-image-1837 aligncenter" src="/wp-content/uploads/2010/08/kde45-small.png" alt="kde45-small" width="500" height="250" srcset="https://kubuntu.org/wp-content/uploads/2010/08/kde45-small.png 500w, https://kubuntu.org/wp-content/uploads/2010/08/kde45-small-300x150.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Packages for the release of the <a href="http://kde.org/announcements/4.5/">KDE Software Compilation 4.5.0</a> are available.</p>
+<p>Bugs in packaging should be reported to <a href="https://bugs.edge.launchpad.net/kubuntu-ppa">kubuntu-ppa on Launchpad</a>. Bugs in the software to <a href="http://bugs.kde.org">KDE</a>.</p>
+<p>Users of 10.04 LTS can install it from the Kubuntu Backports PPA.</p>
+<p>To update, use the <a href="https://help.ubuntu.com/community/Repositories/Kubuntu">Software Repository Guide</a> to add the following repository to your software sources list:<br />
+<cite>ppa:kubuntu-ppa/backports</cite></p>
+<p>Packages are also in our Maverick development release.</p>
+<p>Thanks to all the ninjas for packaging this release.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>KOffice 2.2.1 Out</title>
+		<link>https://kubuntu.org/news/koffice-2-2-1-out/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 28 Jul 2010 19:46:36 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[KDE SC]]></category>
+		<category><![CDATA[KOffice]]></category>
+		<category><![CDATA[KOffice 2]]></category>
+		<category><![CDATA[PPA Release]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[KOffice 2.2.1 is out. Users of Kubuntu 10.04 can install it from lucid-backport, just enable &#8220;Unsupported Updates&#8221; in your software source settings and install &#8220;koffice&#8221;.]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.koffice.org/news/koffice-2-2-1-released/">KOffice 2.2.1</a> is out.  Users of Kubuntu 10.04 can install it from lucid-backport, just enable &#8220;Unsupported Updates&#8221; in your <a href="https://help.ubuntu.com/community/Repositories/Kubuntu">software source settings</a> and install &#8220;koffice&#8221;.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>KDE SC 4.5 RC 2 Packages Available</title>
+		<link>https://kubuntu.org/news/kde-sc-45-rc-2/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 28 Jul 2010 19:45:25 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[KDE SC]]></category>
+		<category><![CDATA[KDE SC 4.5]]></category>
+		<category><![CDATA[PPA Release]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[For those wanting the latest crack-of-the-week, packages for the release of the KDE Software Compilation 4.5 RC 2 are available. This is release candidate software so expect bugs. Bugs in packaging should be reported to kubuntu-ppa on Launchpad. Bugs in the software to KDE. Users of 10.04 LTS can install...]]></description>
+										<content:encoded><![CDATA[<p>For those wanting the latest crack-of-the-week, packages for the release of the <a href="http://kde.org/announcements/announce-4.5-rc2.php">KDE Software Compilation 4.5 RC 2</a> are available.</p>
+<p>This is release candidate software so expect bugs.  Bugs in packaging should be reported to <a href="https://bugs.edge.launchpad.net/kubuntu-ppa">kubuntu-ppa on Launchpad</a>.  Bugs in the software to <a href="http://bugs.kde.org">KDE</a>.</p>
+<p>Users of 10.04 LTS can install it from the Kubuntu Beta PPA.</p>
+<p>To update, use the <a href="https://help.ubuntu.com/community/Repositories/Kubuntu">Software Repository Guide</a> to add the following repository to your software sources list:<br />
+<cite>ppa:kubuntu-ppa/beta</cite></p>
+<p>Packages are also in our Maverick development release.</p>
+<p>Thanks to lex and shadeslayer for packaging this release.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>KDE SC 4.5 RC Packages Available</title>
+		<link>https://kubuntu.org/news/kde-sc-45-rc-packages-available/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 28 Jun 2010 22:15:09 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[KDE SC]]></category>
+		<category><![CDATA[KDE SC 4.5]]></category>
+		<category><![CDATA[PPA Release]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[For those wanting the latest crack-of-the-week, packages for the release of the KDE Software Compilation 4.5 RC 1 are available. This is release candidate software so expect bugs. Bugs in packaging should be reported to kubuntu-ppa on Launchpad. Bugs in the software to KDE. Users of 10.04 LTS can install...]]></description>
+										<content:encoded><![CDATA[<p>For those wanting the latest crack-of-the-week, packages for the release of the <a href="http://kde.org/announcements/announce-4.5-rc1.php">KDE Software Compilation 4.5 RC 1</a> are available.</p>
+<p>This is release candidate software so expect bugs.  Bugs in packaging should be reported to <a href="https://bugs.edge.launchpad.net/kubuntu-ppa">kubuntu-ppa on Launchpad</a>.  Bugs in the software to <a href="http://bugs.kde.org">KDE</a>.</p>
+<p>Users of 10.04 LTS can install it from the Kubuntu Beta PPA.</p>
+<p>To update, use the <a href="https://help.ubuntu.com/community/Repositories/Kubuntu">Software Repository Guide</a> to add the following repository to your software sources list:<br />
+<cite>ppa:kubuntu-ppa/beta</cite></p>
+<p>Packages are also compiling in our maverick development release.</p>
+<p>Thanks to lex and shadeslayer for packaging this release.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>KDE SC 4.5 Beta 2 Packages Available</title>
+		<link>https://kubuntu.org/news/kde-sc-4-5-beta-2-packages-available/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 09 Jun 2010 16:39:10 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[KDE SC]]></category>
+		<category><![CDATA[KDE SC 4.5]]></category>
+		<category><![CDATA[PPA Release]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[For those wanting the latest crack-of-the-week, packages for the release of the KDE Software Compilation 4.5 Beta 2 are available. This is beta software so expect bugs. Bugs in packaging should be reported to kubuntu-ppa on Launchpad. Bugs in the software to KDE. Users of 10.04 LTS can install it...]]></description>
+										<content:encoded><![CDATA[<p>For those wanting the latest crack-of-the-week, packages for the release of the <a href="http://kde.org/announcements/announce-4.5-beta2.php">KDE Software Compilation 4.5 Beta 2</a> are available.</p>
+<p>This is beta software so expect bugs.  Bugs in packaging should be reported to <a href="https://bugs.edge.launchpad.net/kubuntu-ppa">kubuntu-ppa on Launchpad</a>.  Bugs in the software to <a href="http://bugs.kde.org">KDE</a>.</p>
+<p>Users of 10.04 LTS can install it from the Kubuntu Beta PPA.</p>
+<p>To update, use the <a href="https://help.ubuntu.com/community/Repositories/Kubuntu">Software Repository Guide</a> to add the following repository to your software sources list:<br />
+<cite>ppa:kubuntu-ppa/beta</cite></p>
+<p>Packages are also compiling in our maverick development release.</p>
+<p>Thanks to lex and shadeslayer for packaging this release.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

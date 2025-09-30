@@ -1,0 +1,34 @@
+{{/*
+  social-share.html
+  Share buttons for social media
+
+  @author @regisphilibert
+
+  @context Any (.)
+
+  @returns string
+*/}}
+{{ $title := .Title }}
+{{ $url := .Permalink }}
+
+<div class="social-share">
+  {{ with site.Params.social }}
+    {{ range . }}
+      {{ if eq .name "twitter" }}
+        <a href="https://twitter.com/intent/tweet?text={{ $title }}&url={{ $url }}" class="twitter" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-twitter"></i>
+        </a>
+      {{ end }}
+      {{ if eq .name "facebook" }}
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ $url }}" class="facebook" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-facebook"></i>
+        </a>
+      {{ end }}
+      {{ if eq .name "mastodon" }}
+        <a href="https://mastodon.social/share?text={{ $title }}&url={{ $url }}" class="mastodon" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-mastodon"></i>
+        </a>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div> 

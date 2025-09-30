@@ -1,0 +1,41 @@
+{{/*
+  social-follow.html
+  Social media follow buttons
+
+  @author @regisphilibert
+
+  @context Any (.)
+
+  @returns string
+*/}}
+<div class="ananke-socials">
+  {{ with site.Params.social }}
+    {{ range . }}
+      {{ if eq .name "twitter" }}
+        <a href="{{ .url }}" class="twitter" target="_blank" rel="noopener noreferrer" title="Follow us on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      {{ end }}
+      {{ if eq .name "github" }}
+        <a href="{{ .url }}" class="github" target="_blank" rel="noopener noreferrer" title="Follow us on GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      {{ end }}
+      {{ if eq .name "facebook" }}
+        <a href="{{ .url }}" class="facebook" target="_blank" rel="noopener noreferrer" title="Follow us on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      {{ end }}
+      {{ if eq .name "youtube" }}
+        <a href="{{ .url }}" class="youtube" target="_blank" rel="noopener noreferrer" title="Subscribe on YouTube">
+          <i class="fab fa-youtube"></i>
+        </a>
+      {{ end }}
+      {{ if eq .name "mastodon" }}
+        <a href="{{ .url }}" class="mastodon" target="_blank" rel="noopener noreferrer" title="Follow us on Mastodon">
+          <i class="fab fa-mastodon"></i>
+        </a>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div> 
