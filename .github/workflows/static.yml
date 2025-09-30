@@ -93,7 +93,8 @@ jobs:
           sudo apt-get update && sudo apt-get install -y lftp
 
           # Create lftp script for robust sync
-          cat > lftp.cmd <<'EOF'
+          # NOTE: no quotes around EOF so shell variables expand here
+          cat > lftp.cmd <<EOF
           set sftp:auto-confirm yes
           set net:max-retries 2
           set net:timeout 20
@@ -101,7 +102,7 @@ jobs:
           set net:persist-retries 1
           # Force key-only auth; prevent any password prompt
           set sftp:connect-program "ssh -i $HOME/.ssh/deploy_key -oBatchMode=yes -oPubkeyAuthentication=yes -oPasswordAuthentication=no -oKbdInteractiveAuthentication=no -oStrictHostKeyChecking=yes -p $SFTP_PORT"
-          mirror -R --parallel=4 --verbose ./public $SFTP_TARGET_DIR
+          mirror -R --parallel=4 --verbose ./public "$SFTP_TARGET_DIR"
           bye
           EOF
 
