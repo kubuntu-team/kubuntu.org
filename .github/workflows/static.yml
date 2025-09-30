@@ -104,7 +104,7 @@ jobs:
           EOF
 
           # Connect with key auth via ssh:options
-          lftp -e "set sftp:connect-program 'ssh -i $HOME/.ssh/deploy_key -p $SFTP_PORT -o StrictHostKeyChecking=yes'" -u "$SFTP_USER" sftp://"$SFTP_HOST:$SFTP_PORT" -f lftp.cmd
+          lftp -u "$SFTP_USER" -p "$SFTP_PORT" -e "set sftp:connect-program 'ssh -i $HOME/.ssh/deploy_key -p $SFTP_PORT -o StrictHostKeyChecking=yes'; source lftp.cmd; bye" sftp://"$SFTP_HOST"
 
           # Explicit cleanup after successful transfer
           rm -f "$HOME/.ssh/deploy_key" lftp.cmd || true
