@@ -81,6 +81,10 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > "$HOME/.ssh/deploy_key"
           chmod 600 "$HOME/.ssh/deploy_key"
 
+          # Ensure sensitive files are cleaned up on exit (success or failure)
+          cleanup() { rm -f "$HOME/.ssh/deploy_key" lftp.cmd || true; }
+          trap cleanup EXIT
+
           # Preload known_hosts to avoid interactive prompt
           ssh-keyscan -p "$SFTP_PORT" -t rsa,ecdsa,ed25519 "$SFTP_HOST" >> "$HOME/.ssh/known_hosts"
           chmod 644 "$HOME/.ssh/known_hosts"
@@ -101,6 +105,9 @@ jobs:
 
           # Connect with key auth via ssh:options
           lftp -e "set sftp:connect-program 'ssh -i $HOME/.ssh/deploy_key -p $SFTP_PORT -o StrictHostKeyChecking=yes'" -u "$SFTP_USER" sftp://"$SFTP_HOST:$SFTP_PORT" -f lftp.cmd
+
+          # Explicit cleanup after successful transfer
+          rm -f "$HOME/.ssh/deploy_key" lftp.cmd || true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
