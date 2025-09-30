@@ -95,7 +95,7 @@ jobs:
           set net:timeout 20
           set net:reconnect-interval-base 5
           set net:persist-retries 1
-          mirror -R --delete --parallel=4 --verbose ./public $SFTP_TARGET_DIR
+          mirror -R --parallel=4 --verbose ./public $SFTP_TARGET_DIR
           bye
           EOF
 
