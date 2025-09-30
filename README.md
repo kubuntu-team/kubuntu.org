@@ -8,15 +8,15 @@ We follow a branching strategy to ensure stable deployments:
 
 - `main` branch: Production environment (kubuntu.org)
 - `develop` branch: Testing environment (kubuntu-team.github.io/kubuntu.org)
-- Feature branches: Create from `develop` for new features or fixes
+- Feature branches: Created from `develop` for new features or fixes
 
 ### Branch Protection Rules
 - `main`: Requires pull request reviews before merging
 - `develop`: Allows direct pushes for testing
-- Feature branches: Create from `develop` for development work
+- Feature branches: Created from `develop` for development work
 
 ## New to development ?
-No worries we have you covered, we're assuming your working on a Kubuntu, or another Ubuntu based Linux distribution.
+No worries we have you covered, we're assuming you are working on a Kubuntu, or another Ubuntu based Linux distribution.
 
 **Step 1**
 
@@ -73,7 +73,10 @@ For testing with the actual kubuntu.org domain locally, you can use the proxy mo
    ```shell
    ./develop.sh --stop
    ```
-
+4. Remove the kubuntu.org entry from your hosts file:
+   ```shell
+   sudo sed -i '/^127\.0\.0\.1[[:space:]]\+kubuntu\.org$/d' /etc/hosts
+   ```
 This will:
 - Check that the required hosts file entry exists
 - Start a proxy service to forward requests from kubuntu.org to the local Hugo server
