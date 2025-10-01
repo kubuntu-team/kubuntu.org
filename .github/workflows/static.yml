@@ -101,9 +101,16 @@ jobs:
           set net:timeout 20
           set net:reconnect-interval-base 5
           set net:persist-retries 1
+          
           # Force key-only auth; prevent any password prompt
           set sftp:connect-program "ssh -i $HOME/.ssh/deploy_key -oBatchMode=yes -oPubkeyAuthentication=yes -oPasswordAuthentication=no -oKbdInteractiveAuthentication=no -oStrictHostKeyChecking=yes -p $SFTP_PORT"
-          mirror -R --parallel=4 --verbose --file=./public/* --directory="$SFTP_TARGET_DIR"
+          
+          # Ensure remote target exists, then cd into it
+          mkdir -p "$SFTP_TARGET_DIR"
+          cd "$SFTP_TARGET_DIR"
+           
+          # Upload contents of ./public into remote ./data and delete remote extras
+          mirror -R --delete --parallel=4 --verbose ./public .
           bye
           EOF
 
