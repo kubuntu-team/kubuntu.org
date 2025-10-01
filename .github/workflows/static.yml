@@ -103,7 +103,7 @@ jobs:
           set net:persist-retries 1
           # Force key-only auth; prevent any password prompt
           set sftp:connect-program "ssh -i $HOME/.ssh/deploy_key -oBatchMode=yes -oPubkeyAuthentication=yes -oPasswordAuthentication=no -oKbdInteractiveAuthentication=no -oStrictHostKeyChecking=yes -p $SFTP_PORT"
-          mirror -R --parallel=4 --verbose --file=./public/* "$SFTP_TARGET_DIR"
+          mirror -R --parallel=4 --verbose --file=./public/* --directory="$SFTP_TARGET_DIR"
           bye
           EOF
 
