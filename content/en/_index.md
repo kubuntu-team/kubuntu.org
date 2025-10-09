@@ -1,6 +1,6 @@
 ---
 title: "Kubuntu"
-description: "25.04 Plucky Puffin - The Elegant Linux Distribution"
+description: "25.10 Questing Quokka - The Elegant Linux Distribution"
 theme_version: '24.10'
 cascade:
   featured_image: '/images/banners/home.png'
