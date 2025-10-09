@@ -73,7 +73,7 @@ jobs:
           : "${SFTP_HOST:?GitHub variable SFTP_HOST is required}"
           : "${SFTP_PORT:=22}"
           : "${SSH_PRIVATE_KEY:?GitHub secret SSH_PRIVATE_KEY is required}"
-          : "${SFTP_TARGET_DIR:=/home/$SFTP_USER/data}"
+          : "${SFTP_TARGET_DIR:=data/}"
 
           mkdir -p "$HOME/.ssh"
           chmod 700 "$HOME/.ssh"
@@ -90,21 +90,32 @@ jobs:
           chmod 644 "$HOME/.ssh/known_hosts"
 
           # Use lftp in sftp mode because the server is SFTP-only (no shell)
+          # https://lftp.yar.ru/lftp-man.html
           sudo apt-get update && sudo apt-get install -y lftp
 
           # Create lftp script for robust sync
-          cat > lftp.cmd <<'EOF'
+          # NOTE: no quotes around EOF so shell variables expand here
+          cat > lftp.cmd <<EOF
           set sftp:auto-confirm yes
           set net:max-retries 2
           set net:timeout 20
           set net:reconnect-interval-base 5
           set net:persist-retries 1
-          mirror -R --parallel=4 --verbose ./public $SFTP_TARGET_DIR
+          
+          # Force key-only auth; prevent any password prompt
+          set sftp:connect-program "ssh -i $HOME/.ssh/deploy_key -oBatchMode=yes -oPubkeyAuthentication=yes -oPasswordAuthentication=no -oKbdInteractiveAuthentication=no -oStrictHostKeyChecking=yes -p $SFTP_PORT"
+          
+          # Ensure remote target exists, then cd into it
+          mkdir -p "$SFTP_TARGET_DIR"
+          cd "$SFTP_TARGET_DIR"
+           
+          # Upload contents of ./public into remote ./data and delete remote extras
+          mirror -R --delete --parallel=4 --verbose ./public .
           bye
           EOF
 
-          # Connect with key auth via ssh:options
-          lftp -e "set sftp:connect-program 'ssh -i $HOME/.ssh/deploy_key -p $SFTP_PORT -o StrictHostKeyChecking=yes'" -u "$SFTP_USER" sftp://"$SFTP_HOST:$SFTP_PORT" -f lftp.cmd
+          # Connect with key auth; pass empty password to avoid GetPass
+          lftp -u "$SFTP_USER," -p "$SFTP_PORT" -e "source lftp.cmd; bye" sftp://"$SFTP_HOST"
 
           # Explicit cleanup after successful transfer
           rm -f "$HOME/.ssh/deploy_key" lftp.cmd || true
