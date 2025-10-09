@@ -1,0 +1,13 @@
+{{ if .Site.Params.favicon }}
+<link rel="icon" type="image/x-icon" href="{{ relURL ($.Site.Params.favicon) }}" />
+<link rel="icon" type="image/svg+xml" href="{{ relURL "/images/favicon.svg" }}" />
+<link rel="icon" type="image/png" sizes="96x96" href="{{ relURL "/images/favicon-96x96.png" }}" />
+{{ end }}
+
+{{ if .Site.Params.apple_touch_icon }}
+<link rel="apple-touch-icon" href="{{ relURL ($.Site.Params.apple_touch_icon) }}" />
+{{ end }}
+
+{{ if .Site.Params.webmanifest }}
+<link rel="manifest" href="{{ relURL ($.Site.Params.webmanifest) }}" />
+{{ end }} 

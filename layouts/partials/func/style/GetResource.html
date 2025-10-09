@@ -1,0 +1,28 @@
+{{/*
+  style/GetResource
+  Returns a resource from the theme's asset directory
+
+  @author @regisphilibert
+
+  @context Any (.)
+
+  @param {string} $resource_name
+    The name of the resource to look for in the theme's asset directory
+
+  @returns Resource
+
+  @uses
+    - func/warn
+*/}}
+{{ $resource_name := . }}
+
+{{ $resource := resources.Get $resource_name }}
+{{ if not $resource }}
+  {{ $resource = resources.Get (printf "ananke/css/%s" $resource_name) }}
+{{ end }}
+
+{{ if not $resource }}
+  {{ partial "func/warn" (printf "Resource %s not found in theme's asset directory" $resource_name) }}
+{{ end }}
+
+{{ return $resource }} 

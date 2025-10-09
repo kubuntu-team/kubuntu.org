@@ -1,0 +1,12 @@
+{{/*
+  site-manifest.html
+  Web App Manifest configuration
+
+  @author Kubuntu Team
+  @context Any (.)
+
+  @returns string
+*/}}
+{{ if .Site.Params.webmanifest }}
+<link rel="manifest" href="{{ .Site.BaseURL }}{{ .Site.Params.webmanifest }}" />
+{{ end }} 

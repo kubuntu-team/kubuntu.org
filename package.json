@@ -1,0 +1,12 @@
+{
+  "name": "kubuntu.org",
+  "version": "1.0.0",
+  "description": "Kubuntu website",
+  "scripts": {
+    "build": "hugo --minify",
+    "test": "hugo --minify --baseURL http://localhost:1313"
+  },
+  "dependencies": {
+    "minify": "^9.2.0"
+  }
+} 

@@ -1,0 +1,17 @@
+{{/*
+  socials/Get
+  Returns the social links from site params
+
+  @author @regisphilibert
+
+  @context Any (.)
+
+  @returns []map
+*/}}
+{{ $socials := slice }}
+
+{{ with site.Params.social }}
+  {{ $socials = . }}
+{{ end }}
+
+{{ return $socials }} 

@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+Allow: /download
+Allow: /discover
+Allow: /about
+Allow: /community
+Allow: /news
+Allow: /contact
+Disallow: /404.html
+Disallow: /search/
+Disallow: /admin/
+Disallow: /private/
+Sitemap: https://kubuntu.org/sitemap.xml 

@@ -1,0 +1,129 @@
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.sf-menu li {
+position: relative;
+}
+.sf-menu ul {
+position: absolute;
+display: none;
+top: 100%;
+left: 0;
+z-index: 99;
+}
+.sf-menu > li {
+float: left;
+}
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+display: block;
+}
+.sf-menu a {
+display: block;
+position: relative;
+}
+.sf-menu ul ul {
+top: 0;
+left: 100%;
+}
+/*** DEMO SKIN ***/
+.sf-menu {
+float: left;
+margin-bottom: 1em;
+}
+.sf-menu ul {
+box-shadow: 2px 2px 6px rgba(0,0,0,.2);
+min-width: 12em; /* allow long menu items to determine submenu width */
+}
+.sf-menu a {
+border-left: 1px solid #fff;
+border-top: 1px solid #dFeEFF; /* fallback colour must use full shorthand */
+border-top: 1px solid rgba(255,255,255,.5);
+padding: .75em 1em;
+text-decoration: none;
+}
+.sf-menu a {
+color: #13a;
+}
+.sf-menu li {
+background: #BDD2FF;
+white-space: nowrap; /* no need for Supersubs plugin */
+-webkit-transition: background .2s;
+transition: background .2s;
+}
+.sf-menu ul li {
+background: #AABDE6;
+}
+.sf-menu ul ul li {
+background: #9AAEDB;
+}
+.sf-menu li:hover,
+.sf-menu li.sfHover {
+background: #CFDEFF;
+/* only transition out, not in */
+-webkit-transition: none;
+transition: none;
+}
+/*** arrows (for all except IE7) **/
+.sf-arrows .sf-with-ul {
+padding-right: 2.5em;
+}
+/* styling for both css and generated arrows */
+.sf-arrows .sf-with-ul:after {
+content: '';
+position: absolute;
+top: 55%;
+right: 0em;
+margin-top: -3px;
+height: 0;
+width: 0;
+color:transparent;
+/* order of following 3 rules important for fallbacks to work */
+/*border: 5px solid transparent;*/
+border-top-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
+border-top-color: rgba(255,255,255,.5);
+}
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+border-top-color: white; /* IE8 fallback colour */
+color:transparent;
+}
+/* styling for right-facing arrows */
+.sf-arrows ul .sf-with-ul:after {
+margin-top: -5px;
+margin-right: -3px;
+border-color: transparent;
+border: 5px solid transparent;
+border-left-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
+border-left-color: rgba(255,255,255,.5);
+right: 1em;
+top: 50%;
+}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+border-left-color: white;
+}
+.skt-mob-menu{  box-shadow: 0 2px 3px -2px rgba(0, 0, 0, 0.5);	 background: none repeat scroll 0 0 #FFFFFF !important;left: 0 !important; margin-right: -3% !important; position: absolute !important; top: 73px; width: 100% !important; z-index: 99999 !important;} 
+.skt-mob-menu li{width:100% !important;margin: 0;}
+.skt-mob-menu li a{line-height: 36px !important; padding: 0 5px 0 1.6% !important;}
+.skt-mob-menu .sub-menu{ position:relative !important;	left:0 !important;}
+.sktmenu-toggle:before{ color: #fff; content: "\f0c9";}
+.sktmenu-toggle{background-color: #D6D6D6;	cursor: pointer;	float: right;	font-family: "FontAwesome";	font-size: 21px;	font-style: normal;	font-weight: normal;	height: 35px;	line-height: 37px;	margin-top: 18px;	right: -6px;	text-align: center;	vertical-align: middle;	width: 35px;}
+#header.skehead-headernav-shrink .sktmenu-toggle { margin-top:10px; }
+#header.skehead-headernav-shrink .skt-mob-menu {top:56px;}
+.skt-mob-menu li.has_child > a{
+background-image:url('../images/ch-arr.png');
+background-repeat:no-repeat;
+background-position: 98% center;
+-webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s; transition: all 0.5s ease 0s;
+}
+#skenav.ske-menu {position: static !important;}
+#skenav ul.skt-mob-menu ul {width:100%;border:0;position:relative;margin:0;}
+#skenav ul.skt-mob-menu ul li a{padding-left:30px !important;-moz-box-sizing:border-box;box-sizing:border-box;}
+#skenav ul.skt-mob-menu ul ul li a{padding-left:60px !important;-moz-box-sizing:border-box;box-sizing:border-box;}
+#skenav ul.skt-mob-menu .children li:first-child, #skenav ul.skt-mob-menu .sub-menu li:first-child {border-top:1px solid rgba(0, 0, 0, 0.15);}
