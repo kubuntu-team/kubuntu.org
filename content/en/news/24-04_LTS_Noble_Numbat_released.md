@@ -1,4 +1,10 @@
-
+---
+date: 2024-04-04T11:00:59-04:00
+description: "Long Term Stable Release "
+featured_image: "images/news/Oracular_Desktop.png"
+tags: ["Kubuntu","Community","Download", "Release", "LTS"]
+title: "Announcing Kubuntu 24.04 Noble Numbat"
+---
 
 The Kubuntu Team is happy to announce that Kubuntu 24.04 has been released, featuring the ‘beautiful’ [KDE Plasma 5.27](https://kde.org/announcements/plasma/5/5.27.0/) 
 simple by default, powerful when needed.
