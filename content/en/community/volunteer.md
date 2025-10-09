@@ -2,7 +2,7 @@
 date: 2017-04-09T10:58:08-04:00
 description: "Community Volunteer Roles and Opportunities"
 featured_image: "images/volunteer.webp"
-tags: ["scene"]
+tags: ["community","development","kubuntu"]
 title: "Volunteer"
 ---
 # Join as a Volunteer

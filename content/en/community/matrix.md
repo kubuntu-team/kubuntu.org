@@ -2,12 +2,10 @@
 date: 2017-04-09T10:58:08-04:00
 description: "Join in with the Kubuntu communication on Matrix "
 featured_image: "images/matrix.webp"
-draft: false
-tags: ["community","channels"]
-title: "Matrix"
+tags: ["community","development","kubuntu"]
+title: "Connect with Kubuntu on Matrix"
 ---
 
-# Connect with Kubuntu on Matrix
 ## Join Our Global Conversation
 
 {{< figure src="/images/matrix.webp" title="From tiny Acorns, huge strong Oaks grow" >}}
@@ -19,7 +17,7 @@ aligning perfectly with our values of openness and accessibility.
 ## Why We Use Matrix:
 
 ### Federated Platform: 
-By choosing to utilize the ubuntu.com matrix server, we stay closely connected with the broader 
+By choosing to utilise the ubuntu.com matrix server, we stay closely connected with the broader 
 Ubuntu community while maintaining our unique identity and spaces within the ecosystem.
 
 ### Diverse Communication Rooms: 
@@ -32,8 +30,7 @@ Catering to the varied interests and needs of our community, we offer several de
  - **Members:** A room for Kubuntu Members to discuss, plan, and stay informed about the project's direction.
  - **Council:** Dedicated to the Kubuntu Council, facilitating discussions on governance and strategic decisions.
  - **Discussion:** An open forum for general chat, discussions, and connecting with fellow Kubuntu users.
- - **News:** Stay updated with the latest Kubuntu news, announcements, and important updates.
- - **Teams:** For various teams within Kubuntu to coordinate efforts, plan projects, and collaborate effectively.
+
 
 ### Get Involved:
 

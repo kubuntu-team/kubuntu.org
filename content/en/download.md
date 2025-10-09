@@ -9,13 +9,13 @@ menu:
     weight: 3
 
 ---
-## Kubuntu 25.04 - _Plasma 6_
+## Kubuntu 25.10 - _Plasma 6_
 Latest version of the Kubuntu operating system for desktop PCs and laptops, includes KDE Plasma 6 and QT6 
-Kubuntu 25.04 supported with security and maintenance updates, until January 2026.
+Kubuntu 25.10 supported with security and maintenance updates, until July 2026.
 
-[!["Kubuntu 25.04"](images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso)
+[!["Kubuntu 25.10"](images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso)
 
-[Kubuntu 25.04 release notes](https://wiki.ubuntu.com/PluckyPuffin/ReleaseNotes/Kubuntu)
+[Kubuntu 25.10 release notes](https://wiki.ubuntu.com/QuestingQuokka/ReleaseNotes/Kubuntu)
 
 [Alternative downloads, torrents, mirrors and check-sums ›](https://kubuntu.org/alternative-downloads)
 
