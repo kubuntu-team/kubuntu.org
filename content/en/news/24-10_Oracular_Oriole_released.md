@@ -2,7 +2,7 @@
 date: 2024-10-04T11:00:59-04:00
 description: "A New Era with Plasma 6"
 featured_image: "images/news/Oracular_Desktop.png"
-tags: ["Kubuntu","Community","Download", "LTS"]
+tags: ["Kubuntu","Community","Download", "Release"]
 title: "Announcing Kubuntu 24.10 Oracular Oriole"
 ---
 The Kubuntu team is proud to announce the release of Kubuntu 24.10, codenamed Oracular Oriole. This release marks a major
