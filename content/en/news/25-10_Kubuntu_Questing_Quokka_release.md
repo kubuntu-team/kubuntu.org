@@ -30,7 +30,7 @@ Here are three standout enhancements that Kubuntu 25.10 brings to your desktop, 
 more secure, and visually stunning:
 
 1. **KDE Plasma 6.4: A Refined and Responsive Desktop**  
-   Dive into the fifth feature release of Plasma 6, complete with Qt 6.8 and Frameworks 6.17.0. This update refines the desktop with smoother animations, improved widget customization, and better multi-monitor handling. It's a big win for productivity, letting you tailor your environment like never before while enjoying the stability of Ubuntu's core.
+   Dive into the fifth feature release of Plasma 6, complete with Qt 6.9 and Frameworks 6.17.0. This update refines the desktop with smoother animations, improved widget customization, and better multi-monitor handling. It's a big win for productivity, letting you tailor your environment like never before while enjoying the stability of Ubuntu's core.
 
 2. **Plasma Wayland as Default Session**  
    Say goodbye to legacy X11 limitations—Wayland is now the go-to session for superior graphics rendering, reduced latency, and enhanced security. With hardware-accelerated compositing baked in, you'll notice snappier video playback and app responsiveness. (X11 fans, no worries: it's still available via a simple package install.) This shift future-proofs your setup for the next era of Linux desktops.
