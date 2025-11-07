@@ -1,3 +1,30 @@
+html {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #16191D;
+}
+
+.athelas, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: normal;
+  color: #002866;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+code, kbd, samp {
+  font-family: 'DM Mono';
+}
+
+a {
+  color: #0064FF;
+}
+
 .ananke-socials {
   display: flex;
   gap: 1rem;
