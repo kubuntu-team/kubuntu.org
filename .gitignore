@@ -1,9 +1,13 @@
-# Hugos static build directory 
+# Hugo generated files
 public
+/resources/_gen/
 
 # Hugo lock
 .hugo_build.lock
 
 # JetBrains IDE
 .idea/
+
+# NPM
+node_modules/
 
