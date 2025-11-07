@@ -15,15 +15,16 @@ title = "Kubuntu"
 weight = 1
 contentDir = "content/en"
 # languageDirection = 'rtl' for Right-To-Left languages
-[languages.fr]
-title = "Kubuntu Fr"
-weight = 2
-contentDir = "content/fr"
 
-[languages.es]
-title = "Kubuntu Es"
-weight = 2
-contentDir = "content/es"
+# [languages.fr]
+# title = "Kubuntu Fr"
+# weight = 2
+# contentDir = "content/fr"
+
+# [languages.es]
+# title = "Kubuntu Es"
+# weight = 2
+# contentDir = "content/es"
 
 [sitemap]
 changefreq = "monthly"
