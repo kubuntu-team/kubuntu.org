@@ -25,13 +25,16 @@ a {
   color: #0064FF;
 }
 
-.site-header {
+.container {
+  padding-inline: 1rem;
   max-width: 1920px;
+}
+
+.site-header {
   margin-inline: auto;
   gap: 64px;
 
   flex-direction: column;
-  padding-inline: 1rem;
   padding-top: 1rem;
   padding-bottom: 3rem;
 }
@@ -87,9 +90,12 @@ a {
 }
 
 @media screen and (min-width: 60em) {
+  .container {
+    padding-inline: 10rem;
+  }
+
   .site-header {
     flex-direction: row;
-    padding-inline: 10rem;
     padding-block: 4rem;
   }
 
@@ -99,7 +105,7 @@ a {
 }
 
 @media screen and (min-width: 90em) {
-  .site-header {
+  .container {
     padding-inline: 16rem;
   }
 

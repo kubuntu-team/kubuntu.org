@@ -4,7 +4,7 @@
   <header class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
     <div class="{{ .Site.Params.cover_dimming_class | default "bg-black-60" }}">
       {{ partial "site-navigation.html" .}}
-      <div class="pv5 flex site-header">
+      <div class="pv5 flex site-header container">
         <div>
           <img src="/images/kubuntu-wide.svg" class="site-header-title">
           {{ with .Params.description }}
@@ -13,7 +13,7 @@
             </h2>
           {{ end }}
           <div class="pv4">
-            <a class="button primary mr1" href="#main-article">Learn more</a>
+            <a class="button primary mr1" href="/discover/">Learn more</a>
             <a class="button secondary" href="/download/">Download</a>
           </div>
         </div>
