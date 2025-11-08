@@ -55,6 +55,7 @@ a {
   color: inherit;
   font-size: 18px;
   font-weight: 500;
+  transition: 0.1s background ease;
 }
 
 .button.primary {
@@ -62,9 +63,17 @@ a {
   color: white;
 }
 
+.button.primary:hover {
+  background: #3383FF;
+}
+
 .button.secondary {
   background: #003C99;
   color: white;
+}
+
+.button.secondary:hover {
+  background: #0050CC;
 }
 
 .banner-inline-image {
