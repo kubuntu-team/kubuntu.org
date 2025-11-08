@@ -1,7 +1,6 @@
 ---
 date: 2023-10-13T11:15:58-04:00
 description: "28.04 available via PPA"
-featured_image: "images/news/Plasma_5.27_LTS.webp"
 tags: ["KDE","Plasma", "Kubuntu"]
 title: "Plasma 5.27 LTS for Jammy"
 ---
