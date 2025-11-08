@@ -1,6 +1,7 @@
 ---
-title: "Discover"
+title: Discover
 description: "Power, Performance, and Elegance"
+type: page
 menu:
   main:
     weight: 1

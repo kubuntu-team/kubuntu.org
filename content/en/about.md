@@ -7,6 +7,8 @@ menu:
   main:
     weight: 7
 
+type: page
+
 ---
 Kubuntu is a community-developed and supported project that brings together the best of Ubuntu and KDE. Since its launch 
 in October 2004, Kubuntu has grown into one of the most respected Linux distributions, serving millions of users worldwide.
