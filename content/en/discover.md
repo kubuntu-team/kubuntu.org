@@ -70,4 +70,4 @@ Whether you're editing video, coding, gaming, or simply browsing the web, Kubunt
 
 {{< figure src="/images/featureTour/libreoffice3.png" title="Complete and professional office suite" >}}
 
-### [Download](./download) Kubuntu and transform your computing experience today.
+### [Download](https://kubuntu.org/download/) Kubuntu and transform your computing experience today.
