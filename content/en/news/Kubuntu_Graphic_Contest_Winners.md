@@ -1,7 +1,6 @@
 ---
 date: 2024-04-09T11:00:59-04:00
 description: "Winners of the Kubuntu graphic design contest 2024"
-featured_image: "images/news/Kubuntu_Brand_Contest_Winners.webp"
 tags: ["Kubuntu","Community","Contest"]
 title: "Celebrating Creativity"
 ---

@@ -1,14 +1,11 @@
 ---
 date: 2024-04-09T10:58:08-04:00
 description: "Donations and Financial Support"
-featured_image: "images/donate.webp"
 tags: ["community","development","kubuntu"]
 title: "Donate"
 ---
 # Support Kubuntu
 ## Make a Big Difference with a small Contribution
-
-{{< figure src="/images/donate.webp" title="From tiny Acorns, huge strong Oaks grow" >}}
 
 Kubuntu thrives on the passion and dedication of its community and the generous support from users like you. 
 Your financial contributions, whether regular or one-time, play a crucial role in sustaining and advancing the 

@@ -1,7 +1,7 @@
 ---
-title: "Discover"
+title: Discover
 description: "Power, Performance, and Elegance"
-featured_image: '/images/banners/discover.png'
+type: page
 menu:
   main:
     weight: 1

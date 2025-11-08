@@ -1,7 +1,6 @@
 ---
 date: 2025-05-08T11:00:59-04:00
 description: "Plasma 6.3.5 update"
-featured_image: "images/banners/discover.png"
 tags: ["Kubuntu","Community","Download", "Beta", "Testing", "Update"]
 title: "Plasma 6.3.5 update for Kubuntu 25.04 available via PPA"
 ---

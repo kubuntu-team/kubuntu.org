@@ -1,7 +1,6 @@
 ---
 date: 2025-04-17T11:00:59-04:00
 description: "Release of Kubuntu Plucky Puffin"
-featured_image: "images/banners/home.png"
 tags: ["Kubuntu","Community","Download","Release"]
 title: "Kubuntu Plucky Puffin (25.04) released"
 ---

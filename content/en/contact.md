@@ -1,7 +1,6 @@
 ---
 date: 2017-04-09T10:58:08-04:00
 description: "Get in Touch"
-featured_image: "images/banners/contact.png"
 tags: ["community","development","kubuntu"]
 title: "Contact"
 type: page
@@ -10,8 +9,6 @@ menu:
     weight: 6
 ---
 ## We're here to Help
-
-{{< figure src="/images/contact.webp" title="From tiny Acorns, huge strong Oaks grow" >}}
 
 The Kubuntu team is committed to providing support and answering any questions you may have. Whether you're seeking 
 technical assistance, interested in contributing, or simply want to share your feedback, we're eager to hear from you.
@@ -41,7 +38,7 @@ Follow us on social media to stay updated with the latest news, updates, and com
 
 We look forward to hearing from you and appreciate your interest in Kubuntu. Together, we can continue to make Kubuntu an even better Linux distribution for everyone.
 
-[Email Us](mailto://rick-timmis@kubuntu.org) | [Visit Our Forums](https://discourse.ubuntu.com/c/flavors/kubuntu/187) 
+[Email Us](mailto:rick-timmis@kubuntu.org) | [Visit Our Forums](https://discourse.ubuntu.com/c/flavors/kubuntu/187) 
 
 Follow us on Social Media, links to our channels are at the top and bottom of the page
 

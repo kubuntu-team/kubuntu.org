@@ -1,7 +1,6 @@
 ---
 date: 2024-04-04T11:00:59-04:00
-description: "Long Term Stable Release "
-featured_image: "images/news/Oracular_Desktop.png"
+description: "Long Term Stable Release"
 tags: ["Kubuntu","Community","Download", "Release", "LTS"]
 title: "Announcing Kubuntu 24.04 Noble Numbat"
 ---

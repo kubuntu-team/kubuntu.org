@@ -1,7 +1,6 @@
 ---
 date: 2025-05-18T11:00:59-04:00
 description: "Plasma 6.3.5 update"
-featured_image: "images/banners/download2.png"
 tags: ["Kubuntu","Community","Beta", "Testing"]
 title: "Plasma 6.4 Beta1 available for testing"
 ---
