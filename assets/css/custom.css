@@ -192,7 +192,17 @@ nav a img.site-logo {
     width: 50px !important;
     max-width: 50px !important;
     height: auto !important;
-} 
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav .is-active {
+  color: #99C1FF !important;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #99C1FF;
+}
 
 #front-content-box img {
     height: auto;
