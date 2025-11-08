@@ -25,6 +25,73 @@ a {
   color: #0064FF;
 }
 
+.site-header {
+  max-width: 1920px;
+  margin-inline: auto;
+  gap: 64px;
+
+  flex-direction: column;
+  padding-inline: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.header-background {
+  background: #001433;
+}
+
+.main-background {
+  background: linear-gradient(#002866, #003C99);
+}
+
+.header-background .lh-title {
+  color: white;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.button.primary {
+  background: #0064FF;
+  color: white;
+}
+
+.button.secondary {
+  background: #003C99;
+  color: white;
+}
+
+.banner-inline-image {
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+}
+
+@media screen and (min-width: 60em) {
+  .site-header {
+    flex-direction: row;
+    padding-inline: 10rem;
+    padding-block: 4rem;
+  }
+
+  .banner-inline-image {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .site-header {
+    padding-inline: 16rem;
+  }
+}
+
+
 .ananke-socials {
   display: flex;
   gap: 1rem;
@@ -59,6 +126,10 @@ a {
 
 .ananke-socials a.mastodon:hover {
   color: #6364FF;
+}
+
+.social-share a {
+  text-decoration: none;
 }
 
 /* Custom styles for Kubuntu website */

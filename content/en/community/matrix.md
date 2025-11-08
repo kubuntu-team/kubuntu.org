@@ -1,7 +1,6 @@
 ---
 date: 2017-04-09T10:58:08-04:00
 description: "Join in with the Kubuntu communication on Matrix "
-featured_image: "images/matrix.webp"
 tags: ["community","development","kubuntu"]
 title: "Connect with Kubuntu on Matrix"
 ---

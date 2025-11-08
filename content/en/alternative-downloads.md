@@ -1,7 +1,6 @@
 ---
 title: "Alternative downloads"
 description: "Torrents, mirrors, and checksums"
-featured_image: "images/banners/download.png"
 tags: ["community","development","kubuntu"]
 type: page
 ---

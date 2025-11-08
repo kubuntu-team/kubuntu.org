@@ -1,6 +1,5 @@
 ---
 title: About
-featured_image: '/images/banners/about.png'
 description: "Kubuntu - A community-driven Linux distribution combining Ubuntu's reliability with KDE Plasma's elegance"
 omit_header_text: false
 

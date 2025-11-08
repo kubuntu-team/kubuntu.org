@@ -2,8 +2,7 @@
 title: "Kubuntu"
 description: "25.10 Questing Quokka - The Elegant Linux Distribution"
 theme_version: '24.10'
-cascade:
-  featured_image: '/images/banners/home.png'
+featured_image: '/images/banners/home.png'
 ---
 Welcome to Kubuntu Linux, where elegance meets power in the world of open-source computing. Kubuntu combines the 
 reliability of Ubuntu with the beautiful and intuitive KDE Plasma desktop, offering a perfect balance of performance, 

@@ -1,7 +1,6 @@
 ---
 date: 2025-05-18T11:00:59-04:00
 description: "Latest Kubuntu with KDE Plasma 6.4"
-featured_image: "images/banners/about2.png"
 tags: ["Kubuntu","Download", "Release"]
 title: "Kubuntu 25.10 Questing Quokka Released"
 ---

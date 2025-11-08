@@ -1,7 +1,6 @@
 ---
 date: 2024-04-09T10:58:08-04:00
 description: "Donations and Financial Support"
-featured_image: "images/donate.webp"
 tags: ["community","development","kubuntu"]
 title: "Donate"
 ---
