@@ -22,11 +22,15 @@ or if it is already added, the updates should become available via your preferre
 
 The PPA can be added manually in the Konsole terminal with the command:
 
-_sudo add-apt-repository ppa:kubuntu-ppa/backports_
+```bash
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+```
 
 and packages then updated with
 
-_sudo apt full-upgrade_
+```bash
+sudo apt full-upgrade
+```
 
 We hope you enjoy using Plasma 6.3.5!
 

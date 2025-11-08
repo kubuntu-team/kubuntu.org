@@ -36,22 +36,22 @@ you're editing a video, managing files, or reading a PDF, these updated tools en
 
 ## A Kubuntu for Today and Tomorrow
 
-Kubuntu 24.10 Oracular Oriole aims to bring the best of open source technologies together for a desktop that's not only 
+Kubuntu 24.10 Oracular Oriole aims to bring the best of open source technologies together for a desktop that's not only
 attractive but also powerful, fast, and simple to use. Whether you're a long-time Kubuntu fan or trying it for the first
 time, Oracular Oriole is the perfect blend of innovation and stability.
 
-We're thrilled for you to experience the newest iteration of Kubuntu and all the great features it has to offer. 
+We're thrilled for you to experience the newest iteration of Kubuntu and all the great features it has to offer.
 
-[Download Kubuntu](./download) 24.10 today and see where the next generation of Plasma can take you!
+[Download Kubuntu](/download) 24.10 today and see where the next generation of Plasma can take you!
 
 ## Get Involved
 
-Want to contribute to Kubuntu? We invite you to join our community. Report issues, give feedback, or just say hi. 
+Want to contribute to Kubuntu? We invite you to join our community. Report issues, give feedback, or just say hi.
 Every bit helps keep Kubuntu awesome.
 
-[Download Kubuntu 24.10 Oracular Oriole Now](./download)
+[Download Kubuntu 24.10 Oracular Oriole Now](/download)
 
 **Enjoy the Journey with Kubuntu 24.10!**
 
-We can't wait to hear what you think of Oracular Oriole. Join [our community](./community), share your experience, and 
+We can't wait to hear what you think of Oracular Oriole. Join [our community](/community), share your experience, and
 be part of the exciting journey forward!

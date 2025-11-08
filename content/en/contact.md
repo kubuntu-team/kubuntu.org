@@ -38,7 +38,7 @@ Follow us on social media to stay updated with the latest news, updates, and com
 
 We look forward to hearing from you and appreciate your interest in Kubuntu. Together, we can continue to make Kubuntu an even better Linux distribution for everyone.
 
-[Email Us](mailto:rick-timmis@kubuntu.org) | [Visit Our Forums](https://discourse.ubuntu.com/c/flavors/kubuntu/187) 
+[Email Us](mailto:rick-timmis@kubuntu.org) | [Visit Our Forums](https://discourse.ubuntu.com/c/flavors/kubuntu/187)
 
 Follow us on Social Media, links to our channels are at the top and bottom of the page
 

@@ -11,14 +11,13 @@ We currently have Plasma 6.3.90 (Plasma 6.4 Beta1) available in our Beta PPA for
 
 However this is a Beta release, and we should re-iterate the disclaimer:
 
-
 **DISCLAIMER:** This release contains untested and unstable software. It is highly recommended you **do not use this version in a production environment** and do not use it as your daily work environment. You risk crashes and loss of data.
-
-
 
 6.4 Beta1 packages and required dependencies are available in our Beta PPA. The PPA should work whether you are currently using our backports PPA or not. If you are prepared to test via the PPA, then add the beta PPA and then upgrade:
 
-_sudo add-apt-repository ppa:kubuntu-ppa/beta && sudo apt full-upgrade -y_
+```bash
+sudo add-apt-repository ppa:kubuntu-ppa/beta && sudo apt full-upgrade -y
+```
 
 Then reboot.
 
