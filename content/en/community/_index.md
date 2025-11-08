@@ -4,3 +4,7 @@ description: "Contribute to Kubuntu"
 tags: ["community","development","kubuntu"]
 title: "Community"
 ---
+
+# Community
+
+Become a part of the Kubuntu journey.
