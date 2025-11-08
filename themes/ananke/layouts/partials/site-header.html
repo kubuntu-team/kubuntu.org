@@ -6,9 +6,7 @@
       {{ partial "site-navigation.html" .}}
       <div class="pv5 flex site-header">
         <div>
-          <h1 class="f2 f-subheadline-l white mt0 mb0 lh-title">
-            {{ .Title | default .Site.Title }}
-          </h1>
+          <img src="/images/kubuntu-wide.svg" class="site-header-title">
           {{ with .Params.description }}
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l mt3">
               {{ . }}

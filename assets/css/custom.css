@@ -36,6 +36,10 @@ a {
   padding-bottom: 3rem;
 }
 
+.site-header-title {
+  height: 3rem;
+}
+
 .header-background {
   background: #001433;
 }
@@ -97,6 +101,10 @@ a {
 @media screen and (min-width: 90em) {
   .site-header {
     padding-inline: 16rem;
+  }
+
+  .site-header-title {
+    height: 4rem;
   }
 }
 
