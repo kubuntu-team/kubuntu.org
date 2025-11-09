@@ -25,7 +25,7 @@ Applications for core day-to-day usage are included and updated, such as Firefox
 
 For a list of other application updates, and known bugs be sure to read our [release notes.](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes/Kubuntu)
 
-[Download Kubuntu 24.04](./download), or [learn how to upgrade from 23.10 or 22.04 LTS.](https://help.ubuntu.com/community/NobleUpgrades/Kubuntu)
+[Download Kubuntu 24.04](/download), or [learn how to upgrade from 23.10 or 22.04 LTS.](https://help.ubuntu.com/community/NobleUpgrades/Kubuntu)
 
 **Note: For upgrades from 23.10, there may a delay of a few hours to days between the official release announcements 
 and the Ubuntu Release Team enabling upgrades.**
