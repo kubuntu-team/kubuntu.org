@@ -3,6 +3,8 @@ date: 2024-04-09T10:58:08-04:00
 description: "Donations and Financial Support"
 tags: ["community","development","kubuntu"]
 title: "Donate"
+
+type: page
 ---
 # Support Kubuntu
 ## Make a Big Difference with a small Contribution
@@ -28,6 +30,6 @@ Your support ensures that Kubuntu remains a free, open-source operating system, 
 what's possible with technology. Together, we can continue to build an innovative platform that serves 
 millions around the globe.
 
-[Donate Now](/archives/index.html%3Fp=861.html) | Visit Our Store | Subscribe to Our Magazine
+Donate Now | Visit Our Store 
 
 Thank you for considering a contribution to Kubuntu. Every contribution, big or small, makes a significant difference.

@@ -20,4 +20,5 @@ To add the PPA and upgrade, do:
 ```shell
 sudo add-apt-repository ppa:kubuntu-ppa/backports-extra && sudo apt full-upgrade -y
 ```
+
 We hope keen adopters enjoy using Plasma 5.27
