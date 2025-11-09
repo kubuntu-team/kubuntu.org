@@ -30,6 +30,6 @@ Your support ensures that Kubuntu remains a free, open-source operating system, 
 what's possible with technology. Together, we can continue to build an innovative platform that serves 
 millions around the globe.
 
-[Donate Now](/archives/index.html%3Fp=861.html) | Visit Our Store | Subscribe to Our Magazine
+Donate Now | Visit Our Store 
 
 Thank you for considering a contribution to Kubuntu. Every contribution, big or small, makes a significant difference.
