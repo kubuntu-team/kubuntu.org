@@ -33,17 +33,18 @@ For those seeking more stability over time, the LTS version offers extended supp
 
 [Alternative downloads, torrents, mirrors and check-sums ›](/alternative-downloads)
 
-## Upgrade
-
-### Already a Kubuntu user?
-
-Follow our simple guide to upgrade your existing installation to the latest version.
-
 ## Installation Guide
 
 Need help with the installation? Our comprehensive guide will walk you through the process,
 from creating a bootable USB drive to setting up Kubuntu on your machine.
 
-[Installation Guide](/link) | [Upgrade Kubuntu](/link)
+[Installation Guide](https://help.ubuntu.com/community/GraphicalInstall/Kubuntu)
 
 Thank you for choosing Kubuntu. We're excited for you to join our community and explore the endless possibilities with your new operating system.
+
+## Upgrade
+
+If you running an older Kubuntu release, you can upgrade to a newer release:
+
+- [Upgrade to Kubuntu 25.10](https://help.ubuntu.com/community/QuestingUpgrades/Kubuntu)
+- [Upgrade to Kubuntu 24.04 LTS](https://help.ubuntu.com/community/NobleUpgrades/Kubuntu)
