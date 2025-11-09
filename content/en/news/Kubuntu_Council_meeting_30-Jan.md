@@ -1,7 +1,6 @@
 ---
 date: 2024-01-30T14:00:59-04:00
 description: "Outcomes from the Kubuntu Council meeting"
-featured_image: "images/kubuntu_council.webp"
 tags: ["Kubuntu","Governance"]
 title: "Kubuntu Council Meeting – 30th January 2024"
 ---

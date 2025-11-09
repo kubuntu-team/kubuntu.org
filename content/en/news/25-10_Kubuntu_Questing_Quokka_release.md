@@ -1,14 +1,11 @@
 ---
 date: 2025-05-18T11:00:59-04:00
 description: "Latest Kubuntu with KDE Plasma 6.4"
-featured_image: "images/banners/about2.png"
 tags: ["Kubuntu","Download", "Release"]
 title: "Kubuntu 25.10 Questing Quokka Released"
 ---
 
 ### Bringing the Latest KDE Plasma to Ubuntu's Stable Core
-
-{{< figure src="/images/news/Kubuntu_Questing.png" title="Wayland, Kernel 6.17, KDE Plasma 6.4" >}}
 
 **October 9, 2025** – The Kubuntu team is thrilled to announce the release of Kubuntu 25.10, codenamed "Questing Quokka"!
 As a community-driven flavor of Ubuntu, Kubuntu continues its mission to deliver the cutting-edge KDE software ecosystem

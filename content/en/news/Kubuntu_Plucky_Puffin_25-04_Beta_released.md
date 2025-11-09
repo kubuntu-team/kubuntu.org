@@ -1,7 +1,6 @@
 ---
 date: 2025-03-27T11:00:59-04:00
 description: "Beta release of Kubuntu Plucky Puffin"
-featured_image: "images/news/Oracular_Desktop.png"
 tags: ["Kubuntu","Community","Download","Beta","Testing"]
 title: "Kubuntu Plucky Puffin (25.04) Beta released"
 ---
@@ -9,8 +8,6 @@ title: "Kubuntu Plucky Puffin (25.04) Beta released"
 The beta of Kubuntu Plucky Puffin (to become 25.04 in April) has now been released, and is available for [download](http://cdimage.ubuntu.com/kubuntu/releases/25.04/beta/).
 
 This milestone features images for Kubuntu and other Ubuntu flavours.
-
-{{< figure src="images/news/Pluck_25-04_beta_Plasma6-3.png" title="KDE Plasma 6.3 Kubuntu Plucky Puffin Beta" >}}
 
 Pre-releases of Kubuntu Plucky Puffin are not recommended for:
 

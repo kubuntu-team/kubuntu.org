@@ -25,6 +25,128 @@ a {
   color: #0064FF;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid #C4CAD4;
+}
+
+.container {
+  padding-inline: 1rem;
+  max-width: 1920px;
+}
+
+.site-header {
+  margin-inline: auto;
+  gap: 64px;
+
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.site-header-title {
+  height: 3rem;
+}
+
+.header-background {
+  background: #001433;
+}
+
+.main-background {
+  background: linear-gradient(#002866, #003C99);
+}
+
+.header-background .lh-title {
+  color: white;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.1s background ease;
+}
+
+.button.primary {
+  background: #0064FF;
+  color: white;
+}
+
+.button.primary:hover {
+  background: #3383FF;
+}
+
+.button.secondary {
+  background: #003C99;
+  color: white;
+}
+
+.button.secondary:hover {
+  background: #0050CC;
+}
+
+.banner-inline-image {
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+}
+
+.home-image-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.home-image {
+  width: 100%;
+  height: 100%;
+  max-width: 700px;
+  align-self: center;
+}
+
+@media screen and (min-width: 60em) {
+  .container {
+    padding-inline: 10rem;
+  }
+
+  .site-header {
+    flex-direction: row;
+    padding-block: 4rem;
+  }
+
+  .banner-inline-image {
+    margin-left: auto;
+  }
+
+  .home-image-section {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .home-image-section.reversed {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .container {
+    padding-inline: 16rem;
+  }
+
+  .site-header-title {
+    height: 4rem;
+  }
+
+  .home-image-section {
+    flex-direction: row;
+    gap: 4rem;
+  }
+}
+
+
 .ananke-socials {
   display: flex;
   gap: 1rem;
@@ -61,12 +183,26 @@ a {
   color: #6364FF;
 }
 
+.social-share a {
+  text-decoration: none;
+}
+
 /* Custom styles for Kubuntu website */
 nav a img.site-logo {
     width: 50px !important;
     max-width: 50px !important;
     height: auto !important;
-} 
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav .is-active {
+  color: #99C1FF !important;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #99C1FF;
+}
 
 #front-content-box img {
     height: auto;

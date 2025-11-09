@@ -1,14 +1,11 @@
 ---
 date: 2017-04-09T10:58:08-04:00
 description: "Join Our Sponsors"
-featured_image: "images/sponsor.webp"
 tags: ["community","development","kubuntu"]
 title: "Sponsor"
 ---
 # Become a Sponsor
 ## Empower Kubuntu through Sponsorship
-
-{{< figure src="/images/sponsor.webp" title="Standing upon the shoulders of giants, we can see for miles" >}}
 
 The Kubuntu Project is an ambitious endeavor that thrives on the support and partnership of sponsors from around the globe.
 We welcome sponsorship in various forms, recognizing that each contribution significantly propels the project forward.

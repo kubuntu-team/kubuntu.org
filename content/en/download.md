@@ -1,7 +1,6 @@
 ---
 date: 2024-10-07T10:58:08-04:00
 title: Download
-featured_image: '/images/banners/download.png'
 description: Get your Kubuntu Linux
 type: page
 menu:
