@@ -3,6 +3,8 @@ date: 2024-04-09T10:58:08-04:00
 description: "Donations and Financial Support"
 tags: ["community","development","kubuntu"]
 title: "Donate"
+
+type: page
 ---
 # Support Kubuntu
 ## Make a Big Difference with a small Contribution
