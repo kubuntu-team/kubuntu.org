@@ -132,7 +132,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy to ${name}
         id: deployment
         uses: actions/deploy-pages@v4
 
