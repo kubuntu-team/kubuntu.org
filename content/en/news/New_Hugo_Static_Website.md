@@ -20,9 +20,9 @@ That means:
 - Lightning-fast loading speeds and almost zero server load
 
 We chose a soft launch so we can enable features and polish the design as we go. That’s why we started with AI-generated
-placeholder images – they’ve been replaced with proper Kubuntu artwork very soon.The new site already renders much faster
+placeholder images – they’ve been replaced with proper Kubuntu artwork very soon. The new site already renders much faster
 than the old one, it’s inherently safer without server-side scripting, and with your kind assistance we’ll have it in
-tip-top shape in just days.Check out the latest commits in the public repository and follow the progress live! If you
+tip-top shape in just days. Check out the latest commits in the public repository and follow the progress live! If you
 enjoy giving back to open source, your help is more than welcome:
 
 - Report remaining issues
