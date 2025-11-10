@@ -3,6 +3,8 @@ date: 2017-04-09T10:58:08-04:00
 description: "Community Volunteer Roles and Opportunities"
 tags: ["community","development","kubuntu"]
 title: "Volunteer"
+
+type: page
 ---
 # Join as a Volunteer
 ## Empower Your Career by Contributing to Kubuntu
@@ -33,7 +35,6 @@ diverse problems, honing your problem-solving and project management skills.
 ## Contribution to Open Source
 Play an integral role in the development and improvement of a leading Linux distribution. Your work directly benefits
 millions of users worldwide, contributing to the global accessibility of free, open-source software.
-
 
 # How to Get Involved
 

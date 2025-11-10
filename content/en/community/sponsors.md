@@ -3,6 +3,8 @@ date: 2017-04-09T10:58:08-04:00
 description: "Join Our Sponsors"
 tags: ["community","development","kubuntu"]
 title: "Sponsor"
+
+type: page
 ---
 # Become a Sponsor
 ## Empower Kubuntu through Sponsorship
@@ -32,9 +34,9 @@ to open source, innovation, and the global community that depends on and contrib
 
 ## Interested in becoming a sponsor?
 
-We'd love to hear from you! Contact us directly or reach out to our community managers to explore how your sponsorship 
+We'd love to hear from you! Contact us directly or reach out to our community managers to explore how your sponsorship
 can make a difference. Together, we can ensure the continued success and advancement of Kubuntu.
 
-[Contact Us](./link) | Meet Our Community Managers
+[Contact Us](/contact) | Meet Our Community Managers
 
 Thank you for considering support for Kubuntu. Your sponsorship is invaluable to us and to the broader open-source community.
