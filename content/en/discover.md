@@ -40,7 +40,7 @@ widgets to application behavior and desktop effects.
 
 ## Firefox
 
-{{< figure class="shadow"  src="/images/featureTour/firefox.png" title="Surf the Internet with Firefox" loading="lazy" loading="lazy" >}}
+{{< figure class="shadow"  src="/images/featureTour/firefox.png" title="Surf the Internet with Firefox" loading="lazy" >}}
 
 # Robust Application Suite
 Access a vast repository of applications and tools. Whether for work, education, or entertainment, Kubuntu provides all
