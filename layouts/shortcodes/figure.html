@@ -1,13 +1,14 @@
 {{ $image := .Get "src" }}
 {{ $title := .Get "title" }}
 {{ $alt := .Get "alt" | default $title }}
+{{ $loading := .Get "loading" | default "eager" }}
 
 {{ if not (strings.HasPrefix $image "/") }}
     {{ $image = printf "/%s" $image }}
 {{ end }}
 
 <figure>
-    <img src="{{ $image }}" alt="{{ $alt }}" {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+    <img src="{{ $image }}" alt="{{ $alt }}" {{ with .Get "class" }}class="{{ . }}" loading="{{ $loading }}" {{ end }}>
     {{ with $title }}
     <figcaption>{{ . }}</figcaption>
     {{ end }}

@@ -295,3 +295,7 @@ nav .is-active.donate-emph {
   border-color: #DD8300;
   color: #FFFFFF !important;
 }
+
+.shadow {
+  box-shadow: 0 4px 6px -1px rgb(0,0,0, 0.2);
+}
