@@ -50,7 +50,7 @@ jobs:
         run: |
           if [ "${{ github.ref_name }}" = 'main' ]; then
             echo "Building production site..."
-            hugo --minify --gc --baseURL "https://kubuntu.org"
+            HUGO_ENV=production hugo --minify --gc --baseURL "https://kubuntu.org"
           elif [ "${{ github.ref_name }}" = 'develop' ]; then
             echo "Building testing site..."
             hugo --minify --gc --baseURL "https://kubuntu-team.github.io/kubuntu.org"
