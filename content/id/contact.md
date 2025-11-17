@@ -8,7 +8,7 @@ menu:
   main:
     weight: 6
 ---
-## Kami disini untuk membanti
+## Kami disini untuk membantu
 
 Tim Kubuntu sudah berkomitmen untuk menyediakan dukungan dan menjawab pertanyaan-pertanyaan yang mungkin kamu ingin tanyakan.
 Apakah itu kamu sedang mencari bantuan teknis, tertarik untuk berkontribusi, atau hanya ingin membagikan masukan, kami ingin
@@ -23,8 +23,8 @@ Kami akan coba untuk merespon sesegera mungkin.
 
 ## Dukungan Teknis
 
-Perlu bantuan dengan Kubuntu? [komunitas forum](https://askubuntu.com/questions/tagged/kubuntu) dan 
-[kanal dukungan Matrix](https://matrix.to/#/#kubuntu-devel:ubuntu.com) khusus adalah tempat awal yang bagus
+Perlu bantuan dengan Kubuntu? [Forum komunitas](https://askubuntu.com/questions/tagged/kubuntu) dan 
+[kanal dukungan Matrix](https://matrix.to/#/#kubuntu-devel:ubuntu.com) khusus kami adalah tempat awal yang bagus
 untuk mencari petunjuk dan solusi dari sesama pengguna dan ahli.
 
 ## Kontribusi
