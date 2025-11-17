@@ -1,7 +1,6 @@
 ---
 title: Tentang
 description: "Kubuntu - Distribusi Linux yang dijalankan komunitas yang menggabungkan kehandalan Ubuntu dengan anggunnya KDE Plasma"
-description: "Kubuntu - A community-driven Linux distribution combining Ubuntu's reliability with KDE Plasma's elegance"
 omit_header_text: false
 
 menu:
