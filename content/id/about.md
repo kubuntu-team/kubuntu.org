@@ -37,7 +37,7 @@ Kubuntu adalah, dan akan selalu:
 - Bebas untuk dimodifikasi
 
 ## Dijalankan Komunitas
-Kubuntu hidup dari partisipasi komunitas. Entah itu kamu adalah seorang pengembang, desainer, tester, atau pengguna, ada banyak cara
+Kubuntu hidup dari partisipasi komunitas. Mau kamu adalah seorang pengembang, desainer, tester, atau pengguna, ada banyak cara
 untuk membuat kontribusi ke proyek ini. Bergabunglah ke komunitas kami yang penuh semangat untuk membantu Kubuntu agar menjadi lebih baik.
 
 [Ambil tur](/discover) dan cari tahu mengapa Kubuntu adalah pilihan yang tepat untuk kamu.
