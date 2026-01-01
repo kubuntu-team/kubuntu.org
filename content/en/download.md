@@ -6,7 +6,8 @@ type: page
 menu:
   main:
     weight: 3
-
+aliases:
+  - /getkubuntu
 ---
 ## Kubuntu 25.10 - _Plasma 6_
 
