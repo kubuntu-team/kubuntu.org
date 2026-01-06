@@ -28,7 +28,7 @@ Copy the following line and paste it into the terminal window
 at the command line.
 
 ```shell
-wget -O setup.sh https://raw.githubusercontent.com/ricktimmis/kubuntu.org/develop/setup.sh && bash setup.sh
+wget -O setup.sh https://raw.githubusercontent.com/kubuntu-team/kubuntu.org/develop/setup.sh && bash setup.sh
 ```
 Want more detail about what the script is doing, check the [setup documentation](./docs/setup.md)
 
