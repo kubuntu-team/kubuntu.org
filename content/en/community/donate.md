@@ -5,6 +5,8 @@ tags: ["community","development","kubuntu"]
 title: "Donate"
 
 type: page
+aliases:
+  - /donate
 ---
 # Support Kubuntu
 ## Make a Big Difference with a small Contribution

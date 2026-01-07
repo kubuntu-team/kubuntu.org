@@ -5,6 +5,8 @@ type: page
 menu:
   main:
     weight: 1
+aliases:
+  - /feature-tour
 ---
 
 # Kubuntu
