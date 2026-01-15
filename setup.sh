@@ -1,14 +1,18 @@
 #!/bin/bash
 
 # Checks and installs hugo and git if necessary
-for cmd in hugo git
-do
-    if ! command -v $cmd &> /dev/null
-    then
-        echo "$cmd is not installed. Installing via Snap..."
-        sudo snap install $cmd
-    fi
-done
+if ! command -v hugo &> /dev/null
+then
+    echo "hugo is not installed. Installing via Snap..."
+    sudo snap install hugo
+fi
+
+if ! command -v git &> /dev/null
+then
+    echo  "git is not installed. Installing  via apt..."
+    sudo apt update
+    sudo apt install -y git
+fi
 
 # Checks for Github directory in home directory and changes into it
 if [ ! -d "$HOME/Github" ]; then
