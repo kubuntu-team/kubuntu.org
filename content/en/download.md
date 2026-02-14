@@ -28,7 +28,7 @@ supported with security and maintenance updates, until April 2027.
 
 For those seeking more stability over time, the LTS version offers extended support and updates.
 
-[!["Kubuntu 24.04.3"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.04.3/release/kubuntu-24.04.3-desktop-amd64.iso)
+[!["Kubuntu 24.04.3"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.04.3/release/kubuntu-24.04.4-desktop-amd64.iso)
 
 [Kubuntu 24.04 release notes](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes/Kubuntu)
 
