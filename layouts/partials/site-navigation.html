@@ -14,7 +14,7 @@
           {{ $currentPage := . }}
           {{ range .Site.Menus.main }}
           <li class="list f5 f4-ns fw4 dib pv2 {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-            <a class="hover-white no-underline white-90 {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+            <a class="hover-white no-underline white-90 {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }} {{ .Params.class }}" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
               {{ .Name }}
             </a>
           </li>
@@ -24,4 +24,4 @@
       {{ partialCached "social-follow.html" . }}
     </div>
   </div>
-</nav> 
+</nav>

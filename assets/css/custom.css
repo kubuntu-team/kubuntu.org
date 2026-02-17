@@ -44,8 +44,32 @@ hr {
   padding-bottom: 3rem;
 }
 
+.donate-header {
+  margin-inline: auto;
+
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100em;
+}
+
+#donate-info-column {
+  max-width: 40em;
+}
+
+#donate-form-column {
+  text-align: center;
+}
+
 .site-header-title {
   height: 3rem;
+}
+
+.donate-header-title {
+  height: 3rem;
+  margin-left: -2em;
 }
 
 .header-background {
@@ -92,6 +116,16 @@ hr {
   width: 100%;
   height: 100%;
   max-width: 600px;
+  border-radius: .5rem;
+  border: 2px solid #ffffff88;
+  box-shadow: 0 0 .5em 0 #0008;
+}
+
+.donate-inline-item {
+  width: 100%;
+  border-radius: .5rem;
+  border: 2px solid #ffffff88;
+  box-shadow: 0 0 .5em 0 #0008;
 }
 
 .home-image-section {
@@ -105,9 +139,12 @@ hr {
   height: 100%;
   max-width: 700px;
   align-self: center;
+  border-radius: .5rem;
+  border: 2px solid #ffffff88;
+  box-shadow: 0 0 .5em 0 #0008;
 }
 
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 68em) {
   .container {
     padding-inline: 10rem;
   }
@@ -117,7 +154,12 @@ hr {
     padding-block: 4rem;
   }
 
-  .banner-inline-image {
+  .donate-header {
+    flex-direction: row;
+    gap: 64px;
+   }
+
+  .banner-inline-image,.donate-inline-item {
     margin-left: auto;
   }
 
@@ -129,6 +171,15 @@ hr {
   .home-image-section.reversed {
     flex-direction: row-reverse;
   }
+
+  #donate-info-column {
+    width: 60%;
+    max-width: 40em;
+  }
+
+  #donate-form-column {
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 90em) {
@@ -136,7 +187,7 @@ hr {
     padding-inline: 16rem;
   }
 
-  .site-header-title {
+  .site-header-title,.donate-header-title {
     height: 4rem;
   }
 
@@ -151,6 +202,7 @@ hr {
   display: flex;
   gap: 1rem;
   align-items: center;
+  margin-top: 0.5em;
 }
 
 .ananke-socials a {
@@ -189,9 +241,10 @@ hr {
 
 /* Custom styles for Kubuntu website */
 nav a img.site-logo {
-    width: 50px !important;
-    max-width: 50px !important;
-    height: auto !important;
+  width: 50px !important;
+  max-width: 50px !important;
+  height: auto !important;
+  margin-right: 2em;
 }
 
 nav ul {
@@ -206,4 +259,17 @@ nav .is-active {
 
 #front-content-box img {
     height: auto;
+}
+
+nav .donate-emph {
+  background-color: #11AA11;
+  border-radius: 0.25rem;
+  border: 2px solid #009900;
+  padding: 0.25rem 2rem;
+}
+
+nav .is-active.donate-emph {
+  background-color: #DD8300;
+  border-color: #DD8300;
+  color: #FFFFFF !important;
 }

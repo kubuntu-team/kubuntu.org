@@ -1,0 +1,31 @@
+{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+{{ if $featured_image }}
+  {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+  <header class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
+    <div class="{{ .Site.Params.cover_dimming_class | default "bg-black-60" }}">
+      {{ partial "site-navigation.html" .}}
+      <div class="pv5 flex donate-header container">
+        <div id="donate-form-column">
+          <img src="/images/kubuntu-wide.svg" class="donate-header-title">
+          {{ with .Params.description }}
+            <h2 class="fw1 f3 white-80 measure-wide-l mb4 mt2 tc">
+              {{ . }}
+            </h2>
+          {{ end }}
+          <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
+          <iframe src="https://donorbox.org/embed/support-kubuntu?default_interval=o" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 350px; max-height:none!important; border: 2px solid white; margin-bottom: 0.5em;" allow="payment"></iframe>
+        </div>
+        <div id="donate-info-column">
+          <p class="donate-inline-item" style="color: white; padding: 1em; margin-bottom: 2em;">Help improve Kubuntu and keep it free. Your donation will be used to develop, improve, support, and promote Kubuntu for yourself and users around the world.</p>
+          <img class="donate-inline-item" src="{{ $featured_image }}">
+        </div>
+      </div>
+    </div>
+  </header>
+{{ else }}
+  <header>
+    <div class="{{ .Site.Params.background_color_class | default "bg-black" }}">
+      {{ partial "site-navigation.html" . }}
+    </div>
+  </header>
+{{ end }}

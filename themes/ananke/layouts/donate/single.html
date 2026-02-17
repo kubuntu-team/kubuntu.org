@@ -1,0 +1,8 @@
+{{ define "header" }}
+  {{ partial "donate-header.html" . }}
+{{ end }}
+{{ define "main" }}
+ <article id="main-article" class="cf ph3 ph5-l pv3 pv4-l f4 measure-wide center container lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+    {{ .Content }}
+ </article>
+{{ end }}

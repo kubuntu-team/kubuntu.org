@@ -13,7 +13,7 @@ aliases:
 ## The Operating System That Adapts to You
 
 Kubuntu combines the incredible power of the Ubuntu core with the cutting-edge KDE Plasma desktop environment, offering
-a unique blend of performance, elegance, and user-friendliness. It's designed for both newcomers to Linux and 
+a unique blend of performance, elegance, and user-friendliness. It's designed for both newcomers to Linux and
 experienced users, providing a rich set of features.
 
 ## Dolphin File Manager
@@ -37,7 +37,7 @@ It's optimized for efficiency, ensuring that your system runs quickly and reliab
 {{< figure src="/images/featureTour/okular.png" title="Open and read documents easily" >}}
 
 # Extensive Customization
-Tailor your desktop to fit your style and needs. Kubuntu offers unparalleled customization options, from themes and 
+Tailor your desktop to fit your style and needs. Kubuntu offers unparalleled customization options, from themes and
 widgets to application behavior and desktop effects.
 
 ## Firefox
@@ -54,7 +54,7 @@ the software you need, including office suites, browsers, media players, and mor
 
 
 # Seamless Integration
-Enjoy smooth interoperability with your devices and online accounts. Kubuntu makes it easy to connect to your cloud 
+Enjoy smooth interoperability with your devices and online accounts. Kubuntu makes it easy to connect to your cloud
 storage, media servers, and other devices seamlessly.
 
 ## Haruna

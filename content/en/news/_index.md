@@ -2,6 +2,11 @@
 description: "Community Announcements"
 tags: ["news"]
 title: "News"
+
+type: page
+menu:
+  main:
+    weight: 7
 ---
 
 # Stay Updated with the Latest
