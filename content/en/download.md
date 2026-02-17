@@ -5,7 +5,7 @@ description: Get your Kubuntu Linux
 type: page
 menu:
   main:
-    weight: 3
+    weight: 2
 aliases:
   - /getkubuntu
 ---

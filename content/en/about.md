@@ -5,12 +5,12 @@ omit_header_text: false
 
 menu:
   main:
-    weight: 7
+    weight: 5
 
 type: page
 
 ---
-Kubuntu is a community-developed and supported project that brings together the best of Ubuntu and KDE. Since its launch 
+Kubuntu is a community-developed and supported project that brings together the best of Ubuntu and KDE. Since its launch
 in October 2004, Kubuntu has grown into one of the most respected Linux distributions, serving millions of users worldwide.
 
 ## Our Mission
@@ -25,7 +25,7 @@ We release every 6 months, releases are number year.month e.g 25.04, following U
 - April releases (YY.04 _'LTS'_) - Feature or Long Term Support versions
 - October releases (YY.10) - Latest features and improvements
 
-LTS or ‘Long Term Support’ releases are published every two years in April. LTS releases are the ‘enterprise grade’ 
+LTS or ‘Long Term Support’ releases are published every two years in April. LTS releases are the ‘enterprise grade’
 releases of Kubuntu and are used the most. An estimated 95% of all Kubuntu installations are LTS releases.
 
 ## Free and Open Source
@@ -36,7 +36,7 @@ Kubuntu is and will always be:
 - Free to modify
 
 ## Community-Driven
-Kubuntu thrives on community participation. Whether you're a developer, designer, tester, or user, there are many ways to 
+Kubuntu thrives on community participation. Whether you're a developer, designer, tester, or user, there are many ways to
 contribute to the project. Join our vibrant community and help make Kubuntu even better.
 
 [Take the tour](/discover) and find out why Kubuntu is right for you.

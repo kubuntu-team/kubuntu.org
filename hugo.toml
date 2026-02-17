@@ -3,7 +3,7 @@ baseURL = 'https://kubuntu.org/'
 languageCode = "en-us"
 theme = 'ananke'
 DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
+#SectionPagesMenu = "main"
 [pagination]
 pagerSize = 3
 googleAnalytics = ""

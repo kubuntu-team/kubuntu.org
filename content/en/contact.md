@@ -6,7 +6,7 @@ title: "Contact"
 type: page
 menu:
   main:
-    weight: 6
+    weight: 4
 ---
 ## We're here to Help
 
