@@ -144,6 +144,13 @@ hr {
   box-shadow: 0 0 .5em 0 #0008;
 }
 
+.home-image-noborder {
+  width: 100%;
+  height: 100%;
+  max-width: 700px;
+  align-self: center;
+}
+
 @media screen and (min-width: 68em) {
   .container {
     padding-inline: 10rem;
