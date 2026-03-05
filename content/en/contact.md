@@ -23,7 +23,7 @@ We aim to respond as quickly as possible.
 ## Technical Support
 
 Need help with Kubuntu? Our [community forums](https://askubuntu.com/questions/tagged/kubuntu) and dedicated
-[Matrix support channel](https://matrix.to/#/#kubuntu-devel:ubuntu.com) are great places to seek advice and solutions
+[Matrix support channel](https://matrix.to/#/#kubuntu-support:ubuntu.com) are great places to seek advice and solutions
 from fellow users and experts.
 
 ## Contributing
