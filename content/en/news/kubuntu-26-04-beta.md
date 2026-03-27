@@ -6,7 +6,6 @@ description: "The Kubuntu Beta for 26.04 LTS is here. Try Plasma 6.6, Qt 6.10, K
 tags: ["release", "beta", "plasma", "kde", "lts"]
 categories: ["release-notes"]
 cover:
-  image: "/images/kubuntu-26-04-beta.png"
   alt: "Kubuntu 26.04 Resolute Raccoon Beta"
 ---
 
