@@ -10,7 +10,7 @@ ecosystem on top of Ubuntu's rock-solid foundation. This Long-Term Support relea
 two-year LTS cycle, brings together the freshest stable KDE software with the reliability and security users
 depend on for years to come.
 
-Building on the Ubuntu 26.04 LTS base released today by Canonical, Kubuntu 26.04 introduces **Plasma 6.6.4**
+Building on the Ubuntu 26.04 LTS base released today by Canonical, Kubuntu 26.04 introduces **Plasma 6.6**
 as the flagship desktop environment, alongside **Qt 6.10.2**, **KDE Frameworks 6.24.0**, and the latest
 **KDE Gear 25.12.3** application suite. We've also upgraded to **Linux kernel 7.0** for enhanced hardware
 support and performance. Whether you're a developer, creator, or everyday user, this release emphasises
@@ -83,7 +83,7 @@ Beyond these highlights, Kubuntu 26.04 LTS inherits Ubuntu's robust platform upg
   installations, brings the new `sched_ext` scheduling system for hot-swappable eBPF-based schedulers,
   and retires the `linux-lowlatency` package in favour of a leaner `lowlatency-kernel` tuning approach
   on top of `linux-generic`.
-- **KDE Applications 25.12.3**: All KDE Gear applications have been updated to 25.12.3, the latest stable
+- **KDE Applications 25.12.3**: All KDE Gear applications have been updated to 25.12.3, a stable
   release, including Dolphin, Konsole, Okular, Kdenlive, and more.
 - **Qt 6 Ecosystem**: Qt 6.10.2 and KDE Frameworks 6.24.0 power the desktop. Qt5 (5.15.18) and
   KDE Frameworks 5 (5.116.0) legacy packages remain in the archive for applications that have not yet
