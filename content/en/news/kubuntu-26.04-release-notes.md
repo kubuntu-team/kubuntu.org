@@ -37,6 +37,14 @@ Here are four standout enhancements that Kubuntu 26.04 LTS brings to your deskto
    support means it works for users around the world, and the extracted text copies directly to your clipboard
    for immediate use. It's the kind of small feature that quickly becomes indispensable.
 
+   > **Note:** Multi-language OCR support requires the appropriate Tesseract language data package for your
+   > language. Install the one that matches your locale — for example, `tesseract-ocr-deu` for German or
+   > `tesseract-ocr-fra` for French — with:
+   > ```
+   > sudo apt install tesseract-ocr-<language-code>
+   > ```
+   > A full list of available language packs can be found by running `apt search tesseract-ocr-`.
+
 2. **A New On-Screen Keyboard for Touch, Accessibility, and Beyond**
    Plasma 6.6 introduces a fully integrated on-screen keyboard, making Kubuntu a much stronger choice for
    touchscreen devices, tablets, and users with accessibility needs. The keyboard supports multiple languages
