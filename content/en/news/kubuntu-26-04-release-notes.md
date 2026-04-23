@@ -1,3 +1,14 @@
+---
+title: "Kubuntu 26.04 LTS Resolute Raccoon Released"
+date: 2026-04-23
+draft: false
+description: "Kubuntu 26.04 LTS is here. Try Plasma 6.6, Qt 6.10, KDE Frameworks 6.24, and more."
+tags: ["release", "plasma", "kde", "lts"]
+categories: ["release-notes"]
+cover:
+  alt: "Kubuntu 26.04 Resolute Raccoon"
+---
+
 # Kubuntu 26.04 LTS Resolute Raccoon Released
 
 April 23, 2026
