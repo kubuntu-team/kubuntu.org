@@ -99,7 +99,7 @@ Beyond these highlights, Kubuntu 26.04 LTS inherits Ubuntu's robust platform upg
 - **Qt 6 Ecosystem**: Qt 6.10.2 and KDE Frameworks 6.24.0 power the desktop. Qt5 (5.15.18) and
   KDE Frameworks 5 (5.116.0) legacy packages remain in the archive for applications that have not yet
   completed their Qt6 port.
-- **Firefox 149/150** and **LibreOffice 25.8**: Both core applications are updated, with Firefox delivered
+- **Firefox 150** and **LibreOffice 26.2**: Both core applications are updated, with Firefox delivered
   as a Snap from the Snap Store and LibreOffice included in the full installation.
 - **sudo-rs by default**: Ubuntu 26.04 LTS ships `sudo-rs`, a memory-safe Rust reimplementation of `sudo`,
   as the default `sudo` provider — improving security without changing everyday usage.
@@ -107,9 +107,9 @@ Beyond these highlights, Kubuntu 26.04 LTS inherits Ubuntu's robust platform upg
   performance improvements and memory safety to fundamental command-line tools.
 - **VA-API hardware video acceleration**: AMD and Intel users now get hardware-accelerated video encoding
   and decoding by default via the Video Acceleration API — great for media playback and video work.
-- **Updated developer toolchain**: GCC 15.2, Python 3.13 (3.14 also available), Rust 1.93, Golang 1.25,
+- **Updated developer toolchain**: GCC 15.2, Python 3.14, Rust 1.93, Golang 1.26,
   LLVM 21, OpenJDK 25, and .NET 10 are all included and ready to use.
-- **APT 3**: The package manager gains a new dependency solver, OpenSSL-backed TLS, and an automatic
+- **APT 3.2**: The package manager gains a new dependency solver, OpenSSL-backed TLS, and an automatic
   pager for commands like `apt show` and `apt list`.
 
 ---
