@@ -16,9 +16,9 @@ supported with security and maintenance updates, until April 2029.
 
 For those seeking more stability over time, the LTS version offers extended support and updates.
 
-[!["Kubuntu 24.06"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/26.04/release/kubuntu-26.04-desktop-amd64.iso)
+[!["Kubuntu 26.04"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/26.04/release/kubuntu-26.04-desktop-amd64.iso)
 
-[Kubuntu 24.06 release notes](https://kubuntu.org/news/kubuntu-26-04-release-notes/)
+[Kubuntu 26.04 release notes](https://kubuntu.org/news/kubuntu-26-04-release-notes/)
 
 [Alternative downloads, torrents, mirrors and check-sums ›](/alternative-downloads)
 
