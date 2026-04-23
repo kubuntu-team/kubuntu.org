@@ -109,8 +109,9 @@ Beyond these highlights, Kubuntu 26.04 LTS inherits Ubuntu's robust platform upg
   and decoding by default via the Video Acceleration API — great for media playback and video work.
 - **Updated developer toolchain**: GCC 15.2, Python 3.14, Rust 1.93, Golang 1.26,
   LLVM 21, OpenJDK 25, and .NET 10 are all included and ready to use.
-- **APT 3.2**: The package manager gains a new dependency solver, OpenSSL-backed TLS, and an automatic
-  pager for commands like `apt show` and `apt list`.
+- **APT 3.2**: The package manager gains a new dependency solver, OpenSSL-backed TLS, an automatic
+  pager for commands like `apt show` and `apt list` and history and rollback commands like
+  `apt history-list` or `apt history-rollback`, which were previously found only in separate apt-rollback tool.
 
 ---
 
