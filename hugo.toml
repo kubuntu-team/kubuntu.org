@@ -26,6 +26,11 @@ contentDir = "content/en"
 # weight = 2
 # contentDir = "content/es"
 
+[languages.id]
+title = "Kubuntu"
+weight = 2
+contentDir = "content/id"
+
 [sitemap]
 changefreq = "monthly"
 priority = 0.5
