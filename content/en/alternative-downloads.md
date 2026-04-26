@@ -11,7 +11,7 @@ There are several other ways to get Kubuntu including torrents, which can potent
 
 BitTorrent is a peer-to-peer download network that sometimes enables higher download speeds and more reliable downloads of large files. You will need to install a BitTorrent client, such as [KTorrent](https://apps.kde.org/ktorrent/), on your computer in order to enable this download method.
 
-- [Kubuntu 24.06 LTS](https://cdimage.ubuntu.com/kubuntu/releases/26.04/release/kubuntu-26.04-desktop-amd64.iso.torrent)
+- [Kubuntu 26.04 LTS](https://cdimage.ubuntu.com/kubuntu/releases/26.04/release/kubuntu-26.04-desktop-amd64.iso.torrent)
 - [Kubuntu 24.04.4 LTS](https://cdimage.ubuntu.com/kubuntu/releases/24.04.3/release/kubuntu-24.04.4-desktop-amd64.iso.torrent)
 - [Kubuntu 25.10](https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso.torrent)
 
