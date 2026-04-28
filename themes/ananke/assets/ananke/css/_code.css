@@ -1,24 +1,36 @@
-pre, .pre  {
+pre,
+.pre {
   overflow-x: auto;
   overflow-y: hidden;
-  overflow:   scroll;
+  overflow: scroll;
 }
 
-
-pre  code {
+pre code {
   display: block;
   padding: 1.5em 1.5em;
   white-space: pre;
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 2;
-
 }
 
 pre {
-  background-color: #222;
-  color: #ddd;
+  background-color: var(--card-bg);
+  color: var(--text-main);
   white-space: pre;
 
   hyphens: none;
   position: relative;
+
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+code {
+  color: var(--text-main);
+}
+
+@media (prefers-color-scheme: dark) {
+  pre {
+    background-color: #1e1e1e;
+  }
 }

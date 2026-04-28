@@ -1,5 +1,8 @@
 {{ define "main" }}
- <article id="main-article" class="cf ph3 ph5-l pv3 pv4-l f4 measure-wide center container lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+  <article
+    id="main-article"
+    class="content-body cf ph3 ph5-l pv3 pv4-l f4 measure-wide center container lh-copy"
+  >
     {{ .Content }}
   </article>
   {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
@@ -8,17 +11,17 @@
   {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
   {{/* Check to see if the section is defined for ranging through it */}}
   {{ $section_count := len $section }}
+
   {{ if ge $section_count 1 }}
     {{/* Derive the section name  */}}
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
 
     <div class="center container">
-      {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
-       {{ with .Site.GetPage "section" $section_name }}
-          <h1 class="flex-none">
-            {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
-          </h1>
-        {{ end }}
+      {{ with .Site.GetPage "section" $section_name }}
+        <h1 class="flex-none card-title">
+          {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
+        </h1>
+      {{ end }}
 
       {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
 
@@ -32,24 +35,28 @@
       </section>
 
       {{ if ge $section_count (add $n_posts 1) }}
-      <section class="w-100">
-        <h1 class="f3">{{ i18n "more" }}</h1>
-        {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
-        {{ range (first 4 (after $n_posts $section))  }}
-          <h2 class="f5 fw4 mb4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "ml3" "mr3" }}">
-            <a href="{{ .RelPermalink }}" class="link black dim">
-              {{ .Title }}
+        <section class="w-100">
+          <h1 class="f3 card-title">{{ i18n "more" }}</h1>
+          {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
+          {{ range (first 4 (after $n_posts $section)) }}
+            <h2 class="f5 fw4 mb4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "ml3" "mr3" }}">
+              <a href="{{ .RelPermalink }}" class="card-link dim">
+                {{ .Title }}
+              </a>
+            </h2>
+          {{ end }}
+          
+          {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
+          {{ with .Site.GetPage "section" $section_name }}
+            <a
+              href="{{ .RelPermalink }}"
+              class="button secondary db tc w4"
+            >
+              {{ i18n "allTitle" . }}
             </a>
-          </h2>
-        {{ end }}
-
-        {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
-        {{ with .Site.GetPage "section" $section_name }}
-          <a href="{{ .RelPermalink }}" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">{{ i18n "allTitle" . }}</a>
-        {{ end }}
+          {{ end }}
         </section>
       {{ end }}
-
     </div>
   {{ end }}
 {{ end }}

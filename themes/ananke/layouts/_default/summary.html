@@ -1,14 +1,19 @@
-<div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    {{with .CurrentSection.Title }}<span class="f6 db">{{ . }}</span>{{end}}
-    <h1 class="f3 near-black">
-      <a href="{{ .RelPermalink }}" class="link black dim">
-        {{ .Title }}
-      </a>
+<div class="relative w-100 mb4 card nested-copy-line-height">
+  <div class="card-inner mb3 pa4 overflow-hidden">
+    {{ with .CurrentSection.Title }}
+    <span class="section-label f6 db">{{ . }}</span>
+    {{ end }}
+
+    <h1 class="card-title f3">
+      <a href="{{ .RelPermalink }}" class="card-link dim"> {{ .Title }} </a>
     </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
+
+    <div class="content-body nested-links f5 lh-copy nested-copy-line-height">
       {{ .Summary }}
     </div>
-    <a href="{{.RelPermalink}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
+
+    <a href="{{ .RelPermalink }}" class="card-button br2 dib f7 mt2 ph2 pv1">
+      {{ $.Param "read_more_copy" | default (i18n "readMore") }}
+    </a>
   </div>
 </div>
