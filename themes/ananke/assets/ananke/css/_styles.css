@@ -6,15 +6,26 @@
 
 .lh-copy blockquote {
   display: block;
-  font-size: .875em;
+  font-size: 0.875em;
   margin-left: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  border-left: 4px solid #ccc;
+  border-left: 4px solid var(--border);
   padding-left: 1rem;
-
+  color: var(--text-main);
+  opacity: 0.9;
+  background: var(--card-muted);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0 4px 4px 0;
 }
 
-.nested-links a{
+.nested-links a {
   overflow-wrap: break-word;
+}
+
+@media (prefers-color-scheme: dark) {
+  .lh-copy blockquote {
+    background: rgba(255, 255, 255, 0.04);
+  }
 }
