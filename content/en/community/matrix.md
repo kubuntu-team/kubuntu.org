@@ -28,7 +28,7 @@ Catering to the varied interests and needs of our community, we offer several de
  - [**Support:**](https://matrix.to/#/#kubuntu-support:ubuntu.com) Where users can find help, ask questions, and receive technical support from the community.
  - **Members:** A room for Kubuntu Members to discuss, plan, and stay informed about the project's direction.
  - **Council:** Dedicated to the Kubuntu Council, facilitating discussions on governance and strategic decisions.
- - [**Discussion:**](https://matrix.to/#/#kubuntu:matrix.org) An open forum for general chat, discussions, and connecting with fellow Kubuntu users.
+ - [**Discussion:**](https://matrix.to/#/#kubuntu-discuss:ubuntu.com) An open forum for general chat, discussions, and connecting with fellow Kubuntu users.
 
 
 ### Get Involved:

@@ -122,4 +122,4 @@ for making Resolute Raccoon a reality.
 Ready to dive in? [Download Kubuntu 26.04 LTS](https://www.kubuntu.org/download) and install fresh,
 or upgrade from Kubuntu 24.04 LTS. If upgrading, remember to back up and clear your `~/.config` folder
 for the smoothest experience. Questions? Head to [Discourse](https://discourse.ubuntu.com/c/flavors/kubuntu/187)
-or join us on Matrix at [#kubuntu:matrix.org](https://matrix.to/#/#kubuntu:matrix.org).
+or join us on Matrix at [#kubuntu:matrix.org](https://matrix.to/#/#kubuntu-discuss:ubuntu.com).
