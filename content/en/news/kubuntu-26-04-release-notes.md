@@ -78,11 +78,17 @@ Here are four standout enhancements that Kubuntu 26.04 LTS brings to your deskto
    out-of-the-box experience or enjoy crafting every detail of your workspace, Resolute Raccoon gives you
    the tools to make Kubuntu truly your own.
 
-   > **Note for upgraders:** Due to the depth of configuration changes across Plasma 6.6, Qt 6.10.2, and
-   > KDE Frameworks 6.24.0, users upgrading from a previous release are **strongly encouraged to begin with
-   > a clean `~/.config` folder**. Legacy configuration files from older Plasma releases can cause unexpected
-   > visual glitches, broken panel layouts, or misbehaving themes. Backing up and removing your existing
-   > `~/.config` before logging into the upgraded desktop will give you the cleanest, most reliable experience.
+   > **Note for upgraders:** The depth of configuration changes across Plasma 6.6, Qt 6.10.2, and
+   > KDE Frameworks 6.24.0 means that some users upgrading from a previous release may experience visual
+   > glitches, broken panel layouts, or misbehaving themes. If you encounter these issues after upgrading,
+   > the first step is to reset your theme: open **System Settings → Colors & Themes** and reapply your
+   > preferred global theme, making sure to check both the **Desktop Layout** and **Window Layout**
+   > checkboxes when prompted. This will restore panels, widgets, and window decorations to a clean state
+   > in most cases.
+   >
+   > If problems persist after resetting your theme, a clean `~/.config` folder is the nuclear option —
+   > back up your existing configuration first, then remove it before logging back in. This should be
+   > treated as a last resort, as it will reset all Plasma settings to defaults.
 
 ---
 
@@ -120,6 +126,6 @@ A huge thank you to our volunteer contributors, testers, bug reporters, and the 
 for making Resolute Raccoon a reality.
 
 Ready to dive in? [Download Kubuntu 26.04 LTS](https://www.kubuntu.org/download) and install fresh,
-or upgrade from Kubuntu 24.04 LTS. If upgrading, remember to back up and clear your `~/.config` folder
-for the smoothest experience. Questions? Head to [Discourse](https://discourse.ubuntu.com/c/flavors/kubuntu/187)
+or upgrade from Kubuntu 24.04 LTS. If upgrading and you run into theme or layout issues, see the note
+above on resetting your theme before reaching for a clean `~/.config`. Questions? Head to [Discourse](https://discourse.ubuntu.com/c/flavors/kubuntu/187)
 or join us on Matrix at [#kubuntu:matrix.org](https://matrix.to/#/#kubuntu-discuss:ubuntu.com).
