@@ -1,0 +1,8 @@
+{{/*
+  head-additions.html — the designated injection point at the end of <head>.
+
+  Site projects can override this partial directly, or use the "head-end" hook
+  to inject markup (meta tags, preloads, third-party <script>/<link> tags)
+  without overriding the partial. See the documentation on hooks & filters.
+*/}}
+{{- partials.Include "hook.html" (dict "hook" "head-end" "context" .) -}}
