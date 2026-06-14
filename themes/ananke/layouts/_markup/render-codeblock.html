@@ -1,0 +1,27 @@
+{{- /*
+  Code block render hook.
+
+  Wraps Hugo's standard syntax-highlighted output in a container with a
+  copy-to-clipboard button. Highlighting still honours the site's
+  [markup.highlight] configuration because we delegate to
+  transform.HighlightCodeBlock, which reads both the per-fence options and the
+  global config.
+
+  Progressive enhancement: the button is rendered with the `hidden` attribute
+  and is only revealed by site-scripts.html when JavaScript runs, so sites
+  without JS show no inert button. The copy behaviour itself is wired by the
+  same script (a single delegated listener).
+
+  Disable site-wide with `[ananke] copy_code = false` (see params.toml).
+*/ -}}
+{{- $result := transform.HighlightCodeBlock . -}}
+{{- if eq false site.Params.ananke.copy_code -}}
+  {{- $result.Wrapped -}}
+{{- else -}}
+  <div class="code-block">
+    <button class="code-copy" type="button" hidden aria-label="Copy code to clipboard">
+      <span class="code-copy-label" aria-hidden="true">Copy</span>
+    </button>
+    {{ $result.Wrapped }}
+  </div>
+{{- end -}}

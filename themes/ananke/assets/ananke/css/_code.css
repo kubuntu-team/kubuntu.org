@@ -1,24 +1,80 @@
 pre, .pre  {
   overflow-x: auto;
   overflow-y: hidden;
-  overflow:   scroll;
 }
 
-
-pre  code {
+pre code {
   display: block;
   padding: 1.5em 1.5em;
   white-space: pre;
-  font-size: .875rem;
   line-height: 2;
-
 }
 
 pre {
   background-color: #222;
   color: #ddd;
   white-space: pre;
-
   hyphens: none;
   position: relative;
+}
+
+p code {
+  font-size: 0.9em;
+}
+
+/* ------------------------------------------------------------------ *
+ * Code block copy button (see layouts/_markup/render-codeblock.html)  *
+ * Progressive enhancement: the button is hidden until site-scripts.html
+ * reveals it, so no inert button appears when JavaScript is disabled.  *
+ * ------------------------------------------------------------------ */
+
+.code-block {
+  position: relative;
+}
+
+.code-block .code-copy {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 2;
+  padding: 0.25rem 0.6rem;
+  font-family: inherit;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: #ddd;
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+/* Reveal on hover and when focused for keyboard users. */
+.code-block:hover .code-copy,
+.code-block .code-copy:focus-visible {
+  opacity: 1;
+}
+
+.code-block .code-copy:hover {
+  background-color: rgba(255, 255, 255, 0.22);
+}
+
+.code-block .code-copy.is-copied {
+  color: #fff;
+  background-color: #19a974;
+  border-color: #19a974;
+}
+
+/* Touch devices have no hover; keep the button visible but subtle. */
+@media (hover: none) {
+  .code-block .code-copy {
+    opacity: 0.7;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .code-block .code-copy {
+    transition: none;
+  }
 }
