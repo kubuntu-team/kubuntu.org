@@ -1,66 +1,86 @@
 title = "Kubuntu"
 baseURL = 'https://kubuntu.org/'
-languageCode = "en-us"
 theme = 'ananke'
-DefaultContentLanguage = "en"
-#SectionPagesMenu = "main"
+defaultContentLanguage = "en"
+# SectionPagesMenu = "main"
+
 [pagination]
-pagerSize = 3
-googleAnalytics = ""
-enableRobotsTXT = true
+  pagerSize = 3
+  googleAnalytics = ""
+  enableRobotsTXT = true
 
 [languages]
-[languages.en]
-title = "Kubuntu"
-weight = 1
-contentDir = "content/en"
-# languageDirection = 'rtl' for Right-To-Left languages
+  [languages.en]
+    title = "Kubuntu"
+    weight = 1
+    contentDir = "content/en"
+    # languageDirection = 'rtl' for Right-To-Left languages
 
-# [languages.fr]
-# title = "Kubuntu Fr"
-# weight = 2
-# contentDir = "content/fr"
+    # [languages.fr]
+    # title = "Kubuntu Fr"
+    # weight = 2
+    # contentDir = "content/fr"
 
-# [languages.es]
-# title = "Kubuntu Es"
-# weight = 2
-# contentDir = "content/es"
+    # [languages.es]
+    # title = "Kubuntu Es"
+    # weight = 2
+    # contentDir = "content/es"
 
 [sitemap]
-changefreq = "monthly"
-priority = 0.5
-filename = "sitemap.xml"
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
-text_color = "#333333"
-favicon = "images/favicon.ico"
-site_logo = "images/kubuntu-logo.png"
-description = "Kubuntu - A friendly computing community"
-apple_touch_icon = "images/apple-touch-icon.png"
-webmanifest = "images/site.webmanifest"
-custom_css = ["css/custom.css"]
-background_color_class = "header-background"
-cover_dimming_class = "main-background"
-recent_posts_number = 3
-body_classes = "ubuntu"
-post_content_classes = "ubuntu"
-post_header_classes = "avenir"
-# [[params.social]]
-# name = "twitter"
-# url = "https://x.com/kubuntu"
-# label = "TND Twitter"
-[[params.social]]
-name = "github"
-url = "https://github.com/kubuntu-team"
-label = "TND GitHub Account"
-color = "#ff6800"
-[[params.social]]
-name = "facebook"
-url = "https://www.facebook.com/kubuntu.org"
-[[params.social]]
-name = "youtube"
-url = "https://www.youtube.com/@KubuntuPodcast"
-[[params.social]]
-name = "mastodon"
-url = "https://fosstodon.org/@kubuntu"
-rel = "me noopener"
+  text_color = "#333333"
+  favicon = "images/favicon.ico"
+  site_logo = "images/kubuntu-logo.png"
+  description = "Kubuntu - A friendly computing community"
+  apple_touch_icon = "images/apple-touch-icon.png"
+  webmanifest = "images/site.webmanifest"
+  custom_css = ["css/custom.css"]
+  background_color_class = "header-background"
+  cover_dimming_class = "main-background"
+  recent_posts_number = 3
+  body_classes = "ubuntu"
+  post_content_classes = "ubuntu"
+  post_header_classes = "avenir"
+  # [[params.social]]
+  #   name = "twitter"
+  #   url = "https://x.com/kubuntu"
+  #   label = "TND Twitter"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/kubuntu-team"
+    label = "TND GitHub Account"
+    color = "#ff6800"
+  [[params.social]]
+    name = "facebook"
+    url = "https://www.facebook.com/kubuntu.org"
+  [[params.social]]
+    name = "youtube"
+    url = "https://www.youtube.com/@KubuntuPodcast"
+  [[params.social]]
+    name = "mastodon"
+    url = "https://fosstodon.org/@kubuntu"
+    rel = "me noopener"
+
+[security]
+  allowContent = ['^text/html$', '^text/markdown$']
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
+    osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE|PROGRAMDATA)$']
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$']
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['(?i)^https?://[a-z0-9]', '! ^https?://\d+\.', '! (?i)localhost', '! (?i)^https?://[^/?#]*@']
+  [security.node]
+    [security.node.permissions]
+      allowAddons = ['tailwindcss']
+      allowChildProcess = ['tailwindcss']
+      allowRead = ['.']
+      allowWorker = ['tailwindcss']
+      allowWrite = []
+      disable = false
