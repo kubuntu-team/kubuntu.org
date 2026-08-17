@@ -4,6 +4,10 @@ languageCode = "en-us"
 theme = 'ananke'
 DefaultContentLanguage = "en"
 #SectionPagesMenu = "main"
+
+[security]
+allowContent = ['.*']
+
 [pagination]
 pagerSize = 3
 googleAnalytics = ""
