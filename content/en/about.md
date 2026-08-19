@@ -10,7 +10,8 @@ menu:
 type: page
 
 ---
-Kubuntu is a community-developed and supported project that brings together the best of Ubuntu and KDE. Since its launch
+Kubuntu is a community-developed and supported [official flavour of Ubuntu](https://ubuntu.com/desktop/flavors)
+ that brings together the best of Ubuntu and KDE. Since its launch
 in October 2004, Kubuntu has grown into one of the most respected Linux distributions, serving millions of users worldwide.
 
 ## Our Mission
