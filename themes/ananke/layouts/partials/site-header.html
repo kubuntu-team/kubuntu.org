@@ -4,7 +4,7 @@
   <header class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
     <div class="{{ .Site.Params.cover_dimming_class | default "bg-black-60" }}">
       {{ partial "site-navigation.html" .}}
-      <div class="pv5 flex site-header container">
+      <div class="pt5 flex site-header container">
         <div>
           <img src="/images/kubuntu-wide.svg" class="site-header-title">
           {{ with .Params.description }}
@@ -18,6 +18,9 @@
           </div>
         </div>
         <img class="banner-inline-image" src="{{ $featured_image }}">
+      </div>
+      <div class="pb4 flex mgia container">
+        <h2 class="fw1 white center-maybe">Featuring the <a class="light-blue" href="/news/plasma-6.6-lts/">Bullet-Proof KDE software suite</a> for superior stability and reliability.</p>
       </div>
     </div>
   </header>

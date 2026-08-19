@@ -14,7 +14,8 @@ aliases:
 The latest Long Term Support (LTS) version of the Kubuntu operating system for desktop PCs and laptops, Kubuntu 26.04
 supported with security and maintenance updates, until April 2029.
 
-For those seeking more stability over time, the LTS version offers extended support and updates.
+For those seeking more stability over time, the LTS version offers extended support and updates. For 26.04 LTS this
+includes the [Bullet-Proof KDE Software Suite](/news/plasma-6.6-lts/).
 
 [!["Kubuntu 26.04"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/26.04/release/kubuntu-26.04-desktop-amd64.iso)
 
