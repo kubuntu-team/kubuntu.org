@@ -19,3 +19,14 @@ This work has been ongoing since May 2026, and there are already significant res
 This initiative was started and funded by our hardware partner, Kubuntu Focus, with a total commitment over $100K. If you're ready to use a desktop designed for professionals and organizations that require stability and reliability, you can explore their systems [here](https://kfocus.org/spec).
 
 You can get more details from KDE developer and Techpaladin CEO, Nate Graham, [in his blog post](https://pointieststick.com/2026/08/13/what-a-real-lts-looks-like-kubuntu-26-04/), or visit the [official press release](https://www.einpresswire.com/article/930823977/kubuntu-focus-techpaladin-software-and-kde-e-v-announce-the-bullet-proof-kde-software-initiative).
+
+## Press coverage
+
+* [9to5Linux](https://9to5linux.com/kde-announces-bulletproof-kde-suite-with-three-years-of-support)
+* [GamingOnLinux](https://www.gamingonlinux.com/2026/08/the-bullet-proof-kde-software-initiative-announced-bringing-a-proper-long-term-support-to-kde-plasma/)
+* [Linuxiac](https://linuxiac.com/kde-plasma-6-6-gets-three-years-of-lts-support/)
+* [Linux Magazine](https://www.linux-magazine.com/Online/News/The-Bullet-Proof-KDE-Software-Initiative-Is-Coming)
+* [Nerds.xyz](https://nerds.xyz/2026/08/kubuntu-focus-kde-plasma-6-6-lts/)
+* [NewInLinux](https://www.newinlinux.com/bullet-proof-kde-plasma-6-6-lts-for-3-years/)
+* [Phoronix](https://www.phoronix.com/news/KDE-Bullet-Proof-Software)
+* [The Register](https://www.theregister.com/software/2026/08/18/sponsor-gives-kde-plasma-66-the-lts-treatment/5288531)
