@@ -17,6 +17,8 @@ supported with security and maintenance updates, until April 2029.
 For those seeking more stability over time, the LTS version offers extended support and updates. For 26.04 LTS this
 includes the [Bullet-Proof KDE Software Suite](/news/plasma-6.6-lts/).
 
+**Kubuntu 26.04.1 ISO**
+
 [!["Kubuntu 26.04.1"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/26.04.1/release/kubuntu-26.04.1-desktop-amd64.iso)
 
 [Kubuntu 26.04 release notes](https://kubuntu.org/news/kubuntu-26-04-release-notes/)
@@ -29,6 +31,8 @@ Latest interim version of the Kubuntu operating system for desktop PCs and lapto
 
 Kubuntu 25.10 supported with security and maintenance updates, until July 2026.
 
+**Kubuntu 25.10 ISO**
+
 [!["Kubuntu 25.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso)
 
 [Kubuntu 25.10 release notes](https://wiki.ubuntu.com/QuestingQuokka/ReleaseNotes/Kubuntu)
@@ -39,6 +43,8 @@ Kubuntu 25.10 supported with security and maintenance updates, until July 2026.
 
 The previous Long Term Support (LTS) version of the Kubuntu operating system for desktop PCs and laptops, Kubuntu 24.04
 supported with security and maintenance updates, until April 2027.
+
+**Kubuntu 24.04.4 ISO**
 
 [!["Kubuntu 24.04.4"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.04.4/release/kubuntu-24.04.4-desktop-amd64.iso)
 
