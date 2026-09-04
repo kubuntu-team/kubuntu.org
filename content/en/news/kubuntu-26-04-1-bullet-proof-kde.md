@@ -8,11 +8,11 @@ cover:
   alt: "Bullet-Proof KDE and Kubuntu 26.04.1"
 ---
 
-{{< figure src="/images/news/kubuntu-26-04-1-bullet-proof-kde-hero.png" title="The Bullet-Proof KDE announcement" >}}
+[![Watch on YouTube](/images/news/kubuntu-26-04-1-bullet-proof-kde-youtube-thumbnail.png)](https://youtu.be/FxDAT1LRZ4U)
 
 Kubuntu 26.04.1 is out — but the release that matters is the one somebody paid to support properly.
 
-[![Watch on YouTube](/images/news/kubuntu-26-04-1-bullet-proof-kde-youtube-thumbnail.png)](https://youtu.be/FxDAT1LRZ4U)
+{{< figure src="/images/news/kubuntu-26-04-1-bullet-proof-kde-hero.png" title="The Bullet-Proof KDE announcement" >}}
 
 ## The bit nobody funded
 
