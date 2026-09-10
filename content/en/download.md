@@ -44,9 +44,9 @@ Kubuntu 25.10 ISO
 The previous Long Term Support (LTS) version of the Kubuntu operating system for desktop PCs and laptops, Kubuntu 24.04
 supported with security and maintenance updates, until April 2027.
 
-Kubuntu 24.04.4 ISO
+Kubuntu 24.04.5 ISO
 
-[!["Kubuntu 24.04.4"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.04.4/release/kubuntu-24.04.4-desktop-amd64.iso)
+[!["Kubuntu 24.04.5"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.04.5/release/kubuntu-24.04.5-desktop-amd64.iso)
 
 [Kubuntu 24.04 release notes](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes/Kubuntu)
 
