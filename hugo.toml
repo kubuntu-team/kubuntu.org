@@ -66,5 +66,5 @@ name = "youtube"
 url = "https://www.youtube.com/@KubuntuPodcast"
 [[params.social]]
 name = "mastodon"
-url = "https://fosstodon.org/@kubuntu"
+url = "https://mastodon.social/@kubuntu"
 rel = "me noopener"
