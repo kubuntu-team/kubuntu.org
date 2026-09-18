@@ -5,12 +5,13 @@ omit_header_text: false
 
 menu:
   main:
-    weight: 7
+    weight: 5
 
 type: page
 
 ---
-Kubuntu proyek yang dikembangkan dan didukung oleh komunitas yang membawa yang terbaik dari Ubuntu dan KDE. Sejak meluncur
+Kubuntu adalah [varian resmi Ubuntu](https://ubuntu.com/desktop/flavors) yang dikembangkan dan didukung oleh komunitas
+yang membawa yang terbaik dari Ubuntu dan KDE. Sejak meluncur
 pada Oktober 2004, Kubuntu tumbuh menjadi salah satu distribusi Linux yang disegani, melayani jutaan pengguna di seluruh dunia.
 
 ## Misi Kami

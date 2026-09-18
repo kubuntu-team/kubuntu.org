@@ -1,12 +1,9 @@
 ---
 date: 2023-10-13T11:15:58-04:00
 description: "28.04 available via PPA"
-featured_image: "images/news/Plasma_5.27_LTS.webp"
 tags: ["KDE","Plasma", "Kubuntu"]
 title: "Plasma 5.27 LTS for Jammy"
 ---
-
-### FIXME: French Translation [Github Issue](/link)
 
 We have had many requests to make Plasma 5.27 available in our backports PPA for Jammy Jellyfish 22.04. However, for technical reasons this would have broken upgrades to Kinetic 22.10 while that upgrade path existed. Now that Kinetic is end of life, it is possible to allow opt in backports of plasma 5.27 for 22.04.
 

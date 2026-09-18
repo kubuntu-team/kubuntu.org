@@ -31,7 +31,7 @@ Untuk menyediakan kebutuhan dan ketertarikan yang bervariasi dari komunitas kami
  - [**Discussion:**](https://matrix.to/#/#kubuntu:matrix.org) Forum terbuka untuk percakapan umum, diskusi, dan tetap terhubung dengan sesama pengguna Kubuntu.
 
 
-### Get Involved:
+### Ikut Andil:
 
 Joining the Kubuntu Matrix rooms is straightforward. Whether you're interested in development, need support, or simply 
 want to chat about all things Kubuntu, there's a space for you. Our Matrix community is a vibrant, welcoming place for 
