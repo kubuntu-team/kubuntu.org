@@ -20,19 +20,19 @@ weight = 1
 contentDir = "content/en"
 # languageDirection = 'rtl' for Right-To-Left languages
 
-# [languages.fr]
-# title = "Kubuntu Fr"
-# weight = 2
-# contentDir = "content/fr"
+[languages.fr]
+title = "Kubuntu"
+weight = 2
+contentDir = "content/fr"
 
-# [languages.es]
-# title = "Kubuntu Es"
-# weight = 2
-# contentDir = "content/es"
+[languages.es]
+title = "Kubuntu"
+weight = 3
+contentDir = "content/es"
 
 [languages.id]
 title = "Kubuntu"
-weight = 2
+weight = 4
 contentDir = "content/id"
 
 [sitemap]
