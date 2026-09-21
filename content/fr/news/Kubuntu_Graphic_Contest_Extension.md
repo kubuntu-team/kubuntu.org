@@ -1,13 +1,10 @@
 ---
 date: 2024-04-03T11:25:05-04:00
 description: "Deadline Extended"
-featured_image: "images/news/Current_Site_Contest_Banner.webp"
 tags: ["Kubuntu","Community","Contest"]
 title: "Kubuntu Graphic Design Contest"
 disable_share: false
 ---
-
-### FIXME: French Translation [Github Issue](/link)
 
 We’re thrilled to announce that due to the incredible engagement and enthusiasm from our community, the Kubuntu Council has decided to extend the submission deadline for the Kubuntu Brand Graphic Design Contest! Originally set to close at 23:59 on March 31, 2024, we’re giving you more time to unleash your creativity and submit your designs. The new deadline is now set for 23:59 on Saturday, 6th April 2024.
 

@@ -6,7 +6,7 @@ title: "Kontak"
 type: page
 menu:
   main:
-    weight: 6
+    weight: 4
 ---
 ## Kami disini untuk membantu
 
@@ -23,8 +23,8 @@ Kami akan coba untuk merespon sesegera mungkin.
 
 ## Dukungan Teknis
 
-Perlu bantuan dengan Kubuntu? [Forum komunitas](https://askubuntu.com/questions/tagged/kubuntu) dan 
-[kanal dukungan Matrix](https://matrix.to/#/#kubuntu-devel:ubuntu.com) khusus kami adalah tempat awal yang bagus
+Perlu bantuan dengan Kubuntu? [Ask Ubuntu](https://askubuntu.com/questions/tagged/kubuntu) dan 
+[kanal dukungan Matrix](https://matrix.to/#/#kubuntu-support:ubuntu.com) khusus kami adalah tempat awal yang bagus
 untuk mencari petunjuk dan solusi dari sesama pengguna dan ahli.
 
 ## Kontribusi
