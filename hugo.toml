@@ -1,5 +1,6 @@
 title = "Kubuntu"
 baseURL = 'https://kubuntu.org/'
+canonifyURLs = true
 languageCode = "en-us"
 theme = 'ananke'
 DefaultContentLanguage = "en"
