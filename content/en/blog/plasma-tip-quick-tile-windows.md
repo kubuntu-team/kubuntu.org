@@ -6,12 +6,17 @@ tags: ["blog", "plasma", "tips", "seed"]
 author: "Rick Timmis"
 author_slug: "rick-timmis"
 author_url: "https://github.com/RickTimmis"
+featured_image: "/images/blog/quick-tile-windows.png"
+cover:
+  alt: "Two windows quick-tiled side by side on Plasma"
 draft: false
 ---
 
 > **Seed example post** — a short Plasma-style tip so the blog has more than one entry. Replace anytime with community-written content.
 
 Kubuntu ships KDE Plasma, which makes tiling windows quick without a separate tiling WM.
+
+{{< figure src="/images/blog/quick-tile-windows.png" title="Meta + arrow keys snaps a window to half the screen" >}}
 
 ### Try this
 
