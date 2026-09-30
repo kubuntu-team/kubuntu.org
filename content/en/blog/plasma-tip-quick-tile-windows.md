@@ -1,8 +1,8 @@
 ---
 date: 2026-09-29
 title: "Plasma tip: quick-tile windows from the keyboard"
-description: "Seed example — a short Plasma productivity tip for Kubuntu"
-tags: ["blog", "plasma", "tips", "seed"]
+description: "A short Plasma productivity tip for Kubuntu"
+tags: ["blog", "plasma", "tips"]
 author: "Rick Timmis"
 author_slug: "rick-timmis"
 author_url: "https://github.com/RickTimmis"
@@ -11,8 +11,6 @@ cover:
   alt: "Two windows quick-tiled side by side on Plasma"
 draft: false
 ---
-
-> **Seed example post** — a short Plasma-style tip so the blog has more than one entry. Replace anytime with community-written content.
 
 Kubuntu ships KDE Plasma, which makes tiling windows quick without a separate tiling WM.
 

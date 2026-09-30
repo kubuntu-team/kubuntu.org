@@ -1,15 +1,13 @@
 ---
 date: 2026-09-30
 title: "Welcome to the Community Blog"
-description: "Seed example — introducing the Kubuntu Community Blog"
-tags: ["blog", "community", "seed"]
+description: "Introducing the Kubuntu Community Blog"
+tags: ["blog", "community"]
 author: "Rick Timmis"
 author_slug: "rick-timmis"
 author_url: "https://github.com/RickTimmis"
 draft: false
 ---
-
-> **Seed example post** — written so the Bloggers Hall of Fame is not empty on first launch. Feel free to replace or extend with real community writing.
 
 Welcome to the **Kubuntu Community Blog**.
 
