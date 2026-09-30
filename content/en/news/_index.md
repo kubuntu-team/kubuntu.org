@@ -6,7 +6,7 @@ title: "News"
 type: page
 menu:
   main:
-    weight: 7
+    weight: 8
 ---
 
 # Stay Updated with the Latest

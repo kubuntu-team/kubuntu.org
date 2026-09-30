@@ -29,5 +29,18 @@ Community is at the heart of Kubuntu. Engage with users on forums, social media,
 ## Why Join?
 Becoming a part of the Kubuntu community means joining a group of friendly, passionate people who are working together to make something incredible. It's a chance to learn, grow, and contribute to an open-source project that impacts millions of users.
 
+## Community Blog
+
+Share tips, tutorials, and stories on the [Kubuntu Community Blog](/blog/). Posts are **community voice** (not Council statements); discussion stays on [Discourse](https://discourse.ubuntu.com/c/flavors/kubuntu/187).
+
+To write a post:
+
+1. Fork [kubuntu-team/kubuntu.org](https://github.com/kubuntu-team/kubuntu.org) and branch from `develop`.
+2. Add a Markdown file under `content/en/blog/` (use archetype `blog`: `hugo new content/en/blog/my-post.md --kind blog` or copy an existing post).
+3. Fill required frontmatter: `author` (display name) and `author_slug` (stable lowercase-hyphen id). Optional: `author_url`.
+4. Open a pull request — see the repository PR template for the blog checklist.
+
+Browse writers in the [Bloggers Hall of Fame](/blog/hall-of-fame/).
+
 ## Ready to Get Involved?
 Visit our Get Involved page for more information on how you can start contributing
