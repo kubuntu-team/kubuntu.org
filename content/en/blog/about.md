@@ -19,7 +19,9 @@ The Kubuntu Community Blog is a space for **community members** to publish tips,
 
 ## Want to write?
 
-See [Contribute](/community/contribute/) and the blog post archetype / pull-request guidance in the website repository. Every post needs an `author` display name and a stable `author_slug`.
+Follow the step-by-step guide: **[Write a Community Blog post](/blog/write/)**.
+
+Also see [Contribute](/community/contribute/). Every post needs an `author` display name and a stable `author_slug`.
 
 ## Attribution
 

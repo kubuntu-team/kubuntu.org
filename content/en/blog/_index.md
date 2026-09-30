@@ -19,3 +19,5 @@ These posts are **community voice**, not official Kubuntu Council statements. Fo
 - Meet our writers in the [Bloggers Hall of Fame](/blog/hall-of-fame/)
 - Read the [About & disclaimer](/blog/about/)
 - Subscribe via [RSS](/blog/index.xml)
+
+Want to publish? See **[Write a Community Blog post](/blog/write/)**.

@@ -33,14 +33,9 @@ Becoming a part of the Kubuntu community means joining a group of friendly, pass
 
 Share tips, tutorials, and stories on the [Kubuntu Community Blog](/blog/). Posts are **community voice** (not Council statements); discussion stays on [Discourse](https://discourse.ubuntu.com/c/flavors/kubuntu/187).
 
-To write a post:
+**Start here:** [Write a Community Blog post](/blog/write/) — step-by-step, including a GitHub website-only path (no local tools required).
 
-1. Fork [kubuntu-team/kubuntu.org](https://github.com/kubuntu-team/kubuntu.org) and branch from `develop`.
-2. Add a Markdown file under `content/en/blog/` (use archetype `blog`: `hugo new content/en/blog/my-post.md --kind blog` or copy an existing post).
-3. Fill required frontmatter: `author` (display name) and `author_slug` (stable lowercase-hyphen id). Optional: `author_url`.
-4. Open a pull request — see the repository PR template for the blog checklist.
-
-Browse writers in the [Bloggers Hall of Fame](/blog/hall-of-fame/).
+Browse writers in the [Bloggers Hall of Fame](/blog/hall-of-fame/). Pull requests use the **Community Blog post** checklist in the repository.
 
 ## Ready to Get Involved?
 Visit our Get Involved page for more information on how you can start contributing

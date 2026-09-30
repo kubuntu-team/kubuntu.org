@@ -46,6 +46,9 @@ Open http://localhost:1313/blog/ and the Hall of Fame / author / RSS URLs above.
 
 ## New post
 
+Reader-facing how-to: [`/blog/write/`](../content/en/blog/write.md) · Repo checklist: [`.github/PULL_REQUEST_TEMPLATE/blog.md`](../.github/PULL_REQUEST_TEMPLATE/blog.md)
+
+
 ```bash
 hugo new content/en/blog/my-topic.md --kind blog
 # edit author / author_slug, set draft: false
