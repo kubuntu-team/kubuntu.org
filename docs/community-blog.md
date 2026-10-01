@@ -24,7 +24,7 @@ Missing `author` / `author_slug` means no byline link and no Hall of Fame credit
 
 ## How author pages work
 
-**Custom pages** (not a Hugo taxonomy — avoids singular/plural frontmatter clashes with the required `author_slug` field):
+**Custom pages** (not a Hugo taxonomy; this avoids singular/plural frontmatter clashes with the required `author_slug` field):
 
 - Author page: `content/en/blog/authors/<slug>/_index.md` with `layout: author` and `author_slug: <slug>`
 - Layout `layouts/blog/author.html` lists `section == blog` pages whose `Params.author_slug` matches
@@ -51,7 +51,7 @@ Reader-facing how-to: [`/blog/write/`](../content/en/blog/write.md) · Repo chec
 
 ```bash
 hugo new content/en/blog/my-topic.md --kind blog
-# edit author / author_slug, set draft: false
+# edit the file: set author, author_slug, and draft: false
 # if new author: add content/en/blog/authors/<slug>/_index.md
 # open PR
 ```

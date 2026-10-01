@@ -11,13 +11,13 @@
 
 ## Target branch
 
-- [ ] This PR targets **`develop`** (required for site content)
+- [ ] I opened this PR targeting **`develop`** (required for site content)
 
-## Blog posts — quick gate
+## Blog posts: quick gate
 
 If you touched `content/en/blog/**`:
 
-- [ ] File is under `content/en/blog/` (not `news/`)
-- [ ] Every post has `author` and `author_slug`
-- [ ] New authors include `content/en/blog/authors/<author_slug>/_index.md`
-- [ ] Step-by-step guide followed: https://kubuntu.org/blog/write/ (or `/blog/write/` on preview)
+- [ ] I put the post file under `content/en/blog/` (not under `news/`)
+- [ ] I set `author` and `author_slug` on every post (`author_slug` is a short lowercase id for the author, e.g. `rick-timmis`)
+- [ ] For a new author, I added `content/en/blog/authors/<author_slug>/_index.md`
+- [ ] I followed the step-by-step guide: https://kubuntu.org/blog/write/ (or `/blog/write/` on preview)

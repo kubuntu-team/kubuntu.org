@@ -37,7 +37,14 @@
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
       {{ end }}
     </header>
-    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.Direction "rtl") "pl4-l" "pr4-l" }} w-two-thirds-l">
+    {{/* Direction is Hugo 0.158+; LanguageDirection is older Hugo (and Ananke). Prefer Direction when available. */}}
+    {{ $contentPad := "pr4-l" }}
+    {{ if ge hugo.Version "0.158.0" }}
+      {{ if eq $.Site.Language.Direction "rtl" }}{{ $contentPad = "pl4-l" }}{{ end }}
+    {{ else }}
+      {{ if eq $.Site.Language.LanguageDirection "rtl" }}{{ $contentPad = "pl4-l" }}{{ end }}
+    {{ end }}
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ $contentPad }} w-two-thirds-l">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">
