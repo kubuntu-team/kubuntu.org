@@ -31,7 +31,7 @@ The Kubuntu team is proud to announce the **Beta release of Kubuntu 26.10 — St
 
 ## How to Get It
 
-### Upgrade from Kubuntu 26.034
+### Upgrade from Kubuntu 26.04
 
 From a terminal, run:
 
@@ -65,7 +65,7 @@ For changes to the underlying Ubuntu base, see the [Stonking Stingray Release No
 
 ### Plasma 6.7
 
-The Kubuntu team has worked to ship the latest Qt6-based KDE desktop. **Plasma 6.7** is the seventh feature release in the Plasma 6 series, building on the [Plasma 6 megarelease](https://kde.org/announcements/megarelease/6/) that brought a modern, Wayland-first desktop to Ubuntu users. Read the full [Plasma 6.7 announcement](https://kde.org/announcements/plasma/6/6.7.0/) on the KDE blog.
+The Kubuntu team has worked to ship the latest Qt6-based KDE desktop. **Plasma 6.7** is the eighth feature release in the Plasma 6 series, building on the [Plasma 6 megarelease](https://kde.org/announcements/megarelease/6/) that brought a modern, Wayland-first desktop to Ubuntu users. Read the full [Plasma 6.7 announcement](https://kde.org/announcements/plasma/6/6.7.0/) on the KDE blog.
 
 ### Wayland by Default
 
@@ -93,7 +93,7 @@ All KDE Gear applications packaged through Ubuntu and Debian have been updated t
 
 ### Linux Kernel 7.3
 
-Kubuntu 26.04 ships with the **Linux 7.3 kernel**, bringing the latest hardware support, security improvements, and performance enhancements.
+Kubuntu 26.10 ships with the release candidate of **Linux 7.3 kernel**, bringing the latest hardware support, security improvements, and performance enhancements.
 
 ---
 
