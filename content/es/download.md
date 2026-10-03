@@ -1,58 +1,70 @@
 ---
+date: 2024-10-07T10:58:08-04:00
 title: Descargar
-featured_image: '/images/download.webp'
-description: Get your Kubuntu Linux
+description: Consigue tu Kubuntu Linux
 type: page
 menu:
   main:
-    weight: 3
-
+    weight: 2
+aliases:
+  - /getkubuntu
 ---
-### FIXME: French Transaltion [Github Issue](/link)
+## Kubuntu 26.04 LTS - _Plasma 6_
 
-{{< figure src="/images/download.webp" title="Latest Kubuntu ISO images" >}}
+La última versión de soporte a largo plazo (LTS) de Kubuntu para PCs de escritorio y portátiles, Kubuntu 26.04
+con soporte de actualizaciones de seguridad y mantenimiento hasta abril de 2029.
 
-## Kubuntu 24.04 LTS
-The latest Long Term Support (LTS) version of the Kubuntu operating system for desktop PCs and laptops, Kubuntu 22.04
-supported with security and maintenance updates, until April 2025.
-For those seeking more stability over time, the LTS version offers extended support and updates.
+Para quienes buscan más estabilidad a lo largo del tiempo, la versión LTS ofrece soporte y actualizaciones ampliados. Para 26.04 LTS esto
+incluye la [suite de software KDE Bullet-Proof](/news/plasma-6.6-lts/).
 
+ISO Kubuntu 26.04.1
 
-[![Alt text](images/64-bit_button.png "Kubuntu 22.04.3")](https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso)
+[!["Kubuntu 26.04.1"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/26.04.1/release/kubuntu-26.04.1-desktop-amd64.iso)
 
-[Kubuntu 24.04 release notes](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes/Kubuntu)
+[Notas de la versión Kubuntu 26.04](https://kubuntu.org/news/kubuntu-26-04-release-notes/)
 
-[Alternative downloads, torrents, mirrors and check-sums ›](https://kubuntu.org/alternative-downloads)
+[Descargas alternativas, torrents, espejos y sumas de verificación ›](/alternative-downloads)
 
-## Kubuntu 23.10
-Previous version of the Kubuntu operating system for desktop PCs and laptops, 
-Kubuntu 23.10 supported with security and maintenance updates, until July 2024.
+## Kubuntu 25.10 - _Plasma 6_
 
-[![Alt text](images/64-bit_button.png "Kubuntu 23.10")](https://cdimage.ubuntu.com/kubuntu/releases/23.10/release/kubuntu-23.10-desktop-amd64.iso)
+Última versión intermedia de Kubuntu para PCs de escritorio y portátiles, incluye KDE Plasma 6.4 y Qt 6.
 
-[Kubuntu 23.10 release notes](https://wiki.ubuntu.com/ManticMinotaur/ReleaseNotes/Kubuntu)
+Kubuntu 25.10 con soporte de actualizaciones de seguridad y mantenimiento hasta julio de 2026.
 
-[Alternative downloads, torrents, mirrors and check-sums ›](https://kubuntu.org/alternative-downloads)
+ISO Kubuntu 25.10
 
-## Kubuntu 22.04.3 LTS
-Previous Long Term Support (LTS) version of the Kubuntu operating system for desktop PCs and laptops, Kubuntu 22.04 
-supported with security and maintenance updates, until April 2025.
-For those seeking more stability over time, the LTS version offers extended support and updates.
+[!["Kubuntu 25.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso)
 
-[![Alt text](images/64-bit_button.png "Kubuntu 22.04.3")](https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso)
+[Notas de la versión Kubuntu 25.10](https://wiki.ubuntu.com/QuestingQuokka/ReleaseNotes/Kubuntu)
 
-[Kubuntu 22.04.3 release notes](https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/Kubuntu)
+[Descargas alternativas, torrents, espejos y sumas de verificación ›](/alternative-downloads)
 
-[Alternative downloads, torrents, mirrors and check-sums ›](https://kubuntu.org/alternative-downloads)
+## Kubuntu 24.04 LTS - _Plasma 5_
 
-## Upgrade
-### Already a Kubuntu user? 
-Follow our simple guide to upgrade your existing installation to the latest version.
+La anterior versión de soporte a largo plazo (LTS) de Kubuntu para PCs de escritorio y portátiles, Kubuntu 24.04
+con soporte de actualizaciones de seguridad y mantenimiento hasta abril de 2027.
 
-## Installation Guide:
-Need help with the installation? Our comprehensive guide will walk you through the process, 
-from creating a bootable USB drive to setting up Kubuntu on your machine.
+ISO Kubuntu 24.04.5
 
-[Installation Guide](/link) | [Upgrade Kubuntu](/link)
+[!["Kubuntu 24.04.5"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.04.5/release/kubuntu-24.04.5-desktop-amd64.iso)
 
-Thank you for choosing Kubuntu. We're excited for you to join our community and explore the endless possibilities with your new operating system.
+[Notas de la versión Kubuntu 24.04](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes/Kubuntu)
+
+[Descargas alternativas, torrents, espejos y sumas de verificación ›](/alternative-downloads)
+
+## Guía de instalación
+
+¿Necesitas ayuda con la instalación? Nuestra guía completa te acompaña en el proceso,
+desde crear una unidad USB de arranque hasta configurar Kubuntu en tu equipo.
+
+[Guía de instalación](https://help.ubuntu.com/community/GraphicalInstall/Kubuntu)
+
+Gracias por elegir Kubuntu. Estamos emocionados de que te unas a nuestra comunidad y explores las posibilidades infinitas con tu nuevo sistema operativo.
+
+## Actualización
+
+Si usas una versión anterior de Kubuntu, puedes actualizar a una versión más reciente:
+
+- Actualizar a Kubuntu 26.04 (Próximamente...)
+- [Actualizar a Kubuntu 25.10](https://help.ubuntu.com/community/QuestingUpgrades/Kubuntu)
+- [Actualizar a Kubuntu 24.04 LTS](https://help.ubuntu.com/community/NobleUpgrades/Kubuntu)

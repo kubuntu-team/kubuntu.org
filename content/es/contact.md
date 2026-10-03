@@ -1,46 +1,52 @@
 ---
-description: "Get in Touch"
-featured_image: "images/contact.webp"
+date: 2017-04-09T10:58:08-04:00
+description: "Ponte en contacto"
 tags: ["community","development","kubuntu"]
 title: "Contacto"
 type: page
-menu: main
-
+menu:
+  main:
+    weight: 4
 ---
-### FIXME: Spanish Translation [Github Issue](/link)
+## Estamos aquí para ayudar
 
-## We're here to Help
+El equipo de Kubuntu se compromete a ofrecer soporte y responder cualquier pregunta que tengas. Ya sea que busques
+asistencia técnica, te interese contribuir o simplemente quieras compartir tus comentarios, estamos deseando escucharte.
 
-{{< figure src="/images/contact.webp" title="From tiny Acorns, huge strong Oaks grow" >}}
+# Cómo contactarnos:
 
-The Kubuntu team is committed to providing support and answering any questions you may have. Whether you're seeking 
-technical assistance, interested in contributing, or simply want to share your feedback, we're eager to hear from you.
+## Consultas generales
 
-# How to Reach Us:
+Para cualquier pregunta general sobre Kubuntu, escríbenos a través de nuestro [Discourse](https://discourse.ubuntu.com/c/flavors/kubuntu/187) oficial.
+Intentamos responder lo antes posible.
 
-## General Discussion
-For any general questions about Kubuntu, please reach out and join us via our [official discourse.](https://discourse.ubuntu.com/c/flavors/kubuntu/187)
+## Soporte técnico
 
-## Technical Support
-Need help with Kubuntu? Our community forums and dedicated support channels are great places to seek advice and 
-solutions from fellow users and experts.
- - [AskUbuntu/Kubuntu]()
- - [Matrix]()
+¿Necesitas ayuda con Kubuntu? [Ask Ubuntu](https://askubuntu.com/questions/tagged/kubuntu) y el
+[canal de soporte en Matrix](https://matrix.to/#/#kubuntu-support:ubuntu.com) dedicado son excelentes lugares para buscar consejos y soluciones
+de otros usuarios y expertos.
 
-## Contributing
-Interested in contributing to Kubuntu? We welcome developers, designers, testers, and writers. Contact us to find out how you can become part of the Kubuntu project.
+## Contribuir
 
-## Feedback and Suggestions
-Your feedback is invaluable. Share your thoughts on what you love about Kubuntu and what we can improve.
+¿Te interesa contribuir a Kubuntu? Damos la bienvenida a desarrolladores, diseñadores, probadores y escritores.
+[Contáctanos](https://matrix.to/#/#kubuntu-devel:ubuntu.com) para saber cómo formar parte del proyecto Kubuntu.
 
-## Collaboration and Sponsorship
-Looking to collaborate or sponsor Kubuntu? We'd love to discuss potential partnerships and opportunities to work together.
+## Comentarios y sugerencias
 
-## Stay Connected
-Follow us on social media to stay updated with the latest news, updates, and community highlights.
+Tu opinión es invaluable. Comparte lo que te gusta de Kubuntu y lo que podemos mejorar etiquetándonos con #kubuntu.
 
-We look forward to hearing from you and appreciate your interest in Kubuntu. Together, we can continue to make Kubuntu an even better Linux distribution for everyone.
+## Colaboración y patrocinio
 
-Email Us | Visit Our Forums | Follow Us on Social Media
+¿Buscas colaborar o patrocinar Kubuntu? Nos encantaría hablar sobre posibles asociaciones y oportunidades de trabajo conjunto.
 
-Thank you for your support and interest in Kubuntu. Your engagement makes a significant difference in our community.
+## Mantente conectado
+
+Síguenos en las redes sociales para estar al día con las últimas noticias, actualizaciones y destacados de la comunidad.
+
+Esperamos saber de ti y apreciamos tu interés en Kubuntu. Juntos podemos seguir haciendo de Kubuntu una distribución Linux aún mejor para todos.
+
+[Escríbenos](mailto:rick-timmis@kubuntu.org) | [Visita nuestros foros](https://discourse.ubuntu.com/c/flavors/kubuntu/187)
+
+Síguenos en las redes sociales; los enlaces a nuestros canales están en la parte superior e inferior de la página.
+
+Gracias por tu apoyo e interés en Kubuntu. Tu participación marca una gran diferencia en nuestra comunidad.

@@ -1,15 +1,15 @@
 ---
-date: 2017-04-09T10:58:08-04:00
-description: "Community Announcements"
-featured_image: "images/news.webp"
+description: "Anuncios de la comunidad"
 tags: ["news"]
-title: "News"
+title: "Noticias"
+
+type: page
+menu:
+  main:
+    weight: 7
 ---
-# Manténgase actualizado con lo último(masculine)
 
-## Su fuente para todo lo relacionado con Kubuntu
+# Mantente al día con lo último
 
-{{< figure src="/images/news.webp" title="Standing upon the shoulders of giants, we can see for miles" >}}
-
-Bienvenido a la sección de Noticias del sitio web de Kubuntu, su fuente principal de las últimas actualizaciones, anuncios,
+Bienvenido a la sección de Noticias del sitio web de Kubuntu, tu fuente principal de las últimas actualizaciones, anuncios
 y desarrollos.
