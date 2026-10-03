@@ -25,20 +25,6 @@ Kubuntu 26.04.1 ISO
 
 [Alternative downloads, torrents, mirrors and check-sums ›](/alternative-downloads)
 
-## Kubuntu 25.10 - _Plasma 6_
-
-Latest interim version of the Kubuntu operating system for desktop PCs and laptops, includes KDE Plasma 6.4 and Qt 6.
-
-Kubuntu 25.10 supported with security and maintenance updates, until July 2026.
-
-Kubuntu 25.10 ISO
-
-[!["Kubuntu 25.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso)
-
-[Kubuntu 25.10 release notes](https://wiki.ubuntu.com/QuestingQuokka/ReleaseNotes/Kubuntu)
-
-[Alternative downloads, torrents, mirrors and check-sums ›](/alternative-downloads)
-
 ## Kubuntu 24.04 LTS - _Plasma 5_
 
 The previous Long Term Support (LTS) version of the Kubuntu operating system for desktop PCs and laptops, Kubuntu 24.04
@@ -64,7 +50,4 @@ Thank you for choosing Kubuntu. We're excited for you to join our community and 
 ## Upgrade
 
 If you running an older Kubuntu release, you can upgrade to a newer release:
-
-- Upgrade to Kubuntu 26.04 (Coming soon...)
-- [Upgrade to Kubuntu 25.10](https://help.ubuntu.com/community/QuestingUpgrades/Kubuntu)
 - [Upgrade to Kubuntu 24.04 LTS](https://help.ubuntu.com/community/NobleUpgrades/Kubuntu)
