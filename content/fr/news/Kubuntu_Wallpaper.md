@@ -1,12 +1,9 @@
 ---
 date: 2024-03-22T11:14:48-04:00
 description: ""
-featured_image: ""
 tags: ["scene"]
 title: "Kubuntu Wallpaper 24.04 Call for Submissions"
 ---
-
-### FIXME: French Translation [Github Issue](/link)
 
 We are excited to announce a call for submissions for the official desktop wallpaper of Kubuntu 24.04! This is a
 fantastic opportunity for artists, designers, and Kubuntu enthusiasts to showcase their talent and contribute to the

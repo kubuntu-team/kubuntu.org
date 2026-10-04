@@ -1,73 +1,75 @@
 ---
-title: "Discover Kubuntu"
-description: "Power, Performance, and Elegance"
-featured_image: '/images/featureTour.webp'
+title: Découvrir
+description: "Puissance, performance et élégance"
+type: page
 menu:
   main:
     weight: 1
+aliases:
+  - /feature-tour
 ---
-### FIXME: French Translation [Github Issue](/link)
 
 # Kubuntu
-## The Operating System That Adapts to You
+## Le système d'exploitation qui s'adapte à vous
 
-Kubuntu combines the incredible power of the Ubuntu core with the cutting-edge KDE Plasma desktop environment, offering
-a unique blend of performance, elegance, and user-friendliness. It's designed for both newcomers to Linux and 
-experienced users, providing a rich set of features.
+Kubuntu combine la puissance incroyable du cœur Ubuntu avec l'environnement de bureau KDE Plasma de pointe, offrant
+un mélange unique de performance, d'élégance et de convivialité. Conçu aussi bien pour les nouveaux venus sous Linux que pour
+les utilisateurs expérimentés, il propose un riche ensemble de fonctionnalités.
 
-## Dolphin File Manager
+## Gestionnaire de fichiers Dolphin
 
-{{< figure src="/images/featureTour/dolphin.png" title="Browse your files easily" >}}
+{{< figure src="/images/featureTour/dolphin.png" title="Parcourez vos fichiers facilement" >}}
 
-# User-Friendly Interface
-Kubuntu's KDE Plasma desktop is known for its aesthetic appeal and ease of use. With an intuitive layout and customizable
-panels, you'll find everything you need at your fingertips.
+# Interface conviviale
+Le bureau KDE Plasma de Kubuntu est reconnu pour son esthétique et sa facilité d'utilisation. Avec une disposition intuitive et des panneaux
+personnalisables, vous trouverez tout ce dont vous avez besoin à portée de main.
 
 ## Gwenview
 
-{{< figure src="/images/featureTour/gwenview.png" title="View, share, and enhance your photos." >}}
+{{< figure src="/images/featureTour/gwenview.png" title="Visualisez, partagez et améliorez vos photos." >}}
 
-# Powerful Performance
-Leveraging the solid foundation of Ubuntu, Kubuntu delivers a smooth and responsive experience, even on older hardware.
-It's optimized for efficiency, ensuring that your system runs quickly and reliably.
+# Performance puissante
+S'appuyant sur les bases solides d'Ubuntu, Kubuntu offre une expérience fluide et réactive, même sur du matériel plus ancien.
+Il est optimisé pour l'efficacité, afin que votre système fonctionne rapidement et de manière fiable.
 
 ## Okular
 
-{{< figure src="/images/featureTour/okular.png" title="Open and read documents easily" >}}
+{{< figure src="/images/featureTour/okular.png" title="Ouvrez et lisez des documents facilement" >}}
 
-# Extensive Customization
-Tailor your desktop to fit your style and needs. Kubuntu offers unparalleled customization options, from themes and 
-widgets to application behavior and desktop effects.
+# Personnalisation étendue
+Adaptez votre bureau à votre style et à vos besoins. Kubuntu offre des options de personnalisation inégalées, des thèmes et
+widgets au comportement des applications et aux effets de bureau.
 
 ## Firefox
 
-{{< figure src="/images/featureTour/firefox.png" title="Surf the Internet with Firefox" >}}
+{{< figure src="/images/featureTour/firefox.png" title="Surfez sur Internet avec Firefox" >}}
 
-# Robust Application Suite
-Access a vast repository of applications and tools. Whether for work, education, or entertainment, Kubuntu provides all
-the software you need, including office suites, browsers, media players, and more.
+# Suite d'applications robuste
+Accédez à un vaste dépôt d'applications et d'outils. Que ce soit pour le travail, l'éducation ou le divertissement, Kubuntu fournit tous
+les logiciels dont vous avez besoin, y compris des suites bureautiques, navigateurs, lecteurs multimédias, et plus encore.
 
 ## Konversation
 
-{{< figure src="/images/featureTour/firefox.png" title="Chat right from the desktop with your friends" >}}
-
-# Seamless Integration
-Enjoy smooth interoperability with your devices and online accounts. Kubuntu makes it easy to connect to your cloud 
-storage, media servers, and other devices seamlessly.
-
-## VLC
-
-{{< figure src="/images/featureTour/VLC.png" title="Multimedia made easy with Kubuntu" >}}
-
-# Secure and Stable
-With regular updates and a focus on security, Kubuntu ensures that your system is safe from threats and always up to
-date with the latest features and fixes.
-
-{{< figure src="/images/featureTour/Elisa.png" title="Music experienced on a different level" >}}
-
-Whether you're editing video, coding, gaming, or simply browsing the web, Kubuntu adapts to your needs, offering a comprehensive and satisfying computing experience. Join the millions who have chosen Kubuntu for its blend of beauty, functionality, and freedom.
+{{< figure src="images/featureTour/Konversation.png" title="Discutez depuis le bureau avec vos amis" >}}
 
 
-{{< figure src="/images/featureTour/libreoffice3.png" title="Complete and professional office suite" >}}
+# Intégration transparente
+Profitez d'une interopérabilité fluide avec vos appareils et comptes en ligne. Kubuntu facilite la connexion à votre stockage
+cloud, serveurs multimédias et autres appareils.
 
-# Explore Kubuntu and transform your computing experience today.
+## Haruna
+
+{{< figure src="/images/featureTour/haruna-dark.webp" title="Le multimédia simplifié avec Kubuntu" >}}
+
+# Sécurisé et stable
+Avec des mises à jour régulières et un accent sur la sécurité, Kubuntu veille à ce que votre système soit protégé des menaces et toujours à
+jour avec les dernières fonctionnalités et corrections.
+
+{{< figure src="/images/featureTour/Elisa.png" title="La musique à un autre niveau" >}}
+
+Que vous montiez de la vidéo, programmiez, jouiez ou naviguiez simplement sur le web, Kubuntu s'adapte à vos besoins et offre une expérience informatique complète et satisfaisante. Rejoignez les millions qui ont choisi Kubuntu pour son mélange de beauté, de fonctionnalités et de liberté.
+
+
+{{< figure src="/images/featureTour/libreoffice3.png" title="Suite bureautique complète et professionnelle" >}}
+
+### [Télécharger](/download) Kubuntu et transformez votre expérience informatique dès aujourd'hui.

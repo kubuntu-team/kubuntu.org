@@ -1,5 +1,15 @@
 ---
-title: "news"
-date: 2017-03-02T12:00:00-05:00
+description: "Annonces de la communauté"
+tags: ["news"]
+title: "Actualités"
+
+type: page
+menu:
+  main:
+    weight: 7
 ---
-Exemple de liste d'article français.
+
+# Restez informé des dernières nouveautés
+
+Bienvenue dans la section Actualités du site Kubuntu, votre source principale pour les dernières mises à jour, annonces
+et développements.
