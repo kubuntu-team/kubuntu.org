@@ -1,8 +1,8 @@
 ---
-title: "Kubuntu 26.10 Stonking Stingray Released: Kubuntu Podcast #25"
+title: "Stonking Stingray Has Surfaced! Kubuntu 26.10 Is Out, Plus Podcast Episode 25"
 date: 2026-10-15
 draft: false
-description: "Kubuntu 26.10 Stonking Stingray is out today, with Plasma 6.7.5, Qt 6.11 and KDE Frameworks 6.29. Plus Kubuntu Podcast #25: a Virtual Desktops tip and Krita as our Discover Hot Pick."
+description: "The stingray has landed. Kubuntu 26.10 is out today, and Kubuntu Podcast #25 shows what is on the ISO, a Virtual Desktops tip and Krita as our Discover Hot Pick."
 tags: ["release", "plasma", "kde", "podcast"]
 categories: ["release-notes"]
 featured_image: "/images/news/kubuntu-26-10-release-ep25-youtube-thumbnail.png"

@@ -1,15 +1,15 @@
 ---
-title: "Kubuntu 26.10 Stonking Stingray Released"
+title: "Kubuntu 26.10 Release Notes"
 date: 2026-10-15
 draft: false
-description: "Kubuntu 26.10 is here. Try Plasma 6.7, Qt 6.11, KDE Frameworks 6.29, KDE Gear 26.08 and Linux 7.3."
+description: "Technical release notes for Kubuntu 26.10: package versions (Plasma 6.7, Qt 6.11, KDE Frameworks 6.29, KDE Gear 26.08, Linux 7.3), upgrade paths and known issues."
 tags: ["release", "plasma", "kde"]
 categories: ["release-notes"]
 cover:
   alt: "Kubuntu 26.10 Stonking Stingray"
 ---
 
-# Kubuntu 26.10 Stonking Stingray Released
+# Kubuntu 26.10 Release Notes
 
 October 15, 2026
 
