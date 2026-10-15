@@ -25,17 +25,17 @@ ISO Kubuntu 26.04.1
 
 [Téléchargements alternatifs, torrents, miroirs et sommes de contrôle ›](/alternative-downloads)
 
-## Kubuntu 25.10 - _Plasma 6_
+## Kubuntu 26.10 - _Plasma 6_
 
-Dernière version intermédiaire de Kubuntu pour PC de bureau et ordinateurs portables, inclut KDE Plasma 6.4 et Qt 6.
+Dernière version intermédiaire de Kubuntu pour PC de bureau et ordinateurs portables, inclut KDE Plasma 6.7 et Qt 6. Publiée le 15 octobre 2026.
 
-Kubuntu 25.10 pris en charge avec des mises à jour de sécurité et de maintenance jusqu'en juillet 2026.
+Kubuntu 26.10 pris en charge avec des mises à jour de sécurité et de maintenance jusqu'en juillet 2027.
 
-ISO Kubuntu 25.10
+ISO Kubuntu 26.10
 
-[!["Kubuntu 25.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso)
+[!["Kubuntu 26.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/kubuntu-26.10-desktop-amd64.iso)
 
-[Notes de version Kubuntu 25.10](https://wiki.ubuntu.com/QuestingQuokka/ReleaseNotes/Kubuntu)
+[Notes de version Kubuntu 26.10](https://documentation.ubuntu.com/release-notes/26.10/)
 
 [Téléchargements alternatifs, torrents, miroirs et sommes de contrôle ›](/alternative-downloads)
 
@@ -65,6 +65,5 @@ Merci d'avoir choisi Kubuntu. Nous sommes ravis de vous accueillir dans notre co
 
 Si vous utilisez une ancienne version de Kubuntu, vous pouvez passer à une version plus récente :
 
-- Mise à niveau vers Kubuntu 26.04 (Bientôt disponible...)
-- [Mise à niveau vers Kubuntu 25.10](https://help.ubuntu.com/community/QuestingUpgrades/Kubuntu)
+- Mise à niveau vers Kubuntu 26.10 (Bientôt disponible...)
 - [Mise à niveau vers Kubuntu 24.04 LTS](https://help.ubuntu.com/community/NobleUpgrades/Kubuntu)
