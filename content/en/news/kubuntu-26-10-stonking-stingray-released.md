@@ -37,9 +37,7 @@ Plasma 6.7 brings per-screen virtual desktops, so each display can keep its own 
 
 ## Get it
 
-Ready to grab the stingray? Head over to our [downloads page](/download/) for the Kubuntu 26.10 ISO, checksums and everything you need to get started. Already running Kubuntu? You can upgrade in place instead, see below.
-
-**Fresh install:** download the ISO from [kubuntu.org/download](/download) or [cdimage](https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/), write it to a USB stick and boot. Verify it against [SHA256SUMS](https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/SHA256SUMS):
+Ready to grab the stingray? Get the Kubuntu 26.10 ISO from our [downloads page](/download/) (or straight from [cdimage](https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/)), write it to a USB stick and boot. Already running Kubuntu? You can upgrade in place instead, see below. To verify your download, check it against [SHA256SUMS](https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/SHA256SUMS):
 
 ```
 8160b1d6266dfe1998d183b19713680263c09669f101e0e41cbcf11f50b6f785  kubuntu-26.10-desktop-amd64.iso
