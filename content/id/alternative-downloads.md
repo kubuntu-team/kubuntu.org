@@ -13,7 +13,7 @@ BitTorrent adalah jaringan unduhan peer-to-peer yang kadangkala memberi kecepata
 
 - [Kubuntu 26.04.1 LTS](https://cdimage.ubuntu.com/kubuntu/releases/26.04.1/release/kubuntu-26.04.1-desktop-amd64.iso.torrent)
 - [Kubuntu 24.04.5 LTS](https://cdimage.ubuntu.com/kubuntu/releases/24.04.5/release/kubuntu-24.04.5-desktop-amd64.iso.torrent)
-- [Kubuntu 25.10](https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso.torrent)
+- [Kubuntu 26.10](https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/kubuntu-26.10-desktop-amd64.iso.torrent)
 
 ## Mirror
 
@@ -28,7 +28,7 @@ BitTorrent adalah jaringan unduhan peer-to-peer yang kadangkala memberi kecepata
 Sebelum menulis citra ke DVD atau peragkat USB, sangat direkomendasikan untuk memverifikasi sum ( hash ) SHA256 dari berkas ISO-nya terlebih dahulu. Untuk langkah-langkahnya, silahkan mengacu ke [HowToSHA256SUM (Bahasa Inggris)](https://help.ubuntu.com/community/HowToSHA256SUM). Di bawah ini adalah daftar sum SHA256 untuk mengecek keabsahan berkas yang kamu unduh.
 
 - [kubuntu-24.04.5-desktop-amd64.iso](https://cdimage.ubuntu.com/kubuntu/releases/24.04.5/release/SHA256SUMS): `ae59e59c54337bcd8f8e60825b4a3f58797121ae0e89855524ffc92b8075c1d6`
-- [kubuntu-25.10-desktop-amd64.iso](https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/SHA256SUMS): `77cade4b5b6c85f0d7f163c7113b9207d58aec82e8247b7bfab7c37eafcf5963`
+- [kubuntu-26.10-desktop-amd64.iso](https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/SHA256SUMS): `8160b1d6266dfe1998d183b19713680263c09669f101e0e41cbcf11f50b6f785`
 - [kubuntu-26.04.1-desktop-amd64.iso](https://cdimage.ubuntu.com/kubuntu/releases/26.04.1/release/SHA256SUMS): `831e4d4bb85098339ba43d3502cd6619b27e76daf37246a084cd68a6413090b8`
 
 ## Rilisan Lawas

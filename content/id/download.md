@@ -25,17 +25,17 @@ ISO Kubuntu 26.04.1
 
 [Unduhan alternatif, torrent, mirror, dan checksum ›](/alternative-downloads)
 
-## Kubuntu 25.10 - _Plasma 6_
+## Kubuntu 26.10 - _Plasma 6_
 
-Versi interim terbaru dari sistem operasi Kubuntu untuk PC desktop dan laptop, sudah termasuk KDE Plasma 6.4 dan Qt 6.
+Versi interim terbaru Kubuntu untuk PC desktop dan laptop, menyertakan KDE Plasma 6.7 dan Qt 6. Dirilis 15 Oktober 2026.
 
-Kubuntu 25.10 didukung dengan pembaruan keamanan dan pemeliharaan hingga Juli 2026.
+Kubuntu 26.10 didukung dengan pembaruan keamanan dan pemeliharaan hingga Juli 2027.
 
-ISO Kubuntu 25.10
+ISO Kubuntu 26.10
 
-[!["Kubuntu 25.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso)
+[!["Kubuntu 26.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/kubuntu-26.10-desktop-amd64.iso)
 
-[Catatan rilis Kubuntu 25.10 (Bahasa Inggris)](https://wiki.ubuntu.com/QuestingQuokka/ReleaseNotes/Kubuntu)
+[Catatan rilis Kubuntu 26.10 (Bahasa Inggris)](/news/kubuntu-26-10-release-notes/)
 
 [Unduhan alternatif, torrent, mirror, dan checksum ›](/alternative-downloads)
 
@@ -48,7 +48,7 @@ ISO Kubuntu 24.04.5
 
 [!["Kubuntu 24.04.5"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.04.5/release/kubuntu-24.04.5-desktop-amd64.iso)
 
-[Catatan rilis Kubuntu 24.04](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes/Kubuntu)
+[Catatan rilis Kubuntu 24.04](/news/kubuntu-24-04-lts-noble-numbat-released/)
 
 [Unduhan alternatif, torrent, mirror, dan checksum ›](/alternative-downloads)
 
@@ -66,6 +66,5 @@ akhir dengan sistem operasi baru kamu.
 
 Jika kamu sedang menggunakan rilisan Kubuntu versi lawas, kamu bisa melakukan peningkatan versi ke rilisan yang lebih baru:
 
-- Tingkatkan ke Kubuntu 26.04 (Segera hadir...)
-- [Tingkatkan ke Kubuntu 25.10](https://help.ubuntu.com/community/QuestingUpgrades/Kubuntu)
+- Tingkatkan ke Kubuntu 26.10 (Segera hadir...)
 - [Tingkatkan ke Kubuntu 24.04 LTS](https://help.ubuntu.com/community/NobleUpgrades/Kubuntu)
