@@ -35,7 +35,7 @@ ISO Kubuntu 26.10
 
 [!["Kubuntu 26.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/kubuntu-26.10-desktop-amd64.iso)
 
-[Catatan rilis Kubuntu 26.10 (Bahasa Inggris)](https://documentation.ubuntu.com/release-notes/26.10/)
+[Catatan rilis Kubuntu 26.10 (Bahasa Inggris)](/news/kubuntu-26-10-release-notes/)
 
 [Unduhan alternatif, torrent, mirror, dan checksum ›](/alternative-downloads)
 
@@ -48,7 +48,7 @@ ISO Kubuntu 24.04.5
 
 [!["Kubuntu 24.04.5"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.04.5/release/kubuntu-24.04.5-desktop-amd64.iso)
 
-[Catatan rilis Kubuntu 24.04](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes/Kubuntu)
+[Catatan rilis Kubuntu 24.04](/news/kubuntu-24-04-lts-noble-numbat-released/)
 
 [Unduhan alternatif, torrent, mirror, dan checksum ›](/alternative-downloads)
 

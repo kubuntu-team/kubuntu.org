@@ -36,7 +36,7 @@ Kubuntu 26.10 ISO
 
 [!["Kubuntu 26.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/kubuntu-26.10-desktop-amd64.iso)
 
-[Kubuntu 26.10 release notes](https://documentation.ubuntu.com/release-notes/26.10/)
+[Kubuntu 26.10 release notes](/news/kubuntu-26-10-release-notes/)
 
 [Alternative downloads, torrents, mirrors and check-sums ›](/alternative-downloads)
 
@@ -49,7 +49,7 @@ Kubuntu 24.04.5 ISO
 
 [!["Kubuntu 24.04.5"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.04.5/release/kubuntu-24.04.5-desktop-amd64.iso)
 
-[Kubuntu 24.04 release notes](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes/Kubuntu)
+[Kubuntu 24.04 release notes](/news/kubuntu-24-04-lts-noble-numbat-released/)
 
 [Alternative downloads, torrents, mirrors and check-sums ›](/alternative-downloads)
 
