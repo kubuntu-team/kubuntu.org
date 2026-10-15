@@ -25,17 +25,17 @@ ISO Kubuntu 26.04.1
 
 [Descargas alternativas, torrents, espejos y sumas de verificación ›](/alternative-downloads)
 
-## Kubuntu 25.10 - _Plasma 6_
+## Kubuntu 26.10 - _Plasma 6_
 
-Última versión intermedia de Kubuntu para PCs de escritorio y portátiles, incluye KDE Plasma 6.4 y Qt 6.
+Última versión interina de Kubuntu para PCs de escritorio y portátiles, incluye KDE Plasma 6.7 y Qt 6. Publicada el 15 de octubre de 2026.
 
-Kubuntu 25.10 con soporte de actualizaciones de seguridad y mantenimiento hasta julio de 2026.
+Kubuntu 26.10 con soporte de actualizaciones de seguridad y mantenimiento hasta julio de 2027.
 
-ISO Kubuntu 25.10
+ISO Kubuntu 26.10
 
-[!["Kubuntu 25.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso)
+[!["Kubuntu 26.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/kubuntu-26.10-desktop-amd64.iso)
 
-[Notas de la versión Kubuntu 25.10](https://wiki.ubuntu.com/QuestingQuokka/ReleaseNotes/Kubuntu)
+[Notas de la versión Kubuntu 26.10](/news/kubuntu-26-10-release-notes/)
 
 [Descargas alternativas, torrents, espejos y sumas de verificación ›](/alternative-downloads)
 
@@ -48,7 +48,7 @@ ISO Kubuntu 24.04.5
 
 [!["Kubuntu 24.04.5"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.04.5/release/kubuntu-24.04.5-desktop-amd64.iso)
 
-[Notas de la versión Kubuntu 24.04](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes/Kubuntu)
+[Notas de la versión Kubuntu 24.04](/news/kubuntu-24-04-lts-noble-numbat-released/)
 
 [Descargas alternativas, torrents, espejos y sumas de verificación ›](/alternative-downloads)
 
@@ -65,6 +65,5 @@ Gracias por elegir Kubuntu. Estamos emocionados de que te unas a nuestra comunid
 
 Si usas una versión anterior de Kubuntu, puedes actualizar a una versión más reciente:
 
-- Actualizar a Kubuntu 26.04 (Próximamente...)
-- [Actualizar a Kubuntu 25.10](https://help.ubuntu.com/community/QuestingUpgrades/Kubuntu)
+- Actualizar a Kubuntu 26.10 (Próximamente...)
 - [Actualizar a Kubuntu 24.04 LTS](https://help.ubuntu.com/community/NobleUpgrades/Kubuntu)
