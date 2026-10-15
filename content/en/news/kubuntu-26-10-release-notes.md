@@ -30,25 +30,27 @@ and join our community on [Discourse](https://discourse.ubuntu.com/c/flavors/kub
 
 #### Highlights from Plasma 6.7
 
-From the [Plasma 6.7 announcement](https://kde.org/announcements/plasma/6/6.7.0/):
+These Plasma 6.7 features ship in Kubuntu 26.10 (Plasma 6.7.5 on the ISO). See the
+[Plasma 6.7 announcement](https://kde.org/announcements/plasma/6/6.7.0/) for the full list.
 
 1. **Per-screen virtual desktops**
-   After 21 years, per-screen virtual desktops have arrived: each display can keep its own set of desktops.
+   Each display can keep its own set of desktops.
 
 2. **Faster virtual desktop switching in the Overview**
    Press **Meta+W** to open Overview, then scroll or press **Page Up / Page Down** to switch virtual desktops.
 
-3. **More intuitive software management in Discover**
-   Discover gains a more obvious "Install" button, redesigned app cards with more information, a more intuitive
-   sort order, and installed software grouped by type.
+3. **Clearer software management in Discover**
+   Discover has a clearer Install button, redesigned app cards, a simpler sort order, and installed software grouped by type.
 
 4. **Light/dark toggle, theming and Union**
-   A quick toggle switches between light and dark Global Themes. Oxygen and Air return up to par with Breeze,
-   Breeze gains rounded highlights and click effects, and the new Union theming system debuts as a tech preview.
+   Switch between light and dark Global Themes at once. Oxygen and Air are brought back up to date with Breeze.
+   Breeze gains rounded highlights and click effects. The new Union theming system lands as a tech preview
+   (`kde-style-union` is on the ISO).
 
-Also new: a microphone volume test, press-and-hold for special characters on the virtual keyboard, "Background
-Apps" in the System Tray, printer job badges and easier Windows shared printing, drag-and-drop launcher
-favourites, time-zone offsets in the Digital Clock, and "type-ahead" on the desktop.
+Also included with Plasma 6.7.5 on the ISO: a microphone volume test (`plasma-pa`), press-and-hold for special
+characters on the virtual keyboard (`plasma-keyboard`), Background Apps in the System Tray, printer job badges and
+Windows shared printing (`print-manager` with Samba client tools), drag-and-drop launcher favourites, time-zone
+offsets in the Digital Clock, and type-ahead on the desktop.
 
 ---
 
@@ -64,15 +66,14 @@ the `plasma-session-x11` package will be available.
 
 From the [Ubuntu 26.10 release notes](https://documentation.ubuntu.com/release-notes/26.10/):
 
-- **Linux kernel 7.3**: The release images ship kernel 7.3.0-9.9, based on 7.3-rc6, because the final upstream
-  7.3 release is due after GA.
+- **Linux kernel 7.3**. The release images ship kernel 7.3.0-9.9.
 - **KDE Applications 26.08.1**: Dolphin, Konsole, Okular, Kdenlive and the rest of KDE Gear.
-- **Firefox** (Snap) and **LibreOffice 26.8.1**. <!-- TODO: confirm the Firefox snap version shipped at GA (beta notes said 157; the manifest only lists the transitional deb) -->
+- **Firefox 157** (Snap) and **LibreOffice 26.8.1**.
 - **systemd 261.3**.
 - **100% Rust coreutils**: the remaining GNU utilities (`cp`, `mv`, `rm`) have now moved to the Rust uutils implementation.
 - **Updated developer toolchain**: GCC 15.2, Python 3.14.7, Rust 1.97, Go 1.27, LLVM 22, OpenJDK 25 (OpenJDK 27 available) and .NET 10.
-- **TPM-backed full-disk encryption** can now be installed on machines without a hardware root of trust, provided a PIN
-  or passphrase is set.
+- **TPM-backed full-disk encryption** can now be installed on machines without a hardware root of trust, if you also set a PIN
+  or passphrase.
 
 ---
 
