@@ -1,0 +1,76 @@
+{{ define "header" }}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{/* Aggregate published blog posts by author_slug */}}
+  {{ $posts := where .Site.RegularPages "Section" "blog" }}
+  {{ $posts = where $posts "Params.author_slug" "!=" nil }}
+  {{ $posts = where $posts "Draft" false }}
+
+  {{ $bySlug := dict }}
+  {{ range $posts }}
+    {{ $slug := .Params.author_slug }}
+    {{ $entry := index $bySlug $slug | default (dict "slug" $slug "author" .Params.author "author_url" .Params.author_url "count" 0 "posts" (slice)) }}
+    {{ $count := add (index $entry "count") 1 }}
+    {{ $postList := index $entry "posts" }}
+    {{ $postList = $postList | append . }}
+    {{ $name := index $entry "author" | default .Params.author }}
+    {{ $url := index $entry "author_url" | default .Params.author_url }}
+    {{ $bySlug = merge $bySlug (dict $slug (dict "slug" $slug "author" $name "author_url" $url "count" $count "posts" $postList)) }}
+  {{ end }}
+
+  {{ $authors := slice }}
+  {{ range $slug, $entry := $bySlug }}
+    {{ $authors = $authors | append $entry }}
+  {{ end }}
+  {{ $authors = sort $authors "count" "desc" }}
+
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">Blog</aside>
+      <h1 class="f1 athelas mt3 mb1">{{ .Title }}</h1>
+    </header>
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes" | default "serif" }} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} w-100">
+      {{ .Content }}
+
+      {{ if eq (len $authors) 0 }}
+        <p>No published blog posts with an <code>author_slug</code> yet.</p>
+      {{ else }}
+        <ul class="list pl0">
+          {{ range $authors }}
+            {{ $tier := "" }}
+            {{ if ge .count 10 }}{{ $tier = "Columnist" }}
+            {{ else if ge .count 3 }}{{ $tier = "Regular" }}
+            {{ else if ge .count 1 }}{{ $tier = "First Word" }}
+            {{ end }}
+            <li class="mb4 pb3 bb b--light-gray">
+              <h2 class="f3 mt0 mb1">
+                <a href="{{ printf "/blog/authors/%s/" .slug | relURL }}" class="link dim near-black">{{ .author | default .slug }}</a>
+                <span class="f5 fw4 mid-gray">({{ .count }} {{ if eq .count 1 }}post{{ else }}posts{{ end }})</span>
+                {{ with $tier }}
+                  <span class="f6 fw4 ba b--moon-gray br2 ph2 pv1 ml2">{{ . }}</span>
+                {{ end }}
+              </h2>
+              {{ with .author_url }}
+                <p class="f6 mt1 mb2"><a href="{{ . }}" class="link dim" rel="noopener me">{{ . }}</a></p>
+              {{ end }}
+              <p class="f6 b mb1">Recent titles</p>
+              <ul class="f5">
+                {{ range first 5 .posts }}
+                  <li><a href="{{ .RelPermalink }}" class="link dim">{{ .Title }}</a>
+                    <span class="mid-gray"> — {{ .Date | time.Format (default "January 2, 2006" $.Site.Params.date_format) }}</span>
+                  </li>
+                {{ end }}
+              </ul>
+            </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+
+      <p class="f6 mt4"><a href="{{ "/blog/" | relURL }}" class="link dim">← Back to Blog</a>
+        · <a href="{{ "/blog/about/" | relURL }}" class="link dim">About &amp; disclaimer</a>
+        · <a href="{{ "/blog/index.xml" | relURL }}" class="link dim">RSS</a></p>
+    </div>
+  </article>
+{{ end }}
