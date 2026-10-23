@@ -5,15 +5,13 @@ type: page
 menu:
   main:
     weight: 1
-aliases:
-  - /feature-tour
 ---
 
 # Kubuntu
 ## Sistem Operasi yang Beradaptasi ke Kamu
 
-Kubuntu menggabungkan keandalan dari inti Ubuntu dengan lingkungan desktop KDE Plasma yang mutakhir, memberikan 
-percampuran unik dari segi performa, keanggunan, dan keramahan terhadap pengguna. Didesain untuk yang baru 
+Kubuntu menggabungkan keandalan dari inti Ubuntu dengan lingkungan desktop KDE Plasma yang mutakhir, memberikan
+percampuran unik dari segi performa, keanggunan, dan keramahan terhadap pengguna. Didesain untuk yang baru
 menjajaki dunia Linux dan untuk yang sudah berpengalaman, memberi rangkaian fitur yang kaya.
 
 ## Manajer Berkas Dolphin
