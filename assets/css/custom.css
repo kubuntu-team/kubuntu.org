@@ -304,6 +304,19 @@ nav .is-active.donate-emph {
 .site-nav-hamburger {
   display: none;
   background: transparent;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  flex-shrink: 0;
+}
+  display: none;
+  background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 6px;
   cursor: pointer;
@@ -318,6 +331,9 @@ nav .is-active.donate-emph {
 }
 
 .site-nav-hamburger:hover {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.45);
+}
   background: rgba(255, 255, 255, 0.12);
   border-color: rgba(255, 255, 255, 0.45);
 }
@@ -358,6 +374,9 @@ nav .is-active.donate-emph {
 
 /* Active animated morph to 'X' */
 .site-nav-hamburger.is-active {
+  background: rgba(255,255,255,0.15);
+  border-color: rgba(255,255,255,0.5);
+}
   background: rgba(255, 255, 255, 0.15);
   border-color: rgba(255, 255, 255, 0.5);
 }
@@ -425,6 +444,26 @@ nav .is-active.donate-emph {
 
   /* Compact dropdown menu */
   .site-nav-content {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: rgba(0,20,50,0.95);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+  padding: 1rem;
+  max-height: calc(100vh - 85px);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+}
     position: absolute;
     top: calc(100% + 8px);
     left: 0;
@@ -449,6 +488,11 @@ nav .is-active.donate-emph {
 
   /* Dropdown open state */
   .site-nav-content.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
@@ -456,6 +500,13 @@ nav .is-active.donate-emph {
   }
 
   .site-nav-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
