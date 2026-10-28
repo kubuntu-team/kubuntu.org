@@ -295,3 +295,43 @@ nav .is-active.donate-emph {
   border-color: #DD8300;
   color: #FFFFFF !important;
 }
+
+/* Buy page */
+.buy-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.buy-card {
+  padding: 1rem 1.5rem;
+  border-radius: .5rem;
+  border: 2px solid #00143322;
+  box-shadow: 0 0 .5em 0 #0002;
+}
+
+.buy-card h2 {
+  margin-top: .5rem;
+}
+
+.buy-card .button {
+  display: inline-block;
+  margin: 0 .5rem .5rem 0;
+}
+
+.buy-card-soon {
+  border-style: dashed;
+  box-shadow: none;
+}
+
+.buy-hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 1;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 0 1.5rem 0;
+  border-radius: .5rem;
+}
