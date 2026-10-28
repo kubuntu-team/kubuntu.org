@@ -1,5 +1,5 @@
 ---
-title: "KDE cancelled Plasma LTS. Kubuntu bought it back."
+title: "KDE cancelled Plasma LTS. Kubuntu Focus bought it back."
 date: 2026-09-04
 draft: false
 description: "Kubuntu 26.04.1 is out — but the release that matters is the one somebody paid to support properly."
