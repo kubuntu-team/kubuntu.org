@@ -639,3 +639,237 @@ nav .is-active.donate-emph {
     display: inline-block;
   }
 }
+
+
+/* ==========================================================================
+   Kubuntu Footer
+   ========================================================================== */
+
+.kf {
+  background: #0b1220;
+  color: rgba(255, 255, 255, 0.78);
+  font-family: 'IBM Plex Sans', sans-serif;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.kf-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2.25rem;
+  display: grid;
+  grid-template-columns: minmax(220px, 1.15fr) minmax(0, 2.85fr);
+  gap: 3rem 2rem;
+  align-items: start;
+}
+
+/* --- Brand column --- */
+.kf-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.kf-logo-link {
+  display: inline-flex;
+  align-items: center;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.kf-logo-link:hover {
+  opacity: 1;
+}
+
+.kf-logo {
+  height: 30px;
+  width: auto;
+  filter: brightness(0) invert(1);
+}
+
+.kf-tagline {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.58);
+  max-width: 30ch;
+}
+
+/* --- Social icons --- */
+.kf-socials {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.kf-social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 1rem;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.kf-social:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.kf-social.twitter:hover  { color: #1DA1F2; }
+.kf-social.github:hover   { color: #ffffff; }
+.kf-social.facebook:hover { color: #4267B2; }
+.kf-social.youtube:hover  { color: #FF4444; }
+.kf-social.mastodon:hover { color: #6364FF; }
+
+/* --- Link columns --- */
+.kf-nav {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.75rem 1.25rem;
+}
+
+.kf-col-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 0.85rem;
+}
+
+.kf-col-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.kf-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  transition: color 0.2s ease, transform 0.15s ease;
+  display: inline-block;
+}
+
+.kf-link:hover {
+  color: #5aa7ff;
+}
+
+.kf-link--muted {
+  color: rgba(255, 255, 255, 0.42);
+}
+
+.kf-badge {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.4rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 4px;
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+/* --- Copyright bar --- */
+.kf-bar {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.22);
+}
+
+.kf-bar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.kf-copy {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.45);
+  line-height: 1.5;
+}
+
+.kf-bar-link {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: color 0.2s ease;
+}
+
+.kf-bar-link:hover {
+  color: #5aa7ff;
+  text-decoration: none;
+}
+
+.kf-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* --- Tablet --- */
+@media screen and (max-width: 68em) {
+  .kf-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2.5rem 1.5rem 2rem;
+  }
+
+  .kf-nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem 1.25rem;
+  }
+}
+
+/* --- Mobile --- */
+@media screen and (max-width: 42em) {
+  .kf-inner {
+    padding: 2rem 1.25rem 1.5rem;
+    gap: 1.75rem;
+  }
+
+  .kf-logo {
+    height: 26px;
+  }
+
+  .kf-tagline {
+    font-size: 0.85rem;
+  }
+
+  .kf-nav {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .kf-bar-inner {
+    padding: 0.875rem 1.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
