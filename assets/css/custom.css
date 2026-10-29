@@ -873,3 +873,15 @@ nav .is-active.donate-emph {
     gap: 0.5rem;
   }
 }
+
+/* Buy page */
+.buy-hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 1;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 0 1.5rem 0;
+  border-radius: .5rem;
+}
