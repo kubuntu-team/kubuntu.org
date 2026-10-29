@@ -1,0 +1,48 @@
+{{ define "header" }}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{ $slug := .Params.author_slug | default .File.ContentBaseName }}
+  {{ $all := where .Site.RegularPages "Section" "blog" }}
+  {{ $posts := where $all "Params.author_slug" $slug }}
+  {{ $posts = sort $posts "Date" "desc" }}
+  {{ $count := len $posts }}
+  {{ $tier := "" }}
+  {{ if ge $count 10 }}{{ $tier = "Columnist" }}
+  {{ else if ge $count 3 }}{{ $tier = "Regular" }}
+  {{ else if ge $count 1 }}{{ $tier = "First Word" }}
+  {{ end }}
+  {{ $authorURL := .Params.author_url }}
+  {{ if not $authorURL }}
+    {{ with (index $posts 0) }}{{ $authorURL = .Params.author_url }}{{ end }}
+  {{ end }}
+  {{ $displayName := .Title }}
+  {{ with (index $posts 0) }}{{ with .Params.author }}{{ $displayName = . }}{{ end }}{{ end }}
+
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">Community Blogger</aside>
+      <h1 class="f1 athelas mt3 mb2">{{ $displayName }}</h1>
+      <p class="f5">
+        {{ $count }} published {{ if eq $count 1 }}post{{ else }}posts{{ end }}
+        {{ with $tier }} · <span class="ba b--moon-gray br2 ph2 pv1">{{ . }}</span>{{ end }}
+      </p>
+      {{ with $authorURL }}
+        <p class="f6"><a href="{{ . }}" class="link dim" rel="noopener me">{{ . }}</a></p>
+      {{ end }}
+      {{ with .Content }}
+        <div class="nested-copy-line-height nested-links">{{ . }}</div>
+      {{ end }}
+      <p class="f6"><a href="{{ "/blog/hall-of-fame/" | relURL }}" class="link dim">Bloggers Hall of Fame</a>
+        · <a href="{{ "/blog/" | relURL }}" class="link dim">All blog posts</a></p>
+    </section>
+    <aside class="flex-ns flex-wrap justify-around mt4">
+      {{ range $posts }}
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          {{ .Render "summary" }}
+        </div>
+      {{ end }}
+    </aside>
+  </article>
+{{ end }}
