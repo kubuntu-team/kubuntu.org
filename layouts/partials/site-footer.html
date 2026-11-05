@@ -1,0 +1,99 @@
+<footer class="kf" role="contentinfo">
+
+  <div class="kf-inner">
+
+    <div class="kf-brand">
+      <a href="{{ .Site.Home.RelPermalink }}" class="kf-logo-link" aria-label="Kubuntu Home">
+        <img src="/images/kubuntu-wide.svg" alt="Kubuntu" class="kf-logo" />
+      </a>
+      <p class="kf-tagline">A friendly Linux distribution powered by Ubuntu &amp; KDE Plasma.</p>
+
+      <div class="kf-socials">
+        {{ with site.Params.social }}
+          {{ range . }}
+            {{ if eq .name "twitter" }}
+              <a href="{{ .url }}" class="kf-social twitter" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X">
+                <i class="fab fa-x-twitter"></i>
+              </a>
+            {{ end }}
+            {{ if eq .name "github" }}
+              <a href="{{ .url }}" class="kf-social github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            {{ end }}
+            {{ if eq .name "facebook" }}
+              <a href="{{ .url }}" class="kf-social facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            {{ end }}
+            {{ if eq .name "youtube" }}
+              <a href="{{ .url }}" class="kf-social youtube" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            {{ end }}
+            {{ if eq .name "mastodon" }}
+              <a href="{{ .url }}" class="kf-social mastodon" target="_blank" rel="noopener noreferrer" aria-label="Mastodon">
+                <i class="fab fa-mastodon"></i>
+              </a>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+
+    <nav class="kf-nav" aria-label="Footer navigation">
+
+      <div class="kf-col">
+        <h3 class="kf-col-title">Explore</h3>
+        <ul class="kf-col-list">
+          <li><a href="/download/" class="kf-link">Download</a></li>
+          <li><a href="/alternative-downloads/" class="kf-link">Alternative Downloads</a></li>
+          <li><a href="/discover/" class="kf-link">Discover Features</a></li>
+          <li><a href="/news/" class="kf-link">News</a></li>
+        </ul>
+      </div>
+
+      <div class="kf-col">
+        <h3 class="kf-col-title">Support</h3>
+        <ul class="kf-col-list">
+          <li><a href="/community/" class="kf-link">Community</a></li>
+          <li><a href="/community/matrix/" class="kf-link">Matrix Chat</a></li>
+          <li><a href="/contact/" class="kf-link">Contact</a></li>
+          <li><a href="/donate/" class="kf-link">Donate</a></li>
+        </ul>
+      </div>
+
+      <div class="kf-col">
+        <h3 class="kf-col-title">About</h3>
+        <ul class="kf-col-list">
+          <li><a href="/about/" class="kf-link">About Kubuntu</a></li>
+          <li><a href="/community/sponsors/" class="kf-link">Sponsors</a></li>
+        </ul>
+      </div>
+
+      <div class="kf-col">
+        <h3 class="kf-col-title">Project</h3>
+        <ul class="kf-col-list">
+          <li><a href="/community/contribute/" class="kf-link">Contribute</a></li>
+          <li><a href="https://github.com/kubuntu-team" class="kf-link" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="/archives/" class="kf-link kf-link--muted">Archives <span class="kf-badge">pre 24.04</span></a></li>
+        </ul>
+      </div>
+
+    </nav>
+  </div>
+
+  <div class="kf-bar">
+    <div class="kf-bar-inner">
+      <span class="kf-copy">
+        &copy; {{ now.Format "2006" }} {{ with .Site.Copyright | default .Site.Title }}{{ . | safeHTML }}{{ end }}.
+        Built with <a href="https://gohugo.io" class="kf-bar-link" target="_blank" rel="noopener">Hugo</a>
+        &amp; <a href="https://kde.org/plasma-desktop/" class="kf-bar-link" target="_blank" rel="noopener">KDE Plasma</a>.
+      </span>
+      <span class="kf-bar-right">
+        <a href="https://ubuntu.com" class="kf-bar-link" target="_blank" rel="noopener">Based on Ubuntu</a>
+      </span>
+    </div>
+  </div>
+
+</footer>
