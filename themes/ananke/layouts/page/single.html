@@ -4,7 +4,11 @@
     <article class="center cf pv3 ph3 ph4-ns mw7">
       <header>
         <h1 class="f1">
+          {{ with .Params.secondarytitle }}
+          {{ . }}
+          {{ else }}
           {{ .Title }}
+          {{ end }}
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
