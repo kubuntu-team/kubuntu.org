@@ -19,7 +19,7 @@ incluye la [suite de software KDE Bullet-Proof](/news/plasma-6.6-lts/).
 
 ISO Kubuntu 26.04.1
 
-[!["Kubuntu 26.04.1"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/26.04.1/release/kubuntu-26.04.1-desktop-amd64.iso)
+{{< download-button href="https://cdimage.ubuntu.com/kubuntu/releases/26.04.1/release/kubuntu-26.04.1-desktop-amd64.iso" label="64-bit Download" >}}
 
 [Notas de la versión Kubuntu 26.04](https://kubuntu.org/news/kubuntu-26-04-release-notes/)
 
@@ -33,7 +33,7 @@ Kubuntu 26.10 con soporte de actualizaciones de seguridad y mantenimiento hasta 
 
 ISO Kubuntu 26.10
 
-[!["Kubuntu 26.10"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/kubuntu-26.10-desktop-amd64.iso)
+{{< download-button href="https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/kubuntu-26.10-desktop-amd64.iso" label="64-bit Download" >}}
 
 [Notas de la versión Kubuntu 26.10](/news/kubuntu-26-10-release-notes/)
 
@@ -46,7 +46,7 @@ con soporte de actualizaciones de seguridad y mantenimiento hasta abril de 2027.
 
 ISO Kubuntu 24.04.5
 
-[!["Kubuntu 24.04.5"](/images/64-bit_button.png)](https://cdimage.ubuntu.com/kubuntu/releases/24.04.5/release/kubuntu-24.04.5-desktop-amd64.iso)
+{{< download-button href="https://cdimage.ubuntu.com/kubuntu/releases/24.04.5/release/kubuntu-24.04.5-desktop-amd64.iso" label="64-bit Download" >}}
 
 [Notas de la versión Kubuntu 24.04](/news/kubuntu-24-04-lts-noble-numbat-released/)
 
